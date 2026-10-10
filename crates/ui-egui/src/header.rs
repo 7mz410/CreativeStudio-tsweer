@@ -126,7 +126,7 @@ pub fn show(app: &mut FilmcraftApp, ui: &mut egui::Ui, rect: Rect) {
         let r = Rect::from_min_size(pos2(wr.min.x - w - 14.0, rect.center().y - 12.0), vec2(w, 24.0));
         let resp = ui.interact(r, egui::Id::new("hdr-discord"), Sense::click()).on_hover_text(tl!("The upstream community on Discord (discord.gg/artcraft)"));
         app.auto.add("header.discord", r, "Upstream Community on Discord");
-        let _ = g;
+        let _ = (g, resp);
         // Localized menus and user titles can be wider than English. Use the actual gap.
         let left = left_end + 12.0;
         let right = r.min.x - 12.0;

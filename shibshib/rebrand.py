@@ -20,6 +20,19 @@ KEEP = ('the FilmCraft authors', 'FilmCraft Project')
 
 # Exact replacements, applied before the general rename (and kept idempotent: skipped once done).
 RTL_RULES = [
+    ('Cargo.toml', '[workspace.dependencies]', '[patch.crates-io]\n# ShibShib: egui with a right-to-left switch for the Arabic interface (shibshib/RTL.md).\negui = { path = "vendor/egui" }\n\n[workspace.dependencies]'),
+    ('crates/ui-egui/Cargo.toml', '[dependencies]\n', '[dependencies]\nunicode-bidi = "0.3.18"\n'),
+    ('crates/ui-egui/src/i18n/mod.rs', 'mod catalog;\n', '/// ShibShib: Arabic in visual order for egui.\npub(crate) mod bidi;\nmod catalog;\n'),
+    ('crates/ui-egui/src/i18n/mod.rs', '    /// Simplified Chinese, persisted as `zh-cn`.\n    #[serde(rename = "zh-cn")]\n    ZhCn,\n}', '    /// Simplified Chinese, persisted as `zh-cn`.\n    #[serde(rename = "zh-cn")]\n    ZhCn,\n    /// ShibShib: Arabic, right to left.\n    Ar,\n}'),
+    ('crates/ui-egui/src/i18n/mod.rs', 'static UKRAINIAN: OnceLock<Catalog> = OnceLock::new();\n', 'static UKRAINIAN: OnceLock<Catalog> = OnceLock::new();\nstatic ARABIC: OnceLock<Catalog> = OnceLock::new();\n'),
+    ('crates/ui-egui/src/i18n/mod.rs', '    pub const ALL: [Self; 6] = [Self::En, Self::Ja, Self::Es, Self::PtBr, Self::Uk, Self::ZhCn];', '    pub const ALL: [Self; 7] = [Self::En, Self::Ja, Self::Es, Self::PtBr, Self::Uk, Self::ZhCn, Self::Ar];'),
+    ('crates/ui-egui/src/i18n/mod.rs', '            Self::Uk => "Українська",\n', '            Self::Uk => "Українська",\n            Self::Ar => "العربية",\n'),
+    ('crates/ui-egui/src/i18n/mod.rs', '            "uk" => Some(Self::Uk),\n', '            "uk" => Some(Self::Uk),\n            "ar" => Some(Self::Ar),\n'),
+    ('crates/ui-egui/src/i18n/mod.rs', 'const PRIMARY: [(&str, Language); 5] = [("en", Language::En), ("ja", Language::Ja), ("es", Language::Es), ("pt", Language::PtBr), ("uk", Language::Uk)];', 'const PRIMARY: [(&str, Language); 6] = [("en", Language::En), ("ja", Language::Ja), ("es", Language::Es), ("pt", Language::PtBr), ("uk", Language::Uk), ("ar", Language::Ar)];'),
+    ('crates/ui-egui/src/i18n/mod.rs', '            Self::Uk => "uk",\n', '            Self::Uk => "uk",\n            Self::Ar => "ar",\n'),
+    ('crates/ui-egui/src/i18n/mod.rs', '            Self::Uk => Some(UKRAINIAN.get_or_init(|| Catalog::parse(include_str!("uk.tsv")))),\n', '            Self::Uk => Some(UKRAINIAN.get_or_init(|| Catalog::parse(include_str!("uk.tsv")))),\n            Self::Ar => Some(ARABIC.get_or_init(|| Catalog::parse(&bidi::visual_catalog(include_str!("ar.tsv"))))),\n'),
+    ('crates/ui-egui/src/lib.rs', '    fn frame(&mut self, ui: &mut egui::Ui) {\n        i18n::set_current(self.ui.language);\n', '    fn frame(&mut self, ui: &mut egui::Ui) {\n        i18n::set_current(self.ui.language);\n        // ShibShib: Arabic lays the interface out right to left (vendor/egui). The switch is\n        // process-wide, so unit tests, which run in parallel, leave it off (tests/rtl.rs covers it).\n        #[cfg(not(test))]\n        egui::set_rtl(i18n::bidi::RTL_CODES.contains(&self.ui.language.code()));\n'),
+    ('crates/ui-egui/src/theme.rs', '    add_craft_fonts(&mut fonts);\n    crate::cjk::install(&mut fonts);\n    ctx.set_fonts(fonts);', '    add_craft_fonts(&mut fonts);\n    crate::cjk::install(&mut fonts);\n    // ShibShib: Arabic glyphs (IBM Plex Sans Arabic, OFL) after every family\'s own faces.\n    fonts.font_data.insert("plex-arabic".into(), Arc::new(FontData::from_static(include_bytes!("../../../assets/fonts/IBMPlexSansArabic-Regular.ttf"))));\n    for family in font_families() {\n        fonts.families.entry(family).or_default().push("plex-arabic".into());\n    }\n    ctx.set_fonts(fonts);'),
 ]
 
 SPECIFIC = {
@@ -39,7 +52,7 @@ SPECIFIC = {
     # No ShibShib Discord yet: the header's Discord button and the About dialog's ArtCraft links go.
     'crates/ui-egui/src/header.rs': [
         ('        let w = g.size().x + 34.0;\n', '        let w = 0.0; // ShibShib: no community Discord button yet\n'),
-        ('        ui.painter().rect_filled(r, 12.0, if resp.hovered() { t.accent_hover } else { t.accent });\n        icons::paint(ui.painter(), Rect::from_center_size(pos2(r.min.x + 14.0, r.center().y), vec2(14.0, 14.0)), Icon::Chat, Color32::WHITE);\n        ui.painter().galley(pos2(r.min.x + 25.0, r.center().y - g.size().y / 2.0), g, Color32::WHITE);\n', '        let _ = g;\n'),
+        ('        ui.painter().rect_filled(r, 12.0, if resp.hovered() { t.accent_hover } else { t.accent });\n        icons::paint(ui.painter(), Rect::from_center_size(pos2(r.min.x + 14.0, r.center().y), vec2(14.0, 14.0)), Icon::Chat, Color32::WHITE);\n        ui.painter().galley(pos2(r.min.x + 25.0, r.center().y - g.size().y / 2.0), g, Color32::WHITE);\n', '        let _ = (g, resp);\n'),
         ('        if resp.clicked() {\n            crate::links::open(ui.ctx(), crate::links::DISCORD);\n        }\n', ''),
     ],
     'crates/ui-egui/src/panels/dialogs.rs': [

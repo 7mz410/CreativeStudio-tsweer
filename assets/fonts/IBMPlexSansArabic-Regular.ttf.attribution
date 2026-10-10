@@ -1,0 +1,8 @@
+asset:        IBMPlexSansArabic-Regular.ttf
+title:        IBM Plex Sans Arabic Regular
+author:       IBM Corp., Bold Monday
+source:       https://github.com/IBM/plex (via Google Fonts)
+license:      SIL Open Font License 1.1
+license-file: assets/fonts/OFL-IBMPlexSansArabic.txt
+added:        2026-10-10 for the ShibShib project
+notes:        the Arabic UI font (ShibShib)

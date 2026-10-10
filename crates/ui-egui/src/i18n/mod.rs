@@ -21,6 +21,8 @@
 //! faces, otherwise one installed system face, see `cjk.rs`); without one, switching to Chinese is
 //! refused the same way ([`chinese_font_available`]).
 
+/// ShibShib: Arabic in visual order for egui.
+pub(crate) mod bidi;
 mod catalog;
 
 use std::cell::Cell;
@@ -42,16 +44,19 @@ pub enum Language {
     /// Simplified Chinese, persisted as `zh-cn`.
     #[serde(rename = "zh-cn")]
     ZhCn,
+    /// ShibShib: Arabic, right to left.
+    Ar,
 }
 
 static JAPANESE: OnceLock<Catalog> = OnceLock::new();
 static SPANISH: OnceLock<Catalog> = OnceLock::new();
 static PORTUGUESE: OnceLock<Catalog> = OnceLock::new();
 static UKRAINIAN: OnceLock<Catalog> = OnceLock::new();
+static ARABIC: OnceLock<Catalog> = OnceLock::new();
 static CHINESE: OnceLock<Catalog> = OnceLock::new();
 
 impl Language {
-    pub const ALL: [Self; 6] = [Self::En, Self::Ja, Self::Es, Self::PtBr, Self::Uk, Self::ZhCn];
+    pub const ALL: [Self; 7] = [Self::En, Self::Ja, Self::Es, Self::PtBr, Self::Uk, Self::ZhCn, Self::Ar];
 
     pub fn name(self) -> &'static str {
         match self {
@@ -60,6 +65,7 @@ impl Language {
             Self::Es => "Español",
             Self::PtBr => "Português (Brasil)",
             Self::Uk => "Українська",
+            Self::Ar => "العربية",
             Self::ZhCn => "简体中文",
         }
     }
@@ -71,6 +77,7 @@ impl Language {
             "es" => Some(Self::Es),
             "pt-br" => Some(Self::PtBr),
             "uk" => Some(Self::Uk),
+            "ar" => Some(Self::Ar),
             "zh-cn" => Some(Self::ZhCn),
             _ => None,
         }
@@ -82,7 +89,7 @@ impl Language {
     /// Chinese gets the Simplified catalog only for Simplified locales (`zh`, `zh-CN`, `zh-SG`,
     /// `zh-Hans…`); Traditional ones (`zh-TW`, `zh-HK`, `zh-MO`, `zh-Hant…`) are skipped.
     pub fn from_locales(tags: &[String]) -> Self {
-        const PRIMARY: [(&str, Language); 5] = [("en", Language::En), ("ja", Language::Ja), ("es", Language::Es), ("pt", Language::PtBr), ("uk", Language::Uk)];
+        const PRIMARY: [(&str, Language); 6] = [("en", Language::En), ("ja", Language::Ja), ("es", Language::Es), ("pt", Language::PtBr), ("uk", Language::Uk), ("ar", Language::Ar)];
         tags.iter()
             .find_map(|tag| {
                 let mut parts = tag.split(['-', '_', '.', '@']);
@@ -107,6 +114,7 @@ impl Language {
             Self::Es => "es",
             Self::PtBr => "pt-br",
             Self::Uk => "uk",
+            Self::Ar => "ar",
             Self::ZhCn => "zh-cn",
         }
     }
@@ -119,6 +127,7 @@ impl Language {
             Self::Es => Some(SPANISH.get_or_init(|| Catalog::parse(include_str!("es.tsv")))),
             Self::PtBr => Some(PORTUGUESE.get_or_init(|| Catalog::parse(include_str!("pt-br.tsv")))),
             Self::Uk => Some(UKRAINIAN.get_or_init(|| Catalog::parse(include_str!("uk.tsv")))),
+            Self::Ar => Some(ARABIC.get_or_init(|| Catalog::parse(&bidi::visual_catalog(include_str!("ar.tsv"))))),
             Self::ZhCn => Some(CHINESE.get_or_init(|| Catalog::parse(include_str!("zh-cn.tsv")))),
         }
     }

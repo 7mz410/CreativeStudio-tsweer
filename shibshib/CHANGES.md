@@ -10,3 +10,8 @@ this list.
 - Removed upstream's ArtCraft brand assets (`docs/brand/`), as their brand terms require of forks.
 - README and NOTICE: the fork, its credits and the ShibShib suite.
 - No upstream Discord button in the header and no ArtCraft links in About.
+- Right-to-left interface for Arabic: the patched egui from ShibShib rsm in `vendor/egui`
+  (`shibshib/RTL.md`), `crates/ui-egui/tests/rtl.rs`; edits to upstream files are listed in
+  `RTL_RULES` in `shibshib/rebrand.py`.
+- Arabic: IBM Plex Sans Arabic (OFL) as the Arabic UI font, `crates/ui-egui/src/i18n/bidi.rs`, and
+  the Arabic catalog `crates/ui-egui/src/i18n/ar.tsv` (3495 entries, from `shibshib/ar-work/`).

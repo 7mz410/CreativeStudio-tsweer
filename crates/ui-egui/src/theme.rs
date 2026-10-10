@@ -410,6 +410,11 @@ pub fn install(ctx: &egui::Context, t: &Tokens) {
     // glyph forms; Chinese faces still cover the hanzi Japanese fonts lack
     add_craft_fonts(&mut fonts);
     crate::cjk::install(&mut fonts);
+    // ShibShib: Arabic glyphs (IBM Plex Sans Arabic, OFL) after every family's own faces.
+    fonts.font_data.insert("plex-arabic".into(), Arc::new(FontData::from_static(include_bytes!("../../../assets/fonts/IBMPlexSansArabic-Regular.ttf"))));
+    for family in font_families() {
+        fonts.families.entry(family).or_default().push("plex-arabic".into());
+    }
     ctx.set_fonts(fonts);
     apply_visuals(ctx, t);
 }

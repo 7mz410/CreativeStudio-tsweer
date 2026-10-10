@@ -1,0 +1,7 @@
+asset:        OFL-IBMPlexSansArabic.txt
+title:        IBM Plex Sans Arabic licence
+author:       IBM Corp.
+source:       https://github.com/IBM/plex
+license:      SIL Open Font License 1.1
+added:        2026-10-10 for the ShibShib project
+notes:        licence text for assets/fonts/IBMPlexSansArabic-Regular.ttf

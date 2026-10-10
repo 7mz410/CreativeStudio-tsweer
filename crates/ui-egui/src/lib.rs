@@ -1432,6 +1432,10 @@ impl FilmcraftApp {
 
     fn frame(&mut self, ui: &mut egui::Ui) {
         i18n::set_current(self.ui.language);
+        // ShibShib: Arabic lays the interface out right to left (vendor/egui). The switch is
+        // process-wide, so unit tests, which run in parallel, leave it off (tests/rtl.rs covers it).
+        #[cfg(not(test))]
+        egui::set_rtl(i18n::bidi::RTL_CODES.contains(&self.ui.language.code()));
         if std::mem::take(&mut self.panic_next_frame) {
             crash::injected_fault("injected UI fault");
         }

@@ -157,3 +157,4 @@ SHA-256 (`crates/speech/src/models.rs`, `docs/transcripts.md`).
 | `docs/shibshib/tsweer.svg` | Hamza Abu Ayyash (ShibShib) | Original work: ShibShib tsweer logo | ShibShib logo (not covered by the code licence) |
 | `docs/shibshib/tsweer-logo.png` | Hamza Abu Ayyash (ShibShib) | Original work: ShibShib tsweer logo render | ShibShib logo (not covered by the code licence) |
 | `docs/shibshib/tsweer-logo-white.png` | Hamza Abu Ayyash (ShibShib) | Original work: ShibShib tsweer logo render | ShibShib logo (not covered by the code licence) |
+| `assets/fonts/IBMPlexSansArabic-Regular.ttf` | IBM Corp., Bold Monday | IBM Plex Sans Arabic, the Arabic UI font (ShibShib) | SIL Open Font License 1.1 (`assets/fonts/OFL-IBMPlexSansArabic.txt`) |
