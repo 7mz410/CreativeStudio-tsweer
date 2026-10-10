@@ -486,3 +486,483 @@
 	Maximize Frame	تكبير الإطار
 	Restore Workspace	استعادة مساحة العمل
 	Reveal Sequence in Project	إظهار التسلسل في المشروع
+	Video Thumbnails	صور الفيديو المصغّرة
+	Audio Waveforms	الموجات الصوتية
+	Delete Preset	حذف الإعداد المسبق
+	Export Preset…	تصدير الإعداد المسبق…
+	Import Presets…	استيراد إعدادات مسبقة…
+	Effect presets	إعدادات التأثيرات المسبقة
+	Save Preset	حفظ الإعداد المسبق
+	Name:	الاسم:
+	Type	النوع
+	Scale	تحجيم
+	Anchor to In Point	تثبيت عند نقطة الدخول
+	Anchor to Out Point	تثبيت عند نقطة الخروج
+	Without keyframes	بدون إطارات مفتاحية
+	Description:	الوصف:
+	Saved preset “{name}”	حُفظ الإعداد المسبق «{name}»
+	Current duration {seconds} s	المدة الحالية {seconds} ث
+	Remix Properties	خصائص إعادة المزج
+	Target Duration:	المدة المستهدفة:
+	Segments:	المقاطع:
+	Fewer · More	أقل · أكثر
+	Variations:	التنويعات:
+	Remixed to {seconds} s	أُعيد المزج إلى {seconds} ث
+	{mode} · no clip	{mode} · لا مقطع
+	{mode} · no sequence	{mode} · لا تسلسل
+	Remove Row	إزالة الصف
+	Add a timecode row	إضافة صف رمز وقت
+	Panner	موزّع الاتجاه
+	Mute	كتم
+	Send {n} Level	مستوى الإرسال {n}
+	Show Keyframes	إظهار الإطارات المفتاحية
+	Clip Keyframes	إطارات المقطع المفتاحية
+	Track Keyframes	إطارات المسار المفتاحية
+	Delete	حذف
+	Untitled Workspace	مساحة عمل بلا عنوان
+	New Workspace	مساحة عمل جديدة
+	Edit Workspaces	تعديل مساحات العمل
+	Rename	إعادة تسمية
+	Restore Original	استعادة الأصل
+	Search effects	البحث في التأثيرات
+	Apply to Selected Clips	تطبيق على المقاطع المحددة
+	Metadata Display	عرض البيانات الوصفية
+	Save As New View Preset	حفظ كإعداد عرض جديد
+	Manage Saved View Presets	إدارة إعدادات العرض المحفوظة
+	Freeform View Options	خيارات العرض الحر
+	Save Arrangement	حفظ الترتيب
+	Saves the view, columns, sort, thumbnail and font size.	يحفظ العرض والأعمدة والفرز وحجم الصور المصغّرة والخط.
+	Grid spacing:	تباعد الشبكة:
+	Default clip size:	حجم المقطع الافتراضي:
+	Snap to grid	الالتقاط إلى الشبكة
+	Show clip names	إظهار أسماء المقاطع
+	Show durations	إظهار المدد
+	Show:	إظهار:
+	Search fields	حقول البحث
+	Project Metadata	بيانات المشروع الوصفية
+	Add Property…	إضافة خاصية…
+	Column order	ترتيب الأعمدة
+	{n}. (empty)	{n}. (فارغ)
+	Restore	استعادة
+	Overwrite with Current View	الاستبدال بالعرض الحالي
+	Graphics text search arrives with M10.1–M10.2	البحث في نصوص الجرافيك يأتي مع M10.1–M10.2
+	Open a sequence to work with captions	افتح تسلسلاً للعمل على الترجمات
+	Add captions	إضافة ترجمات
+	Create a caption track or import a caption file.	أنشئ مسار ترجمة أو استورد ملف ترجمة.
+	Create new caption track	إنشاء مسار ترجمة جديد
+	Import captions file…	استيراد ملف ترجمات…
+	New {format} track	مسار {format} جديد
+	Add caption at playhead	إضافة ترجمة عند رأس التشغيل
+	Split caption at playhead	تقسيم الترجمة عند رأس التشغيل
+	Merge selected captions	دمج الترجمات المحددة
+	Delete selected captions	حذف الترجمات المحددة
+	No captions on this track. Press + to add one at the playhead.	لا ترجمات على هذا المسار. اضغط + لإضافة واحدة عند رأس التشغيل.
+	No matching captions.	لا ترجمات مطابقة.
+	Open a sequence to see its transcript	افتح تسلسلاً لرؤية نصه المفرّغ
+	Transcribe sequence	تفريغ التسلسل
+	Speech-to-text turns the dialogue into editable text.	تحويل الكلام إلى نص يجعل الحوار نصاً قابلاً للتعديل.
+	This build has no speech-to-text; import a transcript with transcript.set.	هذه النسخة لا تحوّل الكلام إلى نص؛ استورد نصاً مفرّغاً بـ transcript.set.
+	Transcribe	تفريغ
+	Extract selected text	استخراج النص المحدد
+	Lift selected text	رفع النص المحدد
+	Remove filler words	إزالة كلمات الحشو
+	Create captions	إنشاء ترجمات
+	Speaker	المتحدث
+	Box	الصندوق
+	Align	محاذاة
+	Align left	محاذاة لليسار
+	Align center	توسيط
+	Align right	محاذاة لليمين
+	Position	الموضع
+	Position: top	الموضع: أعلى
+	Position: middle	الموضع: وسط
+	Position: bottom	الموضع: أسفل
+	(gap)	(فجوة)
+	Out: {name}	خروج: {name}
+	In: {name}	دخول: {name}
+	Play Around Edit (Space loops, Shift+K once)	التشغيل حول القطع (Space للتكرار، Shift+K مرة)
+	Trim Backward Many	تشذيب للخلف كثيراً
+	Trim Backward	تشذيب للخلف
+	Apply Default Transitions	تطبيق الانتقالات الافتراضية
+	Apply Default Transitions to Selection (Shift+D)	تطبيق الانتقالات الافتراضية على التحديد (Shift+D)
+	Trim Forward	تشذيب للأمام
+	Trim Forward Many	تشذيب للأمام كثيراً
+	Exit Trim Mode	الخروج من وضع التشذيب
+	Voice-over record (right-click: Voice-Over Record Settings…)	تسجيل تعليق صوتي (زر أيمن: إعدادات تسجيل التعليق الصوتي…)
+	Voice-Over Record Settings…	إعدادات تسجيل التعليق الصوتي…
+	Recording voice-over…	جارٍ تسجيل التعليق الصوتي…
+	Voice-over recorded: {p}	سُجّل التعليق الصوتي: {p}
+	Voice-over recording stopped (nothing recorded)	توقف تسجيل التعليق الصوتي (لم يُسجّل شيء)
+	Post-roll	ما بعد التشغيل
+	● Recording	● تسجيل
+	Voice-Over Record Settings	إعدادات تسجيل التعليق الصوتي
+	Source:	المصدر:
+	Default Input	الإدخال الافتراضي
+	Input:	الإدخال:
+	Channel {n}	القناة {n}
+	Countdown Sound Cues	إشارات العدّ التنازلي الصوتية
+	Pre-roll:	ما قبل التشغيل:
+	 seconds	 ثانية
+	Post-roll:	ما بعد التشغيل:
+	Playback starts the pre-roll before the playhead (or the In point); with In/Out marked, recording punches in and out there.	يبدأ التشغيل بما قبل التشغيل قبل رأس التشغيل (أو نقطة الدخول)؛ ومع تعليم الدخول/الخروج، يبدأ التسجيل وينتهي هناك.
+	Effect	التأثير
+	Clip Fx Editor	محرر تأثيرات المقطع
+	Track Fx Editor	محرر تأثيرات المسار
+	Master Gain	الكسب الرئيسي
+	Reset	إعادة ضبط
+	Band {n}	النطاق {n}
+	Solo	منفرد
+	Bypass	تجاوز
+	Thr	العتبة
+	Ratio	النسبة
+	Att	الهجوم
+	Rel	التحرير
+	Gain	الكسب
+	Output Gain	كسب الإخراج
+	Limiter	المحدِّد
+	Link Channels	ربط القنوات
+	Limiter Threshold	عتبة المحدِّد
+	Limiter Release	تحرير المحدِّد
+	Auto Gate	بوابة تلقائية
+	Threshold	العتبة
+	Attack	الهجوم
+	Release	التحرير
+	Hold	التثبيت
+	Compressor	الضاغط
+	Auto Makeup	تعويض تلقائي
+	Makeup	التعويض
+	Expander	الموسّع
+	Soft Clip	قص ناعم
+	(no sequences)	(لا تسلسلات)
+	(no clips)	(لا مقاطع)
+	Show Transport Controls	إظهار عناصر التحكم بالنقل
+	Loop	تكرار
+	Multi-Camera Audio Follows Video	صوت متعدد الكاميرات يتبع الفيديو
+	Multi-Camera Record	تسجيل متعدد الكاميرات
+	Multi-Camera Selection Top Down	تحديد متعدد الكاميرات من الأعلى للأسفل
+	Show Multi-Camera Preview Monitor	إظهار شاشة معاينة متعدد الكاميرات
+	Auto-Adjust Multi-Camera Playback Quality	ضبط جودة تشغيل متعدد الكاميرات تلقائياً
+	Transmit Multi-Camera View	بث عرض متعدد الكاميرات
+	Multi-Camera Layout	تخطيط متعدد الكاميرات
+	Automatic	تلقائي
+	Edit Cameras…	تعديل الكاميرات…
+	Add Marker (M)	إضافة علامة (M)
+	Mark In (I)	تعليم الدخول (I)
+	Mark Out (O)	تعليم الخروج (O)
+	Go to In (Shift+I)	الانتقال إلى الدخول (Shift+I)
+	Step Back 1 Frame (Left)	إطار واحد للخلف (يسار)
+	Play-Stop Toggle (Space)	تبديل التشغيل والإيقاف (Space)
+	Step Forward 1 Frame (Right)	إطار واحد للأمام (يمين)
+	Go to Out (Shift+O)	الانتقال إلى الخروج (Shift+O)
+	Insert (,)	إدراج (,)
+	Overwrite (.)	استبدال (.)
+	Export Frame (Shift+E)	تصدير إطار (Shift+E)
+	Lift (;)	رفع (;)
+	Extract (')	استخراج (')
+	Export Frame: use Export mode (M6)	تصدير إطار: استخدم وضع التصدير (M6)
+	Button Editor	محرر الأزرار
+	Multi-Camera Record on	تسجيل متعدد الكاميرات يعمل
+	Multi-Camera Record off	تسجيل متعدد الكاميرات متوقف
+	{first} - Merged	{first} - مدموج
+	{first} Multicam	{first} متعدد الكاميرات
+	In Points	نقاط الدخول
+	Out Points	نقاط الخروج
+	Clip Marker	علامة المقطع
+	Audio	الصوت
+	Merge Clips	دمج المقاطع
+	Create Multi-Camera Source Sequence	إنشاء تسلسل مصدر متعدد الكاميرات
+	Synchronize Clips	مزامنة المقاطع
+	Clip Name:	اسم المقطع:
+	Sequence Name:	اسم التسلسل:
+	{n} clip(s): {names}	{n} مقطع: {names}
+	{n} clip(s) selected; the clip on the reference track stays put.	{n} مقطع محدد؛ المقطع على مسار المرجع يبقى مكانه.
+	Synchronize Point	نقطة المزامنة
+	Ignore Hours	تجاهل الساعات
+	first marker	العلامة الأولى
+	Offset Audio by:	إزاحة الصوت بمقدار:
+	Offset:	الإزاحة:
+	 frames	 إطار
+	Reference track:	مسار المرجع:
+	lowest (V1…)	الأدنى (V1…)
+	Remove Audio from AV Clip	إزالة الصوت من مقطع الصوت والصورة
+	Camera 1	الكاميرا 1
+	All Cameras	كل الكاميرات
+	Switch Audio	تبديل الصوت
+	Camera Names	أسماء الكاميرات
+	Clip Names	أسماء المقاطع
+	Enumerate Cameras	ترقيم الكاميرات
+	Camera Angle Metadata	بيانات زاوية الكاميرا
+	Move source clips to Processed Clips bin	نقل المقاطع المصدر إلى سلة المقاطع المعالجة
+	Synchronized {n} clip group(s)	تمت مزامنة {n} مجموعة مقاطع
+	Merged clip created	أُنشئ المقطع المدموج
+	Multi-camera source sequence with {n} camera(s)	تسلسل مصدر متعدد الكاميرات بـ {n} كاميرا
+	No multi-camera clip at the playhead	لا مقطع متعدد الكاميرات عند رأس التشغيل
+	Camera {n} — {name}	الكاميرا {n} — {name}
+	Page {page} of {pages}	الصفحة {page} من {pages}
+	Previous page	الصفحة السابقة
+	Next page	الصفحة التالية
+	Multi-Camera Record On/Off (0)	تشغيل/إيقاف تسجيل متعدد الكاميرات (0)
+	Record	تسجيل
+	Edit Cameras	تعديل الكاميرات
+	Cameras shown in the Multi-Camera view (uncheck to hide).	الكاميرات الظاهرة في عرض متعدد الكاميرات (ألغِ التحديد للإخفاء).
+	Recorded {n} multi-camera cut(s)	سُجّل {n} قطع متعدد الكاميرات
+	Clamp Signal	تقييد الإشارة
+	Presets	الإعدادات المسبقة
+	Parade ({kind})	عرض مقسّم ({kind})
+	Waveform ({kind})	الموجة ({kind})
+	Parade Type	نوع العرض المقسّم
+	Waveform Type	نوع الموجة
+	Vectorscope Targets	أهداف مخطط المتجهات
+	Colour Space	فضاء اللون
+	Brightness	السطوع
+	Signal Scale	مقياس الإشارة
+	Histogram	المدرج التكراري
+	Paste Attributes	لصق السمات
+	Remove Attributes	إزالة السمات
+	New Offline File	ملف غير متصل جديد
+	Nested Sequence Name	اسم التسلسل المتداخل
+	Make Subclip	إنشاء مقطع فرعي
+	Edit Subclip	تحرير المقطع الفرعي
+	Modify Clip: Audio Channels	تعديل المقطع: قنوات الصوت
+	Modify Clip: Timecode	تعديل المقطع: رمز الوقت
+	Frame Hold Options	خيارات تثبيت الإطار
+	Field Options	خيارات الحقول
+	Save Project	حفظ المشروع
+	Motion	الحركة
+	Opacity	العتامة
+	Time Remapping	إعادة تعيين الوقت
+	Channel Volume	مستوى صوت القناة
+	In Point	نقطة الدخول
+	Out Point	نقطة الخروج
+	Playhead	رأس التشغيل
+	Source Timecode	رمز وقت المصدر
+	Sequence Time	وقت التسلسل
+	Video Attributes	سمات الفيديو
+	Audio Attributes	سمات الصوت
+	No effects	لا تأثيرات
+	Scale Attribute Times	تحجيم أوقات السمات
+	File Name:	اسم الملف:
+	Tape Name:	اسم الشريط:
+	Contains:	يحتوي:
+	Video	الفيديو
+	Width:	العرض:
+	Height:	الارتفاع:
+	Frame Rate:	معدل الإطارات:
+	Media Start:	بداية الوسائط:
+	Subclip: {name}	مقطع فرعي: {name}
+	Start:	البداية:
+	End:	النهاية:
+	Restrict Trims To Subclip Boundaries	حصر التشذيب بحدود المقطع الفرعي
+	Convert to Master Clip	تحويل إلى مقطع رئيسي
+	Clip Channel Format:	صيغة قنوات المقطع:
+	Number of Audio Clips:	عدد مقاطع الصوت:
+	Media Source Channels	قنوات مصدر الوسائط
+	Ch. {n}	ق. {n}
+	Clip {n}	المقطع {n}
+	Source channels the selected audio clips play:	قنوات المصدر التي تشغّلها مقاطع الصوت المحددة:
+	Set Timecode:	تعيين رمز الوقت:
+	Use the file's timecode	استخدام رمز وقت الملف
+	Hold On	التثبيت على
+	Timecode:	رمز الوقت:
+	Hold Filters	تثبيت الفلاتر
+	Reverse Field Dominance	عكس أولوية الحقول
+	Processing Options	خيارات المعالجة
+	None	لا شيء
+	Always Deinterlace	إزالة التشابك دائماً
+	Flicker Removal	إزالة الوميض
+	Save changes to “{project_name}” before closing?	حفظ التغييرات على «{project_name}» قبل الإغلاق؟
+	Don't Save	عدم الحفظ
+	All media is online.	كل الوسائط متصلة.
+	{name} (copy)	{name} (نسخة)
+	Offline	غير متصل
+	Missing	مفقود
+	Link Media	ربط الوسائط
+	{n} clip(s) can't find their media. Locate them, search a folder, or leave them offline.	{n} مقطع لا تجد وسائطها. حدّد مكانها، أو ابحث في مجلد، أو اتركها غير متصلة.
+	Clip Name	اسم المقطع
+	File Name	اسم الملف
+	File Path	مسار الملف
+	Status	الحالة
+	Match file properties:	مطابقة خصائص الملف:
+	File Extension	امتداد الملف
+	Clip ID (fingerprint)	معرّف المقطع (البصمة)
+	Duration	المدة
+	Media Start	بداية الوسائط
+	Frame Size / Rate	حجم/معدل الإطار
+	Align Timecode	محاذاة رمز الوقت
+	Relink others automatically	إعادة ربط الباقي تلقائياً
+	Search in:	البحث في:
+	Browse…	تصفح…
+	Exact name matches only	تطابقات الاسم التامة فقط
+	No candidates yet — Search a folder or Locate the file.	لا مرشحين بعد — ابحث في مجلد أو حدّد مكان الملف.
+	✔ same file	✔ نفس الملف
+	✔ matches	✔ مطابق
+	✖ different file	✖ ملف مختلف
+	Preview	معاينة
+	Offline All	الكل غير متصل
+	Locate…	تحديد المكان…
+	Linked {n} clip(s)	رُبط {n} مقطع
+	Nothing found with that name.	لم يُعثر على شيء بهذا الاسم.
+	Make Offline	جعله غير متصل
+	Make {n} selected clip(s) offline. Their clips show the offline slate until you link them again.	جعل {n} مقطع محدد غير متصل. تُظهر مقاطعها لوحة عدم الاتصال حتى تربطها مجدداً.
+	Media files remain on disk	تبقى ملفات الوسائط على القرص
+	Media files are deleted	تُحذف ملفات الوسائط
+	Create Proxies	إنشاء ملفات وكيلة
+	{n} clip(s) selected.	{n} مقطع محدد.
+	Format and size	الصيغة والحجم
+	Destination	الوجهة
+	Next to the original media, in a Proxies folder	بجانب الوسائط الأصلية، في مجلد Proxies
+	Proxies are made in the background and attached when done. Export always uses full-resolution media.	تُنشأ الملفات الوكيلة في الخلفية وتُرفق عند الانتهاء. التصدير يستخدم دائماً الوسائط بالدقة الكاملة.
+	Creating {n} proxy file(s)…	جارٍ إنشاء {n} ملف وكيل…
+	Project Manager	مدير المشاريع
+	Sequences	التسلسلات
+	Resulting Project	المشروع الناتج
+	Collect Files and Copy to New Location	جمع الملفات ونسخها إلى موقع جديد
+	Consolidate and Transcode	الدمج وإعادة الترميز
+	Options	الخيارات
+	Exclude Unused Clips	استبعاد المقاطع غير المستخدمة
+	Include Handles:	تضمين المقابض:
+	Include Proxies	تضمين الملفات الوكيلة
+	Include Preview Files	تضمين ملفات المعاينة
+	Destination Path	مسار الوجهة
+	Disk space: original {original} · resulting {result} ({n} files)	مساحة القرص: الأصل {original} · الناتج {result} ({n} ملف)
+	Disk space: —	مساحة القرص: —
+	Calculate	حساب
+	Project Manager: writing {path}	مدير المشاريع: جارٍ كتابة {path}
+	Timeline: (no sequences)	الخط الزمني: (لا تسلسلات)
+	Browse	تصفح
+	Select audio clips, then click a preset to apply it.	حدد مقاطع صوت، ثم انقر إعداداً مسبقاً لتطبيقه.
+	{name} (user)	{name} (المستخدم)
+	Select audio clips to edit them here	حدد مقاطع صوت لتحريرها هنا
+	Multiple Clips Selected	عدة مقاطع محددة
+	The selected clips have different audio types. Assign one type to edit them together.	المقاطع المحددة بأنواع صوت مختلفة. عيّن نوعاً واحداً لتحريرها معاً.
+	Assign an audio type to the selection:	تعيين نوع صوت للتحديد:
+	Clear Audio Type	مسح نوع الصوت
+	Preset:	الإعداد المسبق:
+	(Custom)	(مخصص)
+	Preset name	اسم الإعداد المسبق
+	Reduce Noise	تقليل الضوضاء
+	Reduce Rumble	تقليل الهدير
+	DeHum	إزالة الطنين
+	DeEss	إزالة الصفير
+	Reduce Reverb	تقليل الصدى
+	Dynamics	الديناميكيات
+	EQ	المعادل
+	Enhance Speech	تحسين الكلام
+	Low Tone	النغمة المنخفضة
+	High Tone	النغمة العالية
+	Mix	المزج
+	Reverb	الصدى
+	Stereo Width	عرض الستيريو
+	Remixing music to a target duration is not available yet. Trim the clip and add a crossfade instead.	إعادة مزج الموسيقى لمدة مستهدفة غير متاحة بعد. شذّب المقطع وأضف تلاشياً متقاطعاً بدلاً من ذلك.
+	Pan	توزيع الاتجاه
+	Auto-Match	مطابقة تلقائية
+	Not matched yet	لم تُطابق بعد
+	Matches each of the {n} clips on its own.	يطابق كل مقطع من الـ {n} مقطع وحده.
+	Duck against:	خفض مقابل:
+	Untagged	بلا نوع
+	Sensitivity	الحساسية
+	Reduce By	خفض بمقدار
+	Fades	التلاشيات
+	Generate Keyframes	توليد إطارات مفتاحية
+	Clip Volume	مستوى صوت المقطع
+	(no clip selected)	(لا مقطع محدد)
+	Master · {name}	الرئيسي · {name}
+	Add Lumetri Color to clip	إضافة ألوان Lumetri إلى المقطع
+	Input LUT	LUT الإدخال
+	Color	اللون
+	Temperature	درجة الحرارة
+	Tint	الصبغة
+	Saturation	التشبّع
+	Exposure	التعريض
+	Contrast	التباين
+	Highlights	الإضاءات
+	Shadows	الظلال
+	Whites	الأبيض
+	Blacks	الأسود
+	HDR	HDR
+	HDR White	أبيض HDR
+	HDR Specular	لمعان HDR
+	Look	المظهر
+	Look LUT	LUT المظهر
+	Intensity	الشدة
+	Adjustments	التعديلات
+	Faded Film	فيلم باهت
+	Sharpen	زيادة الحدة
+	Vibrance	الحيوية
+	RGB Curves	منحنيات RGB
+	HDR Range	نطاق HDR
+	Hue Saturation Curves	منحنيات التدرّج والتشبّع
+	Hue vs Sat	التدرّج مقابل التشبّع
+	Hue vs Hue	التدرّج مقابل التدرّج
+	Hue vs Luma	التدرّج مقابل السطوع
+	Luma vs Sat	السطوع مقابل التشبّع
+	Sat vs Sat	التشبّع مقابل التشبّع
+	Midtones	الدرجات المتوسطة
+	Key	المفتاح
+	Hue	التدرّج اللوني
+	Hue Range	نطاق التدرّج
+	Saturation Min	أدنى تشبّع
+	Luma Min	أدنى سطوع
+	Luma Max	أقصى سطوع
+	Soften	تنعيم
+	Show Mask	إظهار القناع
+	Off	إيقاف
+	Color/Gray	لون/رمادي
+	Color/Black	لون/أسود
+	White/Black	أبيض/أسود
+	Refine	تنقيح
+	Denoise	إزالة الضوضاء
+	Blur	ضبابية
+	Correction	التصحيح
+	Hue Shift	إزاحة التدرّج
+	Midpoint	نقطة المنتصف
+	Roundness	الاستدارة
+	Feather	تنعيم الحواف
+	LUT	LUT
+	Color Match	مطابقة الألوان
+	Reference	المرجع
+	Face Detection (protect skin tones)	اكتشاف الوجوه (حماية ألوان البشرة)
+	Apply Match	تطبيق المطابقة
+	Create ellipse mask	إنشاء قناع قطع ناقص
+	Create 4-point polygon mask	إنشاء قناع مضلع بـ 4 نقاط
+	Free draw bezier	رسم bezier حر
+	Click in the Program monitor to place mask points (drag for curves); click the first point or press Enter to close	انقر في شاشة البرنامج لوضع نقاط القناع (اسحب للمنحنيات)؛ انقر النقطة الأولى أو اضغط Enter للإغلاق
+	Delete Mask	حذف القناع
+	Inverted	معكوس
+	Drag: move · Alt-click: smooth/corner · Cmd-click: delete	سحب: تحريك · Alt-نقر: ناعم/زاوية · Cmd-نقر: حذف
+	Track selected mask backward	تتبّع القناع المحدد للخلف
+	Track selected mask backward 1 frame	تتبّع القناع المحدد للخلف إطاراً واحداً
+	Track selected mask forward 1 frame	تتبّع القناع المحدد للأمام إطاراً واحداً
+	Track selected mask forward	تتبّع القناع المحدد للأمام
+	Stop tracking	إيقاف التتبّع
+	Tracking method: {method}	طريقة التتبّع: {method}
+	Composite	مركّب
+	Comparison	مقارنة
+	Video and Waveform	الفيديو والموجة
+	System Default	افتراضي النظام
+	Default location	الموقع الافتراضي
+	Font family	عائلة الخط
+	Label Colors	ألوان التسميات
+	Decoded frames held for the monitors and thumbnails: {used} of {budget}.	الإطارات المفكوكة المحفوظة للشاشات والصور المصغّرة: {used} من {budget}.
+	ShibShib tsweer keeps the rest of the RAM free for other applications.	يترك شبشب تصوير باقي الذاكرة متاحاً للبرامج الأخرى.
+	not available in this session	غير متاح في هذه الجلسة
+	Currently: {loc} — {files} file(s), {size}	حالياً: {loc} — {files} ملف، {size}
+	 ({ch} output channels)	 ({ch} قناة إخراج)
+	Programme left → device output {l}, right → device output {r}{dev}. Outputs beyond the device's channels fall back to 1 and 2.	يسار البرنامج ← إخراج الجهاز {l}، واليمين ← إخراج الجهاز {r}{dev}. المخارج الزائدة عن قنوات الجهاز ترجع إلى 1 و2.
+	Auto-saves go to: {dir}	الحفظ التلقائي في: {dir}
+	Recovery copy: {dir}	نسخة الاستعادة: {dir}
+	Last auto-save {a} · last recovery copy {j}	آخر حفظ تلقائي {a} · آخر نسخة استعادة {j}
+	Last auto-save {a}	آخر حفظ تلقائي {a}
+	Last recovery copy {j}	آخر نسخة استعادة {j}
+	Remove Media Cache Files	إزالة ملفات ذاكرة الوسائط المؤقتة
+	Deleted {n} file(s), {size}.	حُذف {n} ملف، {size}.
+	Reset…	إعادة ضبط…
+	Source · {name}	المصدر · {name}
+	Reset Effect	إعادة ضبط التأثير
+	Save Preset…	حفظ إعداد مسبق…
+	Custom Setup	إعداد مخصص
+	Edit…	تعديل…
+	Show graphs	إظهار الرسوم البيانية
+	Toggle animation	تبديل التحريك
+	Eyedropper (pick a color from the Program monitor)	القطّارة (اختر لوناً من شاشة البرنامج)
+	Eyedropper: no picture to sample	القطّارة: لا صورة لأخذ عينة منها
