@@ -1446,3 +1446,483 @@
 	Chorus/Flanger	كورَس/فلانجر
 	Chroma	الصبغة
 	Chroma Leak	تسرّب الصبغة
+	Chromatic Aberration (Blue)	الزيغ اللوني (أزرق)
+	Chromatic Aberration (Green)	الزيغ اللوني (أخضر)
+	Chromatic Aberration (Red)	الزيغ اللوني (أحمر)
+	Cineon Converter	محوّل Cineon
+	Circle	دائرة
+	Clarity	الوضوح
+	Clean Combo	تركيبة نظيفة
+	Clean Up Noisy Dialogue	تنظيف الحوار المشوّش
+	Clear Muddiness	إزالة العكارة
+	Client	العميل
+	Clip	المقطع
+	Clip Level	مستوى المقطع
+	Clipping	القص
+	Clock Wipe	مسح كالساعة
+	Clock Wipe (Legacy)	مسح كالساعة (قديم)
+	Clockwise	مع عقارب الساعة
+	Clone	استنساخ
+	Closed Captions	ترجمات مغلقة
+	Color & Alpha	اللون وألفا
+	Color 1	اللون 1
+	Color 2	اللون 2
+	Color 3	اللون 3
+	Color 4	اللون 4
+	Color Balance	توازن الألوان
+	Color Burn	حرق اللون
+	Color Channel	قناة اللون
+	Color Correction	تصحيح الألوان
+	Color Distortion	تشويه الألوان
+	Color Dodge	تفتيح اللون
+	Color Emboss	نقش بارز ملون
+	Color Key	مفتاح اللون
+	Color Pass	تمرير اللون
+	Color Replace	استبدال اللون
+	Color Space	فضاء اللون
+	Color Theme	سمة الألوان
+	Color To Leave	اللون المُبقى
+	Color Tolerance	تسامح اللون
+	Color Wheels & Match	عجلات الألوان والمطابقة
+	Colorize	تلوين
+	Columns	الأعمدة
+	Comment	تعليق
+	Complexity	التعقيد
+	Composite In Back	التركيب في الخلف
+	Composite In Front	التركيب في الأمام
+	Composite Using	التركيب باستخدام
+	Composite on Original	التركيب على الأصل
+	Compound Blur	ضبابية مركّبة
+	Compression Before Clipping	الضغط قبل القص
+	Constant Gain	كسب ثابت
+	Constant Power	قدرة ثابتة
+	Conversion Type	نوع التحويل
+	Convolution Reverb	صدى بالالتفاف
+	Cool Blue	أزرق بارد
+	Cool, desaturated and punchy	بارد وقليل التشبّع وقوي
+	Core Width	عرض النواة
+	Corner	الزاوية
+	Corner Pin	تثبيت الزوايا
+	Count	العدد
+	Counter-clockwise	عكس عقارب الساعة
+	Crash Recovery	الاستعادة بعد التوقف
+	Crawl Left	زحف لليسار
+	Crawl Right	زحف لليمين
+	Create folder for imported projects	إنشاء مجلد للمشاريع المستوردة
+	Creative	إبداعي
+	Crop	القص
+	Crop Less <-> Smooth More	قص أقل <-> تنعيم أكثر
+	Cross Displacement	إزاحة متقاطعة
+	Cross Dissolve	ذوبان متقاطع
+	Cross Dissolve (Legacy)	ذوبان متقاطع (قديم)
+	Cross Zoom	زووم متقاطع
+	Cross Zoom (Legacy)	زووم متقاطع (قديم)
+	Crossfade	تلاشٍ متقاطع
+	Crossovers	نقاط التقاطع
+	Crystallize	تبلور
+	Crystals	بلورات
+	Cube Spin	دوران المكعب
+	Curl Radius	نصف قطر الالتفاف
+	Current Time	الوقت الحالي
+	Cursor	المؤشر
+	Curvature	الانحناء
+	Curve	المنحنى
+	Curves	المنحنيات
+	Custom	مخصص
+	Custom Color	لون مخصص
+	Cutoff	القطع
+	Cyan-teal shadows and warm highlights with a little more contrast	ظلال سماوية تركوازية وإضاءات دافئة مع تباين أكثر قليلاً
+	Cycle (in Revolutions)	الدورة (بالدورات)
+	Cycle Evolution	تطوّر الدورة
+	Damping	التخميد
+	Damping HF	تخميد الترددات العالية
+	Damping LF	تخميد الترددات المنخفضة
+	Dark	داكن
+	Darken	تغميق
+	Darker Color	اللون الأغمق
+	Date Created	تاريخ الإنشاء
+	Date Modified	تاريخ التعديل
+	Day for night: darker, cooler and less saturated	نهار كأنه ليل: أغمق وأبرد وأقل تشبّعاً
+	DeEsser	مزيل الصفير
+	DeHummer	مزيل الطنين
+	DeNoise	مزيل الضوضاء
+	DeReverb	مزيل الصدى
+	Decay	الاضمحلال
+	Decay Time (RT60)	زمن الاضمحلال (RT60)
+	Default Audio Tracks	مسارات الصوت الافتراضية
+	Default Emoji font	خط الإيموجي الافتراضي
+	Default Media Scaling	تحجيم الوسائط الافتراضي
+	Default Output	الإخراج الافتراضي
+	Default closed caption font	خط الترجمة المغلقة الافتراضي
+	Default language	اللغة الافتراضية
+	Default paragraph direction	اتجاه الفقرة الافتراضي
+	Default subtitle and text font	خط الترجمات والنصوص الافتراضي
+	Delay	التأخير
+	Delay 1	التأخير 1
+	Delay 2	التأخير 2
+	Delay 3	التأخير 3
+	Delay 4	التأخير 4
+	Delay and Echo	التأخير والصدى
+	Delete files older than	حذف الملفات الأقدم من
+	Delete oldest files when the cache exceeds	حذف أقدم الملفات عندما تتجاوز الذاكرة المؤقتة
+	Delete…	حذف…
+	Depth	العمق
+	Desaturate	إزالة التشبّع
+	Description	الوصف
+	Detail Amplitude	سعة التفاصيل
+	Detail Level	مستوى التفاصيل
+	Detailed Analysis	تحليل مفصّل
+	Device Class	فئة الجهاز
+	Dialogue	الحوار
+	Diamond	معيّن
+	Difference	الفرق
+	Dimensions	الأبعاد
+	Dimmed	خافت
+	Dip to Black	تلاشٍ إلى الأسود
+	Dip to Black (Legacy)	تلاشٍ إلى الأسود (قديم)
+	Dip to Color	تلاشٍ إلى لون
+	Dip to White	تلاشٍ إلى الأبيض
+	Dip to White (Legacy)	تلاشٍ إلى الأبيض (قديم)
+	Direction	الاتجاه
+	Directional	اتجاهي
+	Directional Blur	ضبابية اتجاهية
+	Directional Blur (Legacy)	ضبابية اتجاهية (قديم)
+	Disable video output when in the background	تعطيل إخراج الفيديو في الخلفية
+	Disperse	تشتيت
+	Displacement	الإزاحة
+	Display Color Management	إدارة ألوان الشاشة
+	Display Color Settings	إعدادات ألوان الشاشة
+	Display out of sync indicators for unlinked clips	إظهار مؤشرات عدم التزامن للمقاطع غير المرتبطة
+	Dissolve	ذوبان
+	Dissolve Blocks	ذوبان الكتل
+	Distance	المسافة
+	Distance to Image	المسافة إلى الصورة
+	Distort	تشويه
+	Distortion	التشويه
+	Distortion Complexity	تعقيد التشويه
+	Distortion Rate	معدل التشويه
+	Distortion Type	نوع التشويه
+	Divide	قسمة
+	Do not delete cache files automatically	عدم حذف ملفات الذاكرة المؤقتة تلقائياً
+	Don't label speakers	عدم تسمية المتحدثين
+	Double-click	النقر المزدوج
+	Draft decoding at reduced playback resolution (H.264: faster, some frames less filtered)	فك ترميز مسودة بدقة تشغيل مخفّضة (H.264: أسرع، وبعض الإطارات أقل تصفية)
+	Drive	القيادة
+	Drop Shadow	الظل المُسقط
+	Dry	جاف
+	Dry Out	إخراج جاف
+	Dry Up a Roomy Voice	تجفيف صوت واسع الصدى
+	Duck Deep Under Dialogue	خفض عميق تحت الحوار
+	Duck Under Dialogue	خفض تحت الحوار
+	Duck Under Voice and Effects	خفض تحت الصوت والتأثيرات
+	Ducking	الخفض
+	Dutch	هولندي
+	Dynamic Link	Dynamic Link
+	Dynamics Processing	معالجة الديناميكيات
+	Early Reflections	الانعكاسات المبكرة
+	Earthquake	زلزال
+	Ease In and Out	تسهيل الدخول والخروج
+	Easing	التسهيل
+	Echo	صدى
+	Echo Glow	توهج الصدى
+	Echo Operator	عامل الصدى
+	Echo Time (seconds)	زمن الصدى (ثوانٍ)
+	Echoes	الأصداء
+	Edge Color	لون الحافة
+	Edge Feather	تنعيم الحافة
+	Edge Glow	توهج الحافة
+	Edge Sharpness	حدة الحافة
+	Edge Softness	نعومة الحافة
+	Edge Thickness	سماكة الحافة
+	Edge Thin	ترقيق الحافة
+	Edge Threshold	عتبة الحافة
+	Edge Type	نوع الحافة
+	Edge Width	عرض الحافة
+	Elliptical	بيضاوي
+	Emboss	نقش بارز
+	Enable HSL Secondary	تفعيل HSL الثانوي
+	Enable Mercury Transmit	تفعيل Mercury Transmit
+	Enable ProRes hardware accelerated encoding, if available	تفعيل ترميز ProRes المسرّع بالعتاد إن توفر
+	Enable clip and XMP metadata linking	تفعيل ربط بيانات المقطع وXMP
+	Enable developer mode	تفعيل وضع المطوّر
+	Enable hardware accelerated decoding (requires restart)	تفعيل فك الترميز المسرّع بالعتاد (يتطلب إعادة التشغيل)
+	Enable language auto-detection	تفعيل الاكتشاف التلقائي للغة
+	Enable proxies	تفعيل الملفات الوكيلة
+	End Color	لون النهاية
+	End Point	نقطة النهاية
+	End of Ramp	نهاية التدرّج
+	Error	خطأ
+	Evolution	التطوّر
+	Evolution Options	خيارات التطوّر
+	Exciter Amount	مقدار المُثير
+	Exciter Mode	وضع المُثير
+	Exclusion	استبعاد
+	Exponential Fade	تلاشٍ أُسّي
+	Extended Dynamic Range Monitoring	مراقبة النطاق الديناميكي الممتد
+	FFT Filter	فلتر FFT
+	Fade	تلاشٍ
+	Fade Out	تلاشٍ للخارج
+	Faded Matte	مطفأ باهت
+	Falloff	الانخفاض
+	Far Away	بعيد
+	Fast	سريع
+	Faster Motion	حركة أسرع
+	Feedback	التغذية الراجعة
+	Feedback 1	التغذية الراجعة 1
+	Feedback 2	التغذية الراجعة 2
+	Feedback 3	التغذية الراجعة 3
+	Feedback 4	التغذية الراجعة 4
+	Feet + Frames 16mm	أقدام + إطارات 16mm
+	Feet + Frames 35mm	أقدام + إطارات 35mm
+	Female	أنثى
+	File Size	حجم الملف
+	Fill Background	تعبئة الخلفية
+	Fill Color	لون التعبئة
+	Fill Left with Right	تعبئة اليسار باليمين
+	Fill Point	نقطة التعبئة
+	Fill Right with Left	تعبئة اليمين باليسار
+	Fill Selector	محدد التعبئة
+	Film Dissolve	ذوبان فيلمي
+	Film Dissolve (Legacy)	ذوبان فيلمي (قديم)
+	Film Roll	لفة فيلم
+	Filter	فلتر
+	Filter Frequency	تردد الفلتر
+	Filter Resonance	رنين الفلتر
+	Filter and EQ	الفلتر والمعادل
+	Final Delay	التأخير النهائي
+	Find Edges	إيجاد الحواف
+	Flanger	فلانجر
+	Flare	وهج
+	Flare Brightness	سطوع الوهج
+	Flare Center	مركز الوهج
+	Flare Color	لون الوهج
+	Flash	وميض
+	Flicker	ارتعاش
+	Flickers	ارتعاشات
+	Flip Motion	حركة القلب
+	Flip Over	قلب
+	Float	عائم
+	Focus	التركيز
+	Focus Blur	ضبابية التركيز
+	Focus Point	نقطة التركيز
+	Focus Shape	شكل التركيز
+	Focus Size	حجم التركيز
+	Fold Motion	حركة الطي
+	Foldback	الإرجاع
+	For color management parameters, go to the Settings tab in the Lumetri Color panel.	لمعاملات إدارة الألوان، اذهب إلى تبويب الإعدادات في لوحة ألوان Lumetri.
+	Format	الصيغة
+	Four Scopes (RGB, 8 bit)	أربعة مناظير (RGB، 8 بت)
+	Four Scopes (YUV, float, no clamp)	أربعة مناظير (YUV، عشري، بدون تقييد)
+	Fractal Influence	تأثير الكسيري
+	Fractal Type	نوع الكسيري
+	Frame	الإطار
+	Frame Color	لون الإطار
+	Frame Count	عدد الإطارات
+	Frame Layout	تخطيط الإطار
+	Frame Rate	معدل الإطارات
+	Frame Width	عرض الإطار
+	Frame cache for monitors and thumbnails	ذاكرة الإطارات للشاشات والصور المصغّرة
+	Frames	الإطارات
+	Framing	التأطير
+	French	الفرنسية
+	Frequency	التردد
+	From	من
+	From East	من الشرق
+	From North	من الشمال
+	From South	من الجنوب
+	From West	من الغرب
+	From the Left	من اليسار
+	From the Right	من اليمين
+	Front + LFE	أمامي + LFE
+	Front + Rear	أمامي + خلفي
+	Front + Rear + LFE	أمامي + خلفي + LFE
+	Front Only	أمامي فقط
+	Fuzz	تشويش
+	GB	GB
+	Gamma	غاما
+	Gamma Correction	تصحيح غاما
+	Gamut Warning	تحذير نطاق الألوان
+	Gamut Warning Color	لون تحذير نطاق الألوان
+	Gap	الفجوة
+	Gap Color	لون الفجوة
+	Gaussian Blur	ضبابية غاوسية
+	Gaussian Blur (Legacy)	ضبابية غاوسية (قديم)
+	General	عام
+	Generate	توليد
+	Generate Timecode	توليد رمز الوقت
+	Generate waveforms and conform audio using multithreading	توليد الموجات ومطابقة الصوت بالمعالجة المتعددة
+	Generate waveforms automatically during import	توليد الموجات تلقائياً أثناء الاستيراد
+	German	الألمانية
+	Ghosts	أشباح
+	Glass	زجاج
+	Glint	لمعة
+	Glitch	خلل
+	Glow	توهج
+	Glow Brightness	سطوع التوهج
+	Glow Color	لون التوهج
+	Glow Only	التوهج فقط
+	Glow Radius	نصف قطر التوهج
+	Glow Saturation	تشبّع التوهج
+	Glow Width	عرض التوهج
+	Golden Hour	الساعة الذهبية
+	Good	جيد
+	Gradient	التدرّج
+	Gradient End	نهاية التدرّج
+	Gradient Layer	طبقة التدرّج
+	Gradient Placement	موضع التدرّج
+	Gradient Scatter	تبعثر التدرّج
+	Gradient Shape	شكل التدرّج
+	Gradient Start	بداية التدرّج
+	Gradient Wipe	مسح بالتدرّج
+	Gradient Wipe (Legacy)	مسح بالتدرّج (قديم)
+	Grain Size	حجم الحبيبات
+	Graphic Equalizer (10 Bands)	معادل رسومي (10 نطاقات)
+	Graphic Equalizer (20 Bands)	معادل رسومي (20 نطاقاً)
+	Graphic Equalizer (30 Bands)	معادل رسومي (30 نطاقاً)
+	Graphics	الجرافيك
+	Green Blurriness	ضبابية الأخضر
+	Green Curve	منحنى الأخضر
+	Green Offset	إزاحة الأخضر
+	Green Power	قوة الأخضر
+	Green Slope	ميل الأخضر
+	Green-Blue	أخضر-أزرق
+	Green-Const	أخضر-ثابت
+	Green-Green	أخضر-أخضر
+	Green-Red	أخضر-أحمر
+	Grid	الشبكة
+	Grow	تنمية
+	Growing Files	الملفات المتنامية
+	Grunge	خشن
+	Grunge & Distort	الخشونة والتشويه
+	GuitarSuite	GuitarSuite
+	HDR Graphics White (Nits)	أبيض جرافيك HDR (نِت)
+	HLS Vectorscope + Histogram	مخطط متجهات HLS + مدرج تكراري
+	HSL Secondary	HSL الثانوي
+	Hard	قاسٍ
+	Hard Clip	قص قاسٍ
+	Hard Light	ضوء قاسٍ
+	Hard Limiter	محدِّد قاسٍ
+	Hard Mix	مزج قاسٍ
+	Hardware decoding	فك الترميز بالعتاد
+	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API or NVDEC for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	فك الترميز بالعتاد: الوضع التلقائي يستخدم فاك ترميز الفيديو في النظام (VideoToolbox في macOS، وMedia Foundation في Windows، وVA-API أو NVDEC لـ H.264 وHEVC في Linux) للتدفقات التي يدعمها، وفاك ترميز شبشب تصوير لكل ما عدا ذلك أو عند فشل العتاد. الوسائط المفتوحة تحتفظ بفاك ترميزها حتى تُعاد فتحها.
+	Head Size	حجم الرأس
+	Heart	قلب
+	Height	الارتفاع
+	Hexagon	سداسي
+	Hide Back Face	إخفاء الوجه الخلفي
+	High	عالٍ
+	High Cutoff	القطع العالي
+	High Frequency Cut	قطع الترددات العالية
+	High Frequency Damping	تخميد الترددات العالية
+	High Pass	تمرير عالٍ
+	High Shelf	رف عالٍ
+	High Shelf Gain	كسب الرف العالي
+	High contrast with held highlights and deep shadows	تباين عالٍ مع إضاءات محفوظة وظلال عميقة
+	Highlight	الإبراز
+	Highlight Blue Balance	توازن الأزرق في الإضاءات
+	Highlight Brightness	سطوع الإضاءات
+	Highlight Color	لون الإضاءات
+	Highlight Green Balance	توازن الأخضر في الإضاءات
+	Highlight Red Balance	توازن الأحمر في الإضاءات
+	Highlight Rolloff	انحدار الإضاءات
+	Highlight Threshold	عتبة الإضاءات
+	Highlight Tint	صبغة الإضاءات
+	Highlights Lightness	فتاحة الإضاءات
+	Highpass	تمرير عالٍ
+	Hindi	الهندية
+	Hindi digits	الأرقام الهندية
+	Horizontal 16:9	أفقي 16:9
+	Horizontal Alignment	المحاذاة الأفقية
+	Horizontal Blocks	الكتل الأفقية
+	Horizontal Decentering	إزاحة المركز الأفقية
+	Horizontal Displacement	الإزاحة الأفقية
+	Horizontal Flip	قلب أفقي
+	Horizontal Margin	الهامش الأفقي
+	Horizontal and Vertical	أفقي وعمودي
+	Hue Center	مركز التدرّج
+	Hue Tolerance	تسامح التدرّج
+	I/O Buffer Size	حجم مخزن الإدخال/الإخراج
+	Ignore Alpha	تجاهل ألفا
+	Image Control	التحكم بالصورة
+	Immersive Video	فيديو غامر
+	Import numbered stills as image sequences	استيراد الصور المرقّمة كتسلسلات صور
+	Impulse	نبضة
+	In a Room	في غرفة
+	In the Media Cache	في ذاكرة الوسائط المؤقتة
+	In the project	في المشروع
+	In/Out Duration	مدة الدخول/الخروج
+	Include captions on import	تضمين الترجمات عند الاستيراد
+	Incoming	الوارد
+	Indeterminate Media Timebase	قاعدة وقت وسائط غير محددة
+	Initial Delay	التأخير الأولي
+	Inner	داخلي
+	Inner Radius	نصف القطر الداخلي
+	Input Boost	تعزيز الإدخال
+	Inset	إدخال
+	Inside	داخل
+	Inside Color	اللون الداخلي
+	Inter	Inter
+	Interior Room Tone	نغمة الغرفة الداخلية
+	Internal Black Point	نقطة الأسود الداخلية
+	Internal White Point	نقطة الأبيض الداخلية
+	Interpolation	الاستيفاء
+	Intersect	تقاطع
+	Inverse Falloff	انخفاض عكسي
+	Invert	عكس
+	Invert Alpha	عكس ألفا
+	Invert Blur	عكس الضبابية
+	Invert Fill	عكس التعبئة
+	Invert Gradient	عكس التدرّج
+	Invert Left	عكس اليسار
+	Invert Right	عكس اليمين
+	Iris	القزحية
+	Iris Box	قزحية مربعة
+	Iris Cross	قزحية متقاطعة
+	Iris Diamond	قزحية معيّنة
+	Iris Radius	نصف قطر القزحية
+	Iris Rotation	دوران القزحية
+	Iris Round	قزحية مستديرة
+	Iris Shape	شكل القزحية
+	Italian	الإيطالية
+	Japanese	اليابانية
+	JetBrains Mono	JetBrains Mono
+	Join Through Edits	دمج القطعات الشكلية
+	Ripple Trim In	تشذيب دخول متتابع
+	Ripple Trim Out	تشذيب خروج متتابع
+	Roll Edit	قطع التدحرج
+	Trim In	تشذيب الدخول
+	Trim Out	تشذيب الخروج
+	Kaleidoscope	مشكال
+	Keep a recovery copy of unsaved changes	الاحتفاظ بنسخة استعادة للتغييرات غير المحفوظة
+	Key Color	لون المفتاح
+	Keying	الفصل اللوني
+	Korean	الكورية
+	Label Defaults	افتراضيات التسميات
+	Label speakers	تسمية المتحدثين
+	Labels	التسميات
+	Large Hall	قاعة كبيرة
+	Large Trim Offset	إزاحة تشذيب كبيرة
+	Large Volume Adjustment	تعديل صوت كبير
+	Latch	مزلاج
+	Layer Name	اسم الطبقة
+	Layers	الطبقات
+	Leave Color	اللون المُبقى
+	Left - Left	يسار - يسار
+	Left - Right	يسار - يمين
+	Left channel to device output	القناة اليسرى إلى إخراج الجهاز
+	Left to Right	من اليسار لليمين
+	Left to right	من اليسار لليمين
+	Legacy	قديم
+	Length	الطول
+	Lens Blur	ضبابية العدسة
+	Lens Distortion	تشوّه العدسة
+	Lens Flare	وهج العدسة
+	Lens Type	نوع العدسة
+	Level 1	المستوى 1
+	Level 2	المستوى 2
+	Level 3	المستوى 3
+	Level 4	المستوى 4
+	Levels	المستويات
+	Lifted blacks, softer contrast, muted colour	أسود مرفوع وتباين أنعم وألوان خافتة
+	Light 1	الضوء 1
+	Light 2	الضوء 2
