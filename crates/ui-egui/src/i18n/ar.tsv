@@ -1926,3 +1926,483 @@
 	Lifted blacks, softer contrast, muted colour	أسود مرفوع وتباين أنعم وألوان خافتة
 	Light 1	الضوء 1
 	Light 2	الضوء 2
+	Light 3	الضوء 3
+	Light 4	الضوء 4
+	Light 5	الضوء 5
+	Light Angle	زاوية الضوء
+	Light Color	لون الضوء
+	Light Intensity	شدة الضوء
+	Light Leak	تسرّب ضوئي
+	Light Leaks	تسرّبات ضوئية
+	Light Sweep	مسح ضوئي
+	Light Type	نوع الضوء
+	Lighten	تفتيح
+	Lighter Color	اللون الأفتح
+	Lighting Effects	تأثيرات الإضاءة
+	Lightning	برق
+	Lights & Blurs	الأضواء والضبابية
+	Lights & Glows	الأضواء والتوهج
+	Line Thickness	سماكة الخط
+	Linear Burn	حرق خطي
+	Linear Dodge (Add)	تفتيح خطي (إضافة)
+	Linear Light	ضوء خطي
+	Linear Ramp	منحدر خطي
+	Linear Wipe	مسح خطي
+	Linear Wipe (Legacy)	مسح خطي (قديم)
+	Linear keyframe thinning	ترقيق خطي للإطارات المفتاحية
+	Linear to Log	خطي إلى لوغاريتمي
+	Liquid Distortion	تشويه سائل
+	Local Projects	المشاريع المحلية
+	Location	الموقع
+	Log Note	ملاحظة السجل
+	Log to Linear	لوغاريتمي إلى خطي
+	Log to Log	لوغاريتمي إلى لوغاريتمي
+	Logo Cutout	قص الشعار
+	Long Shadow	ظل طويل
+	Look-Ahead Time	زمن الاستباق
+	Loudness	الجهارة
+	Loudness Maximizer	مُعظّم الجهارة
+	Loudness Meter	مقياس الجهارة
+	Louver	مصراع
+	Low	منخفض
+	Low Frequency Cut	قطع الترددات المنخفضة
+	Low Pass	تمرير منخفض
+	Low Shelf	رف منخفض
+	Low Shelf Gain	كسب الرف المنخفض
+	Lower Left	أسفل اليسار
+	Lower Right	أسفل اليمين
+	Lowpass	تمرير منخفض
+	Luma	السطوع
+	Luma Curve	منحنى السطوع
+	Luma Fade	تلاشٍ بالسطوع
+	Luma Key	مفتاح السطوع
+	Luma Source	مصدر السطوع
+	Luma and Chroma	السطوع والصبغة
+	Lumetri Presets	إعدادات Lumetri المسبقة
+	Luminance	النصوع
+	Luminance Threshold	عتبة النصوع
+	Luminosity	السطوع
+	MB	MB
+	Magenta	أرجواني
+	Magnify	تكبير
+	Magnify (Legacy)	تكبير (قديم)
+	Maintain pitch while shuttling	الحفاظ على طبقة الصوت أثناء التنقل السريع
+	Major Radius	نصف القطر الأكبر
+	Male	ذكر
+	Mango	مانجو
+	Map Black To	تحويل الأسود إلى
+	Map White To	تحويل الأبيض إلى
+	Maps full-range levels into 16–235 (video range) with a luma curve	يحوّل المستويات الكاملة إلى 16–235 (نطاق الفيديو) بمنحنى سطوع
+	Mask Only	القناع فقط
+	Master Amplitude	السعة الرئيسية
+	Mastering	الإتقان النهائي
+	Match frame sets in point	مطابقة الإطار تعيّن نقطة الدخول
+	Matte	الخلفية القناعية
+	Matte Alpha	ألفا القناع
+	Matte Cleanup	تنظيف القناع
+	Matte Generation	توليد القناع
+	Matte Luma	سطوع القناع
+	Maximum	الأقصى
+	Maximum Amplitude	السعة القصوى
+	Maximum Block Size	أقصى حجم كتلة
+	Maximum Blur	أقصى ضبابية
+	Maximum Project Versions	أقصى عدد لإصدارات المشروع
+	Maximum Reduction	أقصى تخفيض
+	Maximum Scale	أقصى تحجيم
+	Media	الوسائط
+	Media Analysis	تحليل الوسائط
+	Media Analysis & Transcription	تحليل الوسائط والتفريغ
+	Media Cache	ذاكرة الوسائط المؤقتة
+	Media Cache Database	قاعدة بيانات ذاكرة الوسائط
+	Media Cache Files	ملفات ذاكرة الوسائط المؤقتة
+	Media Cache Management	إدارة ذاكرة الوسائط المؤقتة
+	Media Duration	مدة الوسائط
+	Media End	نهاية الوسائط
+	Media Time	وقت الوسائط
+	Media Timecode	رمز وقت الوسائط
+	Media Type	نوع الوسائط
+	Media analysis and transcriptions will be cached in the Media Cache folder. Reanalysis won't be required if the media is imported into another project on this computer.	تُخزَّن نتائج تحليل الوسائط والتفريغ في مجلد ذاكرة الوسائط المؤقتة. لا حاجة لإعادة التحليل إذا استُوردت الوسائط في مشروع آخر على هذا الجهاز.
+	Median	الوسيط
+	Medium Room	غرفة متوسطة
+	Memory	الذاكرة
+	Metadata & Timecode Burn-in	حرق البيانات الوصفية ورمز الوقت
+	Method	الطريقة
+	Metrics Kerning	تقنين المسافة بالقياسات
+	Mid	متوسط
+	Mid Point	نقطة المنتصف
+	Midtone Blue Balance	توازن الأزرق في الدرجات المتوسطة
+	Midtone Green Balance	توازن الأخضر في الدرجات المتوسطة
+	Midtone Red Balance	توازن الأحمر في الدرجات المتوسطة
+	Midtones Lightness	فتاحة الدرجات المتوسطة
+	Minimum	الأدنى
+	Minimum time	أدنى وقت
+	Minimum time interval thinning	ترقيق بأدنى فاصل زمني
+	Minor Radius	نصف القطر الأصغر
+	Mirror	مرآة
+	Mirror Alternate	مرآة بالتناوب
+	Missing font replacement	استبدال الخطوط المفقودة
+	Miter join	وصلة حادة
+	Miter limit	حد الزاوية الحادة
+	Mixed Crystals	بلورات مختلطة
+	Mode	الوضع
+	Modern High Gain	كسب عالٍ حديث
+	Modulation	التضمين
+	Modulation Rate	معدل التضمين
+	Mono Media	وسائط أحادية
+	Monochrome	أحادي اللون
+	Monochrome toned cyan-blue	أحادي بصبغة سماوية زرقاء
+	Monochrome toned warm brown	أحادي بصبغة بنية دافئة
+	Monoscopic	أحادي المنظور
+	Monospace only	أحادية المسافة فقط
+	More colour in the less saturated areas	لون أكثر في المناطق الأقل تشبّعاً
+	Morph Cut	قطع بالتحويل
+	Mosaic	فسيفساء
+	Mosaic (Legacy)	فسيفساء (قديم)
+	Motion Blur	ضبابية الحركة
+	Motion Camera	كاميرا الحركة
+	Motion Preset	إعداد حركة مسبق
+	Motion Tween	تحريك وسيط
+	Move	تحريك
+	Movie	فيلم
+	Movie (audio and video)	فيلم (صوت وفيديو)
+	Multiband Compressor	ضاغط متعدد النطاقات
+	Multichannel Mono Media	وسائط أحادية متعددة القنوات
+	Multiply	ضرب
+	Multitap Delay	تأخير متعدد النقرات
+	Music	الموسيقى
+	Mute input during timeline recording	كتم الإدخال أثناء التسجيل على الخط الزمني
+	Name	الاسم
+	Narrow	ضيق
+	Neon Color	لون النيون
+	Neon Wipe	مسح نيون
+	Next to original media files	بجانب ملفات الوسائط الأصلية
+	Night	الليل
+	No Motion	بلا حركة
+	No Scroll	بلا تمرير
+	No plugins are installed. Changes will take effect the next time you start FilmCraft.	لا إضافات مثبتة. تسري التغييرات في المرة القادمة التي تشغّل فيها شبشب تصوير.
+	Noise	الضوضاء
+	Noise & Grain	الضوضاء والحبيبات
+	Noise (Legacy)	الضوضاء (قديم)
+	Noise Level	مستوى الضوضاء
+	Noise Reduction/Restoration	تقليل الضوضاء/الترميم
+	Noise Type	نوع الضوضاء
+	Non-Additive Dissolve	ذوبان غير إضافي
+	Normal	عادي
+	Notch 1	الحزّ 1
+	Notch 2	الحزّ 2
+	Notch 3	الحزّ 3
+	Notch 4	الحزّ 4
+	Notch 5	الحزّ 5
+	Notch 6	الحزّ 6
+	Notch Filter	فلتر الحزّ
+	Notch Width	عرض الحزّ
+	Number Of Echoes	عدد الأصداء
+	Number of Harmonics	عدد التوافقيات
+	Obsolete	متقادم
+	Octagon	ثماني
+	Offset	الإزاحة
+	Offset (Turbulence)	الإزاحة (الاضطراب)
+	Offset From	الإزاحة من
+	Offset To	الإزاحة إلى
+	Omni	شامل الاتجاهات
+	On	تشغيل
+	On Original Image	على الصورة الأصلية
+	On Transparent	على الشفاف
+	Open Air	الهواء الطلق
+	Open Most Recent	فتح الأحدث
+	Open in new window	فتح في نافذة جديدة
+	Open in place	فتح في المكان
+	Open new tab	فتح علامة تبويب جديدة
+	Opens up the shadows	يفتح الظلال
+	Order	الترتيب
+	Orientation	الاتجاه
+	Outer	خارجي
+	Outgoing	الصادر
+	Output	الإخراج
+	Output Mapping	تعيين الإخراج
+	Outside	خارج
+	Outside Color	اللون الخارجي
+	Overflow	الفائض
+	Overlay	تراكب
+	Overshoot	التجاوز
+	Page Peel	تقشير الصفحة
+	Page Scroll	تمرير الصفحة
+	Page Turn	قلب الصفحة
+	Paint Bucket	دلو الطلاء
+	Paint On Black	الرسم على الأسود
+	Paint On Original Image	الرسم على الصورة الأصلية
+	Paint On Transparent	الرسم على الشفاف
+	Paint On White	الرسم على الأبيض
+	Paint Style	أسلوب الرسم
+	Paint Surface	سطح الرسم
+	Pan (Y Axis)	التوزيع (محور Y)
+	Panel Wipe	مسح باللوح
+	Panels	اللوحات
+	Panner - Ambisonics	موزّع الاتجاه - Ambisonics
+	Parade	عرض مقسّم
+	Parade (RGB)	عرض مقسّم (RGB)
+	Parametric Equalizer	معادل بارامتري
+	Passband Ripple	تموّج نطاق التمرير
+	Path	المسار
+	Path Points	نقاط المسار
+	Pause Media Encoder queue during playback	إيقاف قائمة Media Encoder مؤقتاً أثناء التشغيل
+	Peak Frequency	تردد الذروة
+	Peak Gain	كسب الذروة
+	Pedestal	القاعدة
+	Pentagon	خماسي
+	Per line	لكل سطر
+	Percent Blur	نسبة الضبابية
+	Perspective	المنظور
+	Phase Difference	فرق الطور
+	Phaser	فيزر
+	Phone Call	مكالمة هاتفية
+	Phosphor	فوسفور
+	Phosphor Color	لون الفوسفور
+	Photocopy	نسخة مصوّرة
+	Photocopy Color	لون النسخة المصوّرة
+	Pillow	وسادة
+	Pin All	تثبيت الكل
+	Pin Horizontal	تثبيت أفقي
+	Pin Light	ضوء نقطي
+	Pin Vertical	تثبيت عمودي
+	Pinning	التثبيت
+	Pitch Shifter	مغيّر طبقة الصوت
+	Plate	اللوح
+	Plateau Wipe	مسح بالهضاب
+	Plateaus	الهضاب
+	Plates	الألواح
+	Play after rendering previews	التشغيل بعد تصيير المعاينات
+	Play audio while scrubbing in Source and Program Monitors	تشغيل الصوت أثناء التصفح في شاشتي المصدر والبرنامج
+	Playback	التشغيل
+	Playhead position determines trim monitor loop playback	موضع رأس التشغيل يحدد تكرار التشغيل في شاشة التشذيب
+	Plugins	الإضافات
+	Podcast Voice	صوت البودكاست
+	Point 1	النقطة 1
+	Point 1 Color	لون النقطة 1
+	Point 1 Latitude	خط عرض النقطة 1
+	Point 1 Longitude	خط طول النقطة 1
+	Point 2	النقطة 2
+	Point 2 Color	لون النقطة 2
+	Point 2 Latitude	خط عرض النقطة 2
+	Point 2 Longitude	خط طول النقطة 2
+	Point 3	النقطة 3
+	Point 3 Color	لون النقطة 3
+	Point 3 Latitude	خط عرض النقطة 3
+	Point 3 Longitude	خط طول النقطة 3
+	Point 4	النقطة 4
+	Point 5	النقطة 5
+	Point 6	النقطة 6
+	Point 7	النقطة 7
+	Point 8	النقطة 8
+	Points	النقاط
+	Policy	السياسة
+	Pop Motion	حركة منبثقة
+	Portuguese	البرتغالية
+	Position & Rotation	الموضع والتدوير
+	Position Amount	مقدار الموضع
+	Position, Scale & Rotation	الموضع والتحجيم والتدوير
+	Position, Scale, Rotation	الموضع، التحجيم، التدوير
+	Posterize	تقليل الدرجات
+	Posterize Time	تقطيع الزمن
+	Pre-Delay	ما قبل التأخير
+	Prefix	البادئة
+	Presence Lift	رفع الحضور
+	Preserve Luminosity	الحفاظ على النصوع
+	Preserve Scale	الحفاظ على المقياس
+	ProcAmp	ProcAmp
+	Projecting cap	نهاية بارزة
+	Projects	المشاريع
+	Pull Motion	حركة السحب
+	Pulls highlights and whites down	يخفض الإضاءات والأبيض
+	Push	دفع
+	Push (Legacy)	دفع (قديم)
+	Q	Q
+	RAM reserved for other applications	ذاكرة محجوزة للبرامج الأخرى
+	RGB	RGB
+	RGB Split	تقسيم RGB
+	RGB-White	RGB-أبيض
+	Radial	شعاعي
+	Radial Blur	ضبابية شعاعية
+	Radial Ramp	منحدر شعاعي
+	Radial Wipe	مسح شعاعي
+	Radial Wipe (Legacy)	مسح شعاعي (قديم)
+	Radio Announcer	مذيع راديو
+	Radio Voice	صوت راديو
+	Radius	نصف القطر
+	Ramp	منحدر
+	Ramp Shape	شكل المنحدر
+	Random	عشوائي
+	Random Seed	البذرة العشوائية
+	Range	النطاق
+	Ray	شعاع
+	Ray Color	لون الشعاع
+	Ray Length	طول الشعاع
+	Rays	الأشعة
+	Rays Only	الأشعة فقط
+	Read	قراءة
+	Rec. 2100	Rec. 2100
+	Rec. 601	Rec. 601
+	Rec. 709	Rec. 709
+	Red Blurriness	ضبابية الأحمر
+	Red Curve	منحنى الأحمر
+	Red Offset	إزاحة الأحمر
+	Red Power	قوة الأحمر
+	Red Slope	ميل الأحمر
+	Red-Blue	أحمر-أزرق
+	Red-Const	أحمر-ثابت
+	Red-Green	أحمر-أخضر
+	Red-Red	أحمر-أحمر
+	Reduce Axis	تقليل المحور
+	Reduce Interlace Flicker	تقليل وميض التشابك
+	Reflected	منعكس
+	Reflection Angle	زاوية الانعكاس
+	Reflection Center	مركز الانعكاس
+	Refraction	الانكسار
+	Reframe Offset	إزاحة إعادة التأطير
+	Reframe Zoom	تكبير إعادة التأطير
+	Refresh growing Files Every	تحديث الملفات المتنامية كل
+	Relaxed	مسترخٍ
+	Release Time	زمن التحرير
+	Relief	النقش البارز
+	Remaining	المتبقي
+	Remove Fringe	إزالة الهالة
+	Render Edit in Audition files to:	تصيير ملفات التحرير في Audition إلى:
+	Render audio when rendering video	تصيير الصوت عند تصيير الفيديو
+	Repair	إصلاح
+	Repeat Edge Pixels	تكرار بكسلات الحافة
+	Replace Color	استبدال اللون
+	Replace With Clip From Source Monitor	الاستبدال بمقطع من شاشة المصدر
+	Replicate	مضاعفة
+	Responsive Design - Position	التصميم المتجاوب - الموضع
+	Responsive Design - Time	التصميم المتجاوب - الوقت
+	Restore open sequences when opening projects	استعادة التسلسلات المفتوحة عند فتح المشاريع
+	Result	النتيجة
+	Retro	ريترو
+	Reveal Nested Sequence	إظهار التسلسل المتداخل
+	Reveal Original Image	إظهار الصورة الأصلية
+	Reveal in Project	إظهار في المشروع
+	Reverb Amount	مقدار الصدى
+	Reverse	عكس
+	Right - Left	يمين - يسار
+	Right - Right	يمين - يمين
+	Right channel to device output	القناة اليمنى إلى إخراج الجهاز
+	Right to left	من اليمين لليسار
+	Ripple trim adds edits to keep both sides of trim in sync	التشذيب المتتابع يضيف قطعات لإبقاء طرفي التشذيب متزامنين
+	Roll (Z Axis)	التدحرج (محور Z)
+	Room Size	حجم الغرفة
+	Rotation Amount	مقدار التدوير
+	Roughen	خشونة
+	Roughen Color	لون الخشونة
+	Roughen Edges	تخشين الحواف
+	Round cap	نهاية مستديرة
+	Round join	وصلة مستديرة
+	Rounded Crop	قص مستدير
+	Rows	الصفوف
+	Russian	الروسية
+	Rusty	صدئ
+	Rusty Color	لون الصدأ
+	SFX	المؤثرات الصوتية
+	Sample Rate	معدل العينات
+	Saturation at 50 %	التشبّع عند 50 %
+	Save .cfa and .pek media cache files next to original media files when possible	حفظ ملفات ذاكرة الوسائط .cfa و.pek بجانب الوسائط الأصلية عند الإمكان
+	Scale (Degrees)	التحجيم (درجات)
+	Scale Amount	مقدار التحجيم
+	Scale From	التحجيم من
+	Scale Height	تحجيم الارتفاع
+	Scale Match	مطابقة المقياس
+	Scale To	التحجيم إلى
+	Scale Width	تحجيم العرض
+	Scale to frame size	تحجيم لحجم الإطار
+	Scan Lines	خطوط المسح
+	Scene	المشهد
+	Scientific Filter	فلتر علمي
+	Scratch disk location for Captured Audio	موقع قرص التخزين المؤقت للصوت الملتقط
+	Screen	شاشة
+	Seconds	الثواني
+	Segments	المقاطع
+	Semi-tones	أنصاف النغمات
+	Sequence Name	اسم التسلسل
+	Sequence Timecode	رمز وقت التسلسل
+	Set focus on the Timeline when performing Insert/Overwrite edits	التركيز على الخط الزمني عند تنفيذ قطعات الإدراج/الاستبدال
+	Set to frame size	ضبط على حجم الإطار
+	Setting	الإعداد
+	Shadow Angle	زاوية الظل
+	Shadow Blue Balance	توازن الأزرق في الظلال
+	Shadow Blur	ضبابية الظل
+	Shadow Color	لون الظل
+	Shadow Distance	مسافة الظل
+	Shadow Green Balance	توازن الأخضر في الظلال
+	Shadow Only	الظل فقط
+	Shadow Opacity	عتامة الظل
+	Shadow Red Balance	توازن الأحمر في الظلال
+	Shadow Size	حجم الظل
+	Shadow Tint	صبغة الظلال
+	Shadows Lightness	فتاحة الظلال
+	Shake	اهتزاز
+	Shape Dissolve	ذوبان بالشكل
+	Shape Flow	تدفق الشكل
+	Shape Size	حجم الشكل
+	Shapes	الأشكال
+	Shard Size	حجم الشظايا
+	Sharp Colors	ألوان حادة
+	Sharpen Amount	مقدار زيادة الحدة
+	Shift Center To	نقل المركز إلى
+	Shift clips that overlap trim point during ripple trimming	إزاحة المقاطع المتداخلة مع نقطة التشذيب أثناء التشذيب المتتابع
+	Shot	اللقطة
+	Show "Project:" and "Bin:" in Project panel tab	إظهار "المشروع:" و"السلة:" في تبويب لوحة المشروع
+	Show Clip Mismatch Warning dialog	إظهار نافذة تحذير عدم تطابق المقطع
+	Show Event Indicator	إظهار مؤشر الأحداث
+	Show Focus Area	إظهار منطقة التركيز
+	Show Home	إظهار الرئيسية
+	Show Mask Tracker Preview	إظهار معاينة متتبّع القناع
+	Show Only Noise	إظهار الضوضاء فقط
+	Show Open Dialog	إظهار نافذة الفتح
+	Show Project Load Error Dialog	إظهار نافذة خطأ تحميل المشروع
+	Show Rich Tool Tips	إظهار تلميحات غنية
+	Show Tool Tips	إظهار التلميحات
+	Show Workspace Reset Warning dialog on double click	إظهار تحذير إعادة ضبط مساحة العمل عند النقر المزدوج
+	Show system compatibility issues at startup	إظهار مشاكل توافق النظام عند بدء التشغيل
+	Shrink	تقليص
+	Shutter Angle	زاوية الغالق
+	Similarity	التشابه
+	Simple Notch Filter	فلتر حزّ بسيط
+	Simple Parametric EQ	معادل بارامتري بسيط
+	Simple Text	نص بسيط
+	Single-band Compressor	ضاغط أحادي النطاق
+	Sinusoidal	جيبي
+	Skew	إمالة
+	Skew Axis	محور الإمالة
+	Slats	شرائح
+	Slice	شريحة
+	Slices	الشرائح
+	Slide	انزلاق
+	Slide (Legacy)	انزلاق (قديم)
+	Slope	الميل
+	Slow	بطيء
+	Slower Motion	حركة أبطأ
+	Small Room	غرفة صغيرة
+	Smart Limit	تحديد ذكي
+	Smart Tools	أدوات ذكية
+	Smart quotes	علامات اقتباس ذكية
+	Smooth	ناعم
+	Smooth Motion	حركة ناعمة
+	Smooth Scroll	تمرير ناعم
+	Smoothness	النعومة
+	Snap playhead in Timeline when Snap is enabled	التقاط رأس التشغيل في الخط الزمني عند تفعيل الالتقاط
+	Soft	ناعم
+	Soft Clamp	تقييد ناعم
+	Soft Edges (Best Quality)	حواف ناعمة (أفضل جودة)
+	Soft Light	ضوء ناعم
+	Soft Wipe	مسح ناعم
+	Soften Harshness	تليين الخشونة
+	Softness	النعومة
+	Solarize	تشميس
+	Solid Colors	ألوان مصمتة
+	Source Point	نقطة المصدر
+	Source Text	نص المصدر
+	Spacer	فاصل
+	Spanish	الإسبانية
+	Speaker Angle	زاوية السماعة
+	Speaker Labeling	تسمية المتحدثين
+	Special	خاص
+	Special Effects	مؤثرات خاصة
