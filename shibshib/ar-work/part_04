@@ -1,0 +1,160 @@
+	Video Thumbnails
+	Audio Waveforms
+	Delete Preset
+	Export Preset…
+	Import Presets…
+	Effect presets
+	Save Preset
+	Name:
+	Type
+	Scale
+	Anchor to In Point
+	Anchor to Out Point
+	Without keyframes
+	Description:
+	Saved preset “{name}”
+	Current duration {seconds} s
+	Remix Properties
+	Target Duration:
+	Segments:
+	Fewer · More
+	Variations:
+	Remixed to {seconds} s
+	{mode} · no clip
+	{mode} · no sequence
+	Remove Row
+	Add a timecode row
+	Panner
+	Mute
+	Send {n} Level
+	Show Keyframes
+	Clip Keyframes
+	Track Keyframes
+	Delete
+	Untitled Workspace
+	New Workspace
+	Edit Workspaces
+	Rename
+	Restore Original
+	Search effects
+	Apply to Selected Clips
+	Metadata Display
+	Save As New View Preset
+	Manage Saved View Presets
+	Freeform View Options
+	Save Arrangement
+	Saves the view, columns, sort, thumbnail and font size.
+	Grid spacing:
+	Default clip size:
+	Snap to grid
+	Show clip names
+	Show durations
+	Show:
+	Search fields
+	Project Metadata
+	Add Property…
+	Column order
+	{n}. (empty)
+	Restore
+	Overwrite with Current View
+	Graphics text search arrives with M10.1–M10.2
+	Open a sequence to work with captions
+	Add captions
+	Create a caption track or import a caption file.
+	Create new caption track
+	Import captions file…
+	New {format} track
+	Add caption at playhead
+	Split caption at playhead
+	Merge selected captions
+	Delete selected captions
+	No captions on this track. Press + to add one at the playhead.
+	No matching captions.
+	Open a sequence to see its transcript
+	Transcribe sequence
+	Speech-to-text turns the dialogue into editable text.
+	This build has no speech-to-text; import a transcript with transcript.set.
+	Transcribe
+	Extract selected text
+	Lift selected text
+	Remove filler words
+	Create captions
+	Speaker
+	Box
+	Align
+	Align left
+	Align center
+	Align right
+	Position
+	Position: top
+	Position: middle
+	Position: bottom
+	(gap)
+	Out: {name}
+	In: {name}
+	Play Around Edit (Space loops, Shift+K once)
+	Trim Backward Many
+	Trim Backward
+	Apply Default Transitions
+	Apply Default Transitions to Selection (Shift+D)
+	Trim Forward
+	Trim Forward Many
+	Exit Trim Mode
+	Voice-over record (right-click: Voice-Over Record Settings…)
+	Voice-Over Record Settings…
+	Recording voice-over…
+	Voice-over recorded: {p}
+	Voice-over recording stopped (nothing recorded)
+	Post-roll
+	● Recording
+	Voice-Over Record Settings
+	Source:
+	Default Input
+	Input:
+	Channel {n}
+	Countdown Sound Cues
+	Pre-roll:
+	 seconds
+	Post-roll:
+	Playback starts the pre-roll before the playhead (or the In point); with In/Out marked, recording punches in and out there.
+	Effect
+	Clip Fx Editor
+	Track Fx Editor
+	Master Gain
+	Reset
+	Band {n}
+	Solo
+	Bypass
+	Thr
+	Ratio
+	Att
+	Rel
+	Gain
+	Output Gain
+	Limiter
+	Link Channels
+	Limiter Threshold
+	Limiter Release
+	Auto Gate
+	Threshold
+	Attack
+	Release
+	Hold
+	Compressor
+	Auto Makeup
+	Makeup
+	Expander
+	Soft Clip
+	(no sequences)
+	(no clips)
+	Show Transport Controls
+	Loop
+	Multi-Camera Audio Follows Video
+	Multi-Camera Record
+	Multi-Camera Selection Top Down
+	Show Multi-Camera Preview Monitor
+	Auto-Adjust Multi-Camera Playback Quality
+	Transmit Multi-Camera View
+	Multi-Camera Layout
+	Automatic
+	Edit Cameras…

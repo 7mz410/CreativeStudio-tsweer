@@ -1,0 +1,160 @@
+	Edit Columns
+	Guides
+	(no audio)
+	Generating waveform…
+	Reference  {tc}
+	Set
+	Set the reference to the playhead
+	Reference: next frame
+	Reference: previous frame
+	RGBA Channels
+	Add Guide
+	Save Guides as Template
+	Manage Guides
+	Orientation:
+	Vertical
+	Horizontal
+	Position:
+	No saved guide templates.
+	Project: {name}
+	Bin: {name}
+	Up one level
+	Video Usage: {vu}  Audio Usage: {au}
+	Icon View
+	Freeform View
+	Sort Icons
+	Clear (Delete)
+	New Item
+	New Bin
+	Find
+	Automate to Sequence
+	Select items to clear
+	User Order
+	Descending
+	Refresh Project
+	Reveal Project in Finder…
+	New Bin From Selection
+	New Search Bin
+	New Project Shortcut
+	List
+	Icon
+	Freeform
+	Preview Area
+	Thumbnails
+	Thumbnails show effects applied
+	Thumbnail controls for all pointing devices
+	Refresh Sort Order
+	Metadata Display…
+	Save Current View Preset
+	Restore View Preset
+	Project View Preset {n}
+	Freeform View Options…
+	Media missing
+	Unreadable
+	Open in Source Monitor
+	Open in Timeline
+	New Sequence From Clip
+	Set Poster Frame
+	Proxy
+	Open in Place
+	Open in New Tab
+	Open in New Window
+	{n} items
+	Stack
+	Unstack
+	Clip Size
+	Larger
+	Smaller
+	Align to Grid
+	Reset to Grid
+	Save Arrangement…
+	Restore Arrangement
+	Delete Arrangement
+	Drop media here to create sequence.
+	Double-click a sequence in the Project panel to open it here.
+	Open Demo Project
+	Insert and overwrite sequences as nests or individual clips
+	Snap in Timeline (S)
+	Caption track options
+	Timeline Display Settings
+	Show Video Thumbnails
+	Show Audio Waveform
+	Expand All Tracks
+	Minimize All Tracks
+	Unrendered: should play back in real time
+	Unrendered: render to play back in real time
+	Rendered preview
+	✓ Enable
+	Unlink
+	(Default)
+	(RGB) Gamma
+	(RGB) Input Black Level
+	(RGB) Input White Level
+	(RGB) Output Black Level
+	(RGB) Output White Level
+	+ Cmd
+	+ Opt
+	10 Bit Black Point
+	10 Bit White Point
+	105mm Prime
+	29.97 fps Drop-Frame
+	29.97 fps Non Drop-Frame
+	35mm Prime
+	3D Roll
+	3D Rotate
+	3D Spin
+	3D Spinback
+	4-Color Gradient
+	5.1 Media
+	5.1 Mixdown Type
+	50-300mm Zoom
+	59.94 fps Drop-Frame
+	59.94 fps Non Drop-Frame
+	ASC CDL
+	Accessible color contrast
+	Action-Safe Margin
+	Active Monitor
+	Add
+	Add tracks automatically when editing source clips onto the Timeline
+	Place files dropped onto the Timeline directly on the Timeline
+	1 file
+	{n} files
+	Additional Scale
+	Additive Dissolve
+	Additive Dissolve (Legacy)
+	Adjust
+	Advanced
+	Aggressive
+	Align and Transform
+	All lines
+	Allow Selection tool to choose Roll and Ripple trims without modifier key
+	Allow current tool to change trim type of previously selected edit point
+	Allow duplicate media during project import
+	Alpha Adjust
+	Alpha Blurriness
+	Alpha Channel
+	Alpha Glow
+	Always import embedded CEA-708 closed captions with wide aspect.
+	Always override audio tags
+	Ambience
+	Ambience Intensity
+	Ambience Light Color
+	Amount of Noise
+	Amount to Decolor
+	Amount to Tint
+	Amplifier
+	Amplify
+	Amplitude
+	Amplitude and Compression
+	Analog
+	Analog Delay
+	Analyze all imported media to search for visuals or audio
+	Anamorphic
+	Anchor
+	Anchor Point
+	Angle
+	Animation
+	Anti-aliasing Quality
+	Anti-flicker Filter
+	Antialiasing for Best Quality
+	Asymmetry

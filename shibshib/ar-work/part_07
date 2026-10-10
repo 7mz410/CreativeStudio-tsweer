@@ -1,0 +1,160 @@
+	Add/Remove Keyframe
+	Temporal Interpolation
+	Linear
+	Bezier
+	Auto Bezier
+	Continuous Bezier
+	Ease In
+	Ease Out
+	Select a clip to grade
+	Select a clip to see its properties
+	Anchor point
+	Rotation
+	Level
+	Speed {n}%
+	Value
+	Velocity
+	Default
+	Custom ({n} points)
+	Select a graphic clip, or use the Type tool (T) on the Program monitor
+	Create new graphic
+	New Text Layer
+	New Text
+	New Rectangle
+	New Ellipse
+	Delete Layer
+	Select a layer to edit its properties.
+	Align Left
+	Align Center Horizontally
+	Align Right
+	Align Top
+	Align Center Vertically
+	Align Bottom
+	Font
+	Font Style
+	Font Size
+	Alignment
+	Left Align Text
+	Center Align Text
+	Right Align Text
+	Justify
+	Tracking
+	Leading
+	Baseline Shift
+	Text Box Width
+	Style
+	Faux Bold
+	Faux Italic
+	All Caps
+	Small Caps
+	Underline
+	OpenType
+	Kerning
+	Ligatures
+	Shape
+	Size
+	Corner Radius
+	Polygon Sides
+	Fill
+	Stroke
+	Stroke 2
+	Background
+	   Opacity
+	   Size
+	   Corner Radius
+	Shadow
+	   Angle
+	   Distance
+	   Blur
+	Search templates
+	All Categories
+	Install…
+	Install Motion Graphics Template (.fcgt)
+	No templates match.
+	{category} · My Template
+	Apply
+	Remove
+	{n} editable properties
+	   Template: {name}
+	Intro Duration
+	Outro Duration
+	Roll
+	Start Off Screen
+	End Off Screen
+	Preroll
+	Postroll
+	Video Frame
+	Pin To
+	Pinned Edges
+	ShibShib tsweer Graphics Template
+	{n} Font
+	{n} Size
+	{n} Color
+	{n} Position
+	Show {n}
+	My Templates
+	Export As Motion Graphics Template
+	Category:
+	Editable properties:
+	Saved as a ShibShib tsweer graphics template (.fcgt) in your templates folder.
+	Exported graphics template to {path}
+	Replace Fonts in Projects
+	Fonts used in the project:
+	{f} (missing)
+	Replace:
+	Replaced {n} font uses
+	Show/Hide Effects and Sends
+	Audio Track Mixer menu
+	Show/Hide Tracks…
+	Meter Input(s) Only
+	Show/Hide Tracks
+	Show All
+	Post-Fader
+	Remove Effect
+	Fill the slots above first
+	pre 
+	Pre-Fader
+	Mute Send
+	Remove Send
+	New Submix
+	Pan / balance (drag; double-click: centre)
+	Solo safe
+	Enable track for recording
+	Volume (drag; double-click: 0 dB)
+	5.1 panner (drag the puck; double-click: front centre)
+	Center
+	Go to In Point
+	Go to Out Point
+	Play In to Out
+	Record (voice-over on the record-enabled track)
+	Write keyframes
+	Something went wrong while drawing the window. Your project is still open; save it to be safe.
+	Continue
+	Go Back
+	Go Forward
+	Up One Level
+	File Types Displayed
+	List View
+	Thumbnail View
+	Ingest
+	Open Ingest Settings
+	Import as Image Sequence
+	{sel} of {total} items selected
+	{total} items
+	Cannot open {dir}: {e}
+	Favorites
+	Local Drives
+	Network
+	Recent Directories
+	  (none)
+	Remove from Favorites
+	Add to Favorites
+	Clear Recent Directories
+	Open In Source Monitor
+	Reveal in Finder
+	Edit Columns…
+	Hover Scrub
+	New Media Browser Panel
+	Create Folder For Imported Projects
+	Allow Duplicate Media During Project Import
+	Refresh

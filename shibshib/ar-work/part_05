@@ -1,0 +1,160 @@
+	Add Marker (M)
+	Mark In (I)
+	Mark Out (O)
+	Go to In (Shift+I)
+	Step Back 1 Frame (Left)
+	Play-Stop Toggle (Space)
+	Step Forward 1 Frame (Right)
+	Go to Out (Shift+O)
+	Insert (,)
+	Overwrite (.)
+	Export Frame (Shift+E)
+	Lift (;)
+	Extract (')
+	Export Frame: use Export mode (M6)
+	Button Editor
+	Multi-Camera Record on
+	Multi-Camera Record off
+	{first} - Merged
+	{first} Multicam
+	In Points
+	Out Points
+	Clip Marker
+	Audio
+	Merge Clips
+	Create Multi-Camera Source Sequence
+	Synchronize Clips
+	Clip Name:
+	Sequence Name:
+	{n} clip(s): {names}
+	{n} clip(s) selected; the clip on the reference track stays put.
+	Synchronize Point
+	Ignore Hours
+	first marker
+	Offset Audio by:
+	Offset:
+	 frames
+	Reference track:
+	lowest (V1…)
+	Remove Audio from AV Clip
+	Camera 1
+	All Cameras
+	Switch Audio
+	Camera Names
+	Clip Names
+	Enumerate Cameras
+	Camera Angle Metadata
+	Move source clips to Processed Clips bin
+	Synchronized {n} clip group(s)
+	Merged clip created
+	Multi-camera source sequence with {n} camera(s)
+	No multi-camera clip at the playhead
+	Camera {n} — {name}
+	Page {page} of {pages}
+	Previous page
+	Next page
+	Multi-Camera Record On/Off (0)
+	Record
+	Edit Cameras
+	Cameras shown in the Multi-Camera view (uncheck to hide).
+	Recorded {n} multi-camera cut(s)
+	Clamp Signal
+	Presets
+	Parade ({kind})
+	Waveform ({kind})
+	Parade Type
+	Waveform Type
+	Vectorscope Targets
+	Colour Space
+	Brightness
+	Signal Scale
+	Histogram
+	Paste Attributes
+	Remove Attributes
+	New Offline File
+	Nested Sequence Name
+	Make Subclip
+	Edit Subclip
+	Modify Clip: Audio Channels
+	Modify Clip: Timecode
+	Frame Hold Options
+	Field Options
+	Save Project
+	Motion
+	Opacity
+	Time Remapping
+	Channel Volume
+	In Point
+	Out Point
+	Playhead
+	Source Timecode
+	Sequence Time
+	Video Attributes
+	Audio Attributes
+	No effects
+	Scale Attribute Times
+	File Name:
+	Tape Name:
+	Contains:
+	Video
+	Width:
+	Height:
+	Frame Rate:
+	Media Start:
+	Subclip: {name}
+	Start:
+	End:
+	Restrict Trims To Subclip Boundaries
+	Convert to Master Clip
+	Clip Channel Format:
+	Number of Audio Clips:
+	Media Source Channels
+	Ch. {n}
+	Clip {n}
+	Source channels the selected audio clips play:
+	Set Timecode:
+	Use the file's timecode
+	Hold On
+	Timecode:
+	Hold Filters
+	Reverse Field Dominance
+	Processing Options
+	None
+	Always Deinterlace
+	Flicker Removal
+	Save changes to “{project_name}” before closing?
+	Don't Save
+	All media is online.
+	{name} (copy)
+	Offline
+	Missing
+	Link Media
+	{n} clip(s) can't find their media. Locate them, search a folder, or leave them offline.
+	Clip Name
+	File Name
+	File Path
+	Status
+	Match file properties:
+	File Extension
+	Clip ID (fingerprint)
+	Duration
+	Media Start
+	Frame Size / Rate
+	Align Timecode
+	Relink others automatically
+	Search in:
+	Browse…
+	Exact name matches only
+	No candidates yet — Search a folder or Locate the file.
+	✔ same file
+	✔ matches
+	✖ different file
+	Preview
+	Offline All
+	Locate…
+	Linked {n} clip(s)
+	Nothing found with that name.
+	Make Offline
+	Make {n} selected clip(s) offline. Their clips show the offline slate until you link them again.
+	Media files remain on disk
+	Media files are deleted

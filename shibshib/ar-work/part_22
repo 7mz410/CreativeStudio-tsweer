@@ -1,0 +1,135 @@
+	Title – Centered
+	Titles
+	Select an item to preview it
+	End Credits
+	End Credits – Roll
+	Ticker – Crawl
+	Centred credits that roll up from below the frame and leave at the top.
+	A news-style line that crawls in from the right and leaves at the left.
+	out
+	in
+	The language changed but could not be saved: {e}
+	no Chinese font is installed on this system; the interface stays in English
+	no Japanese font is installed on this system; the interface stays in English
+	Show
+	Sort
+	Reverse the order
+	Grab bag
+	Table
+	No contributor data was built into this copy.
+	No model credits were built into this copy.
+	Company
+	Model
+	Version
+	Commits
+	% of all commits
+	Lines +/−
+	Audio output failed: playing without sound (check Settings ▸ Audio Hardware)
+	Audio output is not responding: playing without sound (check Settings ▸ Audio Hardware)
+	Clip Speed / Duration
+	Speed:
+	Reverse Speed
+	Ripple Edit, Shifting Trailing Clips
+	About
+	Contributors
+	Models
+	Main (8-bit)
+	Main 10 (10-bit, HDR)
+	Main (8-bit; Main 10 for HDR sequences)
+	Encoder
+	Hardware (H.265 has no software encoder)
+	Text Properties
+	Text Box Height
+	Paragraph Text
+	Point Text
+	Text Layer Type
+	Text Styling
+	New Color Matte
+	Color Matte Color
+	Color:
+	 · {time} left
+	Discard take
+	Voice-over take discarded
+	Binary assets added
+	Binary assets removed
+	Deselect All Project Items
+	Display name
+	First commit
+	H.265 (HEVC)
+	Last commit
+	Line delta
+	Lines added
+	Lines deleted
+	Merged PRs
+	Name (A–Z)
+	Real name
+	Select All Project Items
+	Username
+	Vertical Type Tool
+	Go to previous keyframe
+	Go to next keyframe
+	Add keyframe
+	Remove keyframe
+	Turn on animation and add keyframe
+	Click to select, or click in empty space and drag to marquee select. Use Shift, Alt, and Ctrl for other options.
+	Click to zoom in; Alt-click to zoom out.
+	Drag: move · Alt-click: smooth/corner · Ctrl-click: delete
+	Include Alpha Channel
+	Sequence Settings
+	Color Management
+	VR Properties
+	Editing Mode:
+	Timebase:
+	Frame Size:
+	Pixel Aspect Ratio:
+	Fields:
+	Channel Format:
+	Number of Channels:
+	Preview File Format:
+	Working Color Space:
+	Projection:
+	Layout:
+	Captured View:
+	Video Previews
+	No Fields (Progressive Scan)
+	Custom ({ratio})
+	{rate} frames/second
+	{rate} fps Drop-Frame Timecode
+	{rate} fps Non Drop-Frame Timecode
+	{rate} fps Timecode
+	horizontal
+	vertical
+	Scale motion effects proportionally when changing frame size
+	Maximum Bit Depth
+	Maximum Render Quality
+	Composite in Linear Color
+	Auto Tone Map Media (HDR and log into SDR)
+	Configure…
+	Not supported in ShibShib tsweer yet
+	ShibShib tsweer always composites in linear light
+	Loop marked range
+	Play Source
+	Source Play/Stop
+	Stop Source
+	New Sequence
+	Tracks
+	tracks
+	Clear Transition
+	Set Transition Duration
+	Active
+	Appearance Mode
+	Dark Theme
+	Light Theme
+	Next Appearance Mode
+	Sync with system
+	In
+	Out
+	Export Markers as CSV…
+	Fill Type
+	Gradient Angle
+	Linear Gradient
+	Solid
+	GPU Rendering
+	Composite on the GPU when available
+	Text to Speech
+	Edit Narration

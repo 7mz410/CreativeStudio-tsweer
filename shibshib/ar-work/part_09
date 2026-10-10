@@ -1,0 +1,160 @@
+	At Startup
+	At playback end, return to beginning when restarting playback
+	Attempt to force hardware to document sample rate
+	Audio Codec
+	Audio Duration
+	Audio Effects
+	Audio Hardware
+	Audio In Point
+	Audio Info
+	Audio Out Point
+	Audio Samples
+	Audio Time Units
+	Audio Transition Default Duration
+	Audio Transitions
+	Audio Usage
+	Auto
+	Auto Align
+	Auto Reframe
+	Auto Save
+	Auto Save also saves the current project(s)
+	Auto-tag audio types in the timeline
+	Auto-transcribe all imported clips
+	Auto-transcribe only clips in sequences
+	Automatch Time
+	Automatic Click Remover
+	Automatically Hide Dependent Clips
+	Automatically Save Every
+	Automatically delete cache files older than
+	Automatically delete oldest cache files when cache exceeds
+	Automatically refresh growing files
+	Automatically resume playback for growing files in Source Monitor
+	Automatically save projects
+	Automatically transcribe clips
+	Automation Keyframe Optimization
+	Background Color
+	Background Corner Radius
+	Background Opacity
+	Background Size
+	Background fill
+	Balance
+	Balanced Voice
+	Band 1
+	Band 2
+	Band 3
+	Band 4
+	Band 5
+	Band Pass
+	Band Slide
+	Band Stop
+	Bandpass
+	Barn Doors
+	Basic
+	Basic 3D
+	Basic Correction
+	Bass
+	Behind
+	Bessel
+	Bevel Alpha
+	Bevel join
+	Binauralizer - Ambisonics
+	Bins
+	Black
+	Black & White
+	Black Input Level
+	Black and white
+	Black and white with crushed blacks and strong contrast
+	Bleach Bypass
+	Bleach-bypass style: desaturated with hard contrast
+	Blend
+	Blend Mode
+	Blend With Original
+	Blending Mode
+	Block Dissolve
+	Block Height
+	Block Motion
+	Block Size
+	Block Width
+	Blocks
+	Blue Blurriness
+	Blue Curve
+	Blue Offset
+	Blue Power
+	Blue Slope
+	Blue-Blue
+	Blue-Const
+	Blue-Green
+	Blue-Red
+	Blur & Sharpen
+	Blur Amount
+	Blur Angle
+	Blur Dimensions
+	Blur Dissolve
+	Blur Layer
+	Blur Length
+	Blurriness
+	Bokeh Blur
+	Boost
+	Border
+	Border Color
+	Border Width
+	Borders
+	Bottom Center
+	Bottom Left
+	Bottom Right
+	Bounce
+	Branching
+	Bright
+	Bright Air
+	Bright Studio
+	Brightness & Contrast
+	British Stack
+	Brush Hardness
+	Brush Opacity
+	Brush Position
+	Brush Size
+	Brush Spacing (secs)
+	Brush Strokes
+	Bubbles
+	Bulge
+	Bulge Smoother
+	Bump Height
+	Burn Alpha
+	Burn Chroma
+	Burn Color
+	Butt cap
+	Butterworth
+	CEA-608
+	CEA-708
+	Cache analysis results for re-use
+	Camera Angle
+	Camera Blur
+	Camera Shake
+	Capitalisation
+	Cathedral
+	Cell Pattern
+	Center Channel Pan
+	Center Gradient
+	Center Input
+	Center Out
+	Center Point (Latitude)
+	Center Point (Longitude)
+	Center Split
+	Center of Sphere
+	Cents
+	Change to Color
+	Changes are copied in the background a moment after each edit. If FilmCraft quits unexpectedly, they are offered the next time it starts.
+	Channel
+	Channel Blur
+	Channel Mix
+	Channel Mixer
+	Chaos
+	Chebyshev
+	Checker Wipe
+	Checkerboard
+	Chinese
+	Choke
+	Chorus
+	Chorus/Flanger
+	Chroma
+	Chroma Leak

@@ -1,0 +1,488 @@
+# Arabic (ar) catalog. Columns, separated by a TAB:  context <TAB> source <TAB> translation
+# (see fr.tsv for the format). @plural rows list Arabic's six forms zero|one|two|few|many|other.
+# Translations are written in logical order; i18n/bidi.rs puts them in visual order on load.
+#
+# Clean-room: every entry was written from the plain meaning of the English label using ordinary
+# Arabic computing and design vocabulary. No proprietary localisation resource, string table or
+# product UI was consulted or copied; in particular not any Arabic localisation of Adobe Photoshop.
+# Made by the ShibShib project (shibshib/ar-work).
+	About ShibShib tsweer	حول شبشب تصوير
+	Add Audio Submix Track	إضافة مسار مزج صوتي فرعي
+	Add Caption at Playhead	إضافة ترجمة عند رأس التشغيل
+	Add Chapter Marker…	إضافة علامة فصل…
+	Add Edit	إضافة قطع
+	Add Edit to All Tracks	إضافة قطع لكل المسارات
+	Add Flash Cue Marker…	إضافة علامة Flash Cue…
+	Add Frame Hold	إضافة تثبيت إطار
+	Add Guide…	إضافة دليل…
+	Add Marker	إضافة علامة
+	Add New Caption Track…	إضافة مسار ترجمة جديد…
+	Add Range Marker	إضافة علامة نطاق
+	Add Range Marker to In and Out	إضافة علامة نطاق للدخول والخروج
+	Add Tracks…	إضافة مسارات…
+	Adjustment Layer…	طبقة تعديل…
+	Align to Selection	محاذاة مع التحديد
+	Align to Video Frame	محاذاة مع إطار الفيديو
+	Align to Video Frame as Group	محاذاة مع إطار الفيديو كمجموعة
+	All Panels	كل اللوحات
+	Alpha	ألفا
+	Appearance	المظهر
+	Appearance…	المظهر…
+	Apply Audio Transition	تطبيق انتقال صوتي
+	Apply Default Transitions to Selection	تطبيق الانتقالات الافتراضية على التحديد
+	Apply Video Transition	تطبيق انتقال فيديو
+	Arrange	ترتيب
+	ShibShib Website	موقع شبشب
+	Assembly	التجميع
+	Attach Proxies…	إرفاق ملفات وكيلة…
+	Audio Channels…	قنوات الصوت…
+	Audio Clip Mixer	خلّاط صوت المقطع
+	Audio Gain…	كسب الصوت…
+	Audio Hardware…	عتاد الصوت…
+	Audio In	دخول الصوت
+	Audio Meters	مقاييس الصوت
+	Audio Options	خيارات الصوت
+	Audio Out	خروج الصوت
+	Audio Track Mixer	خلّاط مسارات الصوت
+	Audio Waveform	الموجة الصوتية
+	Auto Save…	الحفظ التلقائي…
+	Automate to Sequence…	أتمتة إلى تسلسل…
+	Bars and Tone…	أشرطة ونغمة…
+	Bin	السلة
+	Bin From Selection	سلة من التحديد
+	Black Video…	فيديو أسود…
+	Blue	أزرق
+	Bottom	الأسفل
+	Breakout to Mono	فصل إلى أحادي
+	Bring Forward	تقديم للأمام
+	Bring to Front	إحضار إلى الأمام
+	Brown	بني
+	Captions	الترجمات
+	Captions and Graphics	الترجمات والجرافيك
+	Captions…	الترجمات…
+	Caribbean	كاريبي
+	Center Horizontally	توسيط أفقي
+	Center Vertically	توسيط عمودي
+	Cerulean	أزرق سماوي
+	Clear	مسح
+	Clear Guides	مسح الأدلة
+	Clear In	مسح الدخول
+	Clear In and Out	مسح الدخول والخروج
+	Clear Markers	مسح العلامات
+	Clear Out	مسح الخروج
+	Clear Selected Marker	مسح العلامة المحددة
+	Close	إغلاق
+	Close All Other Projects	إغلاق كل المشاريع الأخرى
+	Close All Projects	إغلاق كل المشاريع
+	Close Gap	إغلاق الفجوة
+	Close Project	إغلاق المشروع
+	Color Management…	إدارة الألوان…
+	Color Matte…	خلفية لونية…
+	Comparison View	عرض المقارنة
+	Composite Video	فيديو مركّب
+	Consolidate Duplicates	دمج المكررات
+	Copy	نسخ
+	Copy Paste Includes Sequence Markers	النسخ واللصق يشمل علامات التسلسل
+	Create Captions from Transcript…	إنشاء ترجمات من النص المفرّغ…
+	Create Multi-Camera Source Sequence…	إنشاء تسلسل مصدر متعدد الكاميرات…
+	Create Proxies…	إنشاء ملفات وكيلة…
+	Cut	قص
+	Darkest	الأغمق
+	Delete Render Files	حذف ملفات التصيير
+	Delete Render Files In to Out	حذف ملفات التصيير من الدخول إلى الخروج
+	Delete Tracks…	حذف مسارات…
+	Delete Transcript	حذف النص المفرّغ
+	Demo Footage	لقطات تجريبية
+	Demo Project	مشروع تجريبي
+	Deselect All	إلغاء تحديد الكل
+	Detach Proxies	فصل الملفات الوكيلة
+	Display Mode	وضع العرض
+	Distribute	توزيع
+	Distribute Horizontally	توزيع أفقي
+	Distribute Space Horizontally	توزيع المسافات أفقياً
+	Distribute Space Vertically	توزيع المسافات عمودياً
+	Distribute Vertically	توزيع عمودي
+	Duplicate	تكرار
+	Dynamic Audio Waveforms	موجات صوتية ديناميكية
+	Edit	تحرير
+	Edit Offline…	تحرير غير متصل…
+	Edit Original	تحرير الأصل
+	Edit Subclip…	تحرير المقطع الفرعي…
+	Editing	المونتاج
+	Effect Controls	عناصر التحكم بالتأثيرات
+	Effects	التأثيرات
+	Ellipse	قطع ناقص
+	Enable	تفعيل
+	Enable Remix	تفعيل إعادة المزج
+	Essential Graphics	الجرافيك الأساسي
+	Essential Sound	الصوت الأساسي
+	Events	الأحداث
+	Export	تصدير
+	Export As Motion Graphics Template…	تصدير كقالب موشن جرافيك…
+	Extract	استخراج
+	Extract Audio	استخراج الصوت
+	Field Options…	خيارات الحقول…
+	File	ملف
+	File…	ملف…
+	Fill frame	ملء الإطار
+	ShibShib tsweer Help…	مساعدة شبشب تصوير…
+	ShibShib tsweer on GitHub	شبشب تصوير على GitHub
+	Find Next	البحث عن التالي
+	Find…	بحث…
+	Fit	ملاءمة
+	Fit to frame	ملاءمة للإطار
+	Flatten	تسطيح
+	Forest	غابة
+	Frame Blending	مزج الإطارات
+	Frame Hold Options…	خيارات تثبيت الإطار…
+	Frame Sampling	أخذ عينات الإطارات
+	From Bin	من السلة
+	From Source Monitor	من شاشة المصدر
+	From Source Monitor, Match Frame	من شاشة المصدر، مطابقة الإطار
+	From file…	من ملف…
+	Full	كامل
+	Generate Audio Waveform	توليد الموجة الصوتية
+	Get Media File Properties for	جلب خصائص ملف الوسائط لـ
+	Go to Gap	الانتقال إلى الفجوة
+	Go to In	الانتقال إلى الدخول
+	Go to Next Caption Segment	الانتقال إلى مقطع الترجمة التالي
+	Go to Next Marker	الانتقال إلى العلامة التالية
+	Go to Out	الانتقال إلى الخروج
+	Go to Previous Caption Segment	الانتقال إلى مقطع الترجمة السابق
+	Go to Previous Marker	الانتقال إلى العلامة السابقة
+	Go to Split	الانتقال إلى القطع
+	Graphics and Titles	الجرافيك والعناوين
+	Graphics…	الجرافيك…
+	Green	أخضر
+	Group	تجميع
+	Guide Templates	قوالب الأدلة
+	Help	مساعدة
+	Hide All Caption Tracks	إخفاء كل مسارات الترجمة
+	High Quality Playback	تشغيل عالي الجودة
+	History	السجل
+	Import From	استيراد من
+	Import Image Sequence…	استيراد تسلسل صور…
+	Import from Media Browser	استيراد من متصفح الوسائط
+	Import…	استيراد…
+	Info	المعلومات
+	Ingest Settings…	إعدادات الاستيعاب…
+	Insert	إدراج
+	Insert Frame Hold Segment	إدراج مقطع تثبيت إطار
+	Install Motion Graphics Template…	تثبيت قالب موشن جرافيك…
+	Interpret Footage…	تفسير اللقطات…
+	Upstream Community on Discord…	مجتمع المشروع الأصلي على Discord…
+	Keyboard Shortcuts…	اختصارات لوحة المفاتيح…
+	Label	التسمية
+	Labels…	التسميات…
+	Language	اللغة
+	Lavender	خزامي
+	Learning	التعلّم
+	Left	اليسار
+	Libraries	المكتبات
+	Lift	رفع
+	Light	فاتح
+	Link	ربط
+	Link Media…	ربط الوسائط…
+	Linked Selection	التحديد المرتبط
+	Lock Guides	قفل الأدلة
+	Lumetri Color	ألوان Lumetri
+	Lumetri Scopes	مناظير Lumetri
+	Magnification	التكبير
+	Make Offline…	جعله غير متصل…
+	Make Subclip…	إنشاء مقطع فرعي…
+	Make Subsequence	إنشاء تسلسل فرعي
+	Manage Guides…	إدارة الأدلة…
+	Mark Clip	تعليم المقطع
+	Mark In	تعليم الدخول
+	Mark Out	تعليم الخروج
+	Mark Selection	تعليم التحديد
+	Mark Split	تعليم القطع
+	Markers	العلامات
+	Match Frame	مطابقة الإطار
+	Media Analysis & Transcription…	تحليل الوسائط وتفريغها…
+	Media Browser	متصفح الوسائط
+	Media Cache…	ذاكرة الوسائط المؤقتة…
+	Media…	الوسائط…
+	Medium	متوسط
+	Memory…	الذاكرة…
+	Merge Clips…	دمج المقاطع…
+	Metadata	البيانات الوصفية
+	Modify	تعديل
+	Motion Graphics Template…	قالب موشن جرافيك…
+	Multi-Camera	متعدد الكاميرات
+	Multi-Camera View	عرض متعدد الكاميرات
+	Nest…	تداخل…
+	New	جديد
+	New Layer	طبقة جديدة
+	New Project Panel	لوحة مشروع جديدة
+	Next in Sequence	التالي في التسلسل
+	Next in Track	التالي في المسار
+	Normalize Mix Track…	تسوية مسار المزج…
+	Offline File…	ملف غير متصل…
+	Open Project…	فتح مشروع…
+	Optical Flow	التدفق البصري
+	Overwrite	استبدال
+	Paste	لصق
+	Paste Attributes…	لصق السمات…
+	Paste Insert	لصق بالإدراج
+	Paused Resolution	الدقة عند الإيقاف
+	Playback Resolution	دقة التشغيل
+	Playback…	التشغيل…
+	Plugins…	الإضافات…
+	Polygon	مضلع
+	Preferences	التفضيلات
+	Previous in Sequence	السابق في التسلسل
+	Previous in Track	السابق في المسار
+	Program	البرنامج
+	Progress	التقدم
+	Project	المشروع
+	Project Manager…	مدير المشاريع…
+	Project Settings	إعدادات المشروع
+	Project…	مشروع…
+	Properties	الخصائص
+	Purple	بنفسجي
+	Reconnect Full Resolution Media…	إعادة ربط الوسائط بالدقة الكاملة…
+	Recover Unsaved Changes…	استعادة التغييرات غير المحفوظة…
+	Rectangle	مستطيل
+	Red	أحمر
+	Redo	إعادة
+	Reference Monitor	شاشة المرجع
+	Remix	إعادة المزج
+	Remix Properties…	خصائص إعادة المزج…
+	Remove Attributes…	إزالة السمات…
+	Remove Filler Words	إزالة كلمات الحشو
+	Remove Pauses	إزالة الوقفات
+	Remove Unused	إزالة غير المستخدم
+	Rename…	إعادة تسمية…
+	Render Audio	تصيير الصوت
+	Render Effects In to Out	تصيير التأثيرات من الدخول إلى الخروج
+	Render In to Out	تصيير من الدخول إلى الخروج
+	Render Selection	تصيير التحديد
+	Replace Fonts in Projects…	استبدال الخطوط في المشاريع…
+	Replace With Clip	الاستبدال بمقطع
+	Report an Issue…	الإبلاغ عن مشكلة…
+	Reset All Parameters	إعادة ضبط كل المعاملات
+	Reset Duration	إعادة ضبط المدة
+	Reset to Saved Layout	إعادة ضبط إلى التخطيط المحفوظ
+	Restore Captions from Source Clip	استعادة الترجمات من المقطع المصدر
+	Reveal Log Files…	إظهار ملفات السجل…
+	Reverse Match Frame	مطابقة إطار عكسية
+	Revert	التراجع إلى المحفوظ
+	Revert Remix	التراجع عن إعادة المزج
+	Review	مراجعة
+	Right	اليمين
+	Ripple Delete	حذف متتابع
+	Ripple Sequence Markers	علامات تسلسل متتابعة
+	Rose	وردي
+	Safe Margins	هوامش الأمان
+	Save	حفظ
+	Save All	حفظ الكل
+	Save As…	حفظ باسم…
+	Save Guides as Template…	حفظ الأدلة كقالب…
+	Save a Copy…	حفظ نسخة…
+	Save as Template…	حفظ كقالب…
+	Scale to Frame Size	تحجيم لحجم الإطار
+	Scene Edit Detection…	اكتشاف قطعات المشاهد…
+	Scratch Disks…	أقراص التخزين المؤقت…
+	Search Bin	البحث في السلة
+	Select	تحديد
+	Select All	تحديد الكل
+	Select All Matching	تحديد كل المتطابق
+	Select Label Group	تحديد مجموعة التسمية
+	Select Next Graphic	تحديد الجرافيك التالي
+	Select Next Layer	تحديد الطبقة التالية
+	Select Previous Graphic	تحديد الجرافيك السابق
+	Select Previous Layer	تحديد الطبقة السابقة
+	Selection Follows Playhead	التحديد يتبع رأس التشغيل
+	Selection as FilmCraft Project…	التحديد كمشروع شبشب تصوير…
+	Selection…	التحديد…
+	Send Backward	إرجاع للخلف
+	Send to Back	إرسال إلى الخلف
+	Sequence	التسلسل
+	Sequence From Clip	تسلسل من مقطع
+	Sequence Settings…	إعدادات التسلسل…
+	Sequence…	تسلسل…
+	Show Active Caption Tracks Only	إظهار مسارات الترجمة النشطة فقط
+	Show All Caption Tracks	إظهار كل مسارات الترجمة
+	Show All Marker Colors	إظهار كل ألوان العلامات
+	Show Guides	إظهار الأدلة
+	Show Rulers	إظهار المساطر
+	Show Through Edits	إظهار القطعات الشكلية
+	Simplify Sequence…	تبسيط التسلسل…
+	Snap in Program Monitor	الالتقاط في شاشة البرنامج
+	Snap in Timeline	الالتقاط في الخط الزمني
+	Source	المصدر
+	Source Settings…	إعدادات المصدر…
+	Speed/Duration…	السرعة/المدة…
+	Synchronize…	مزامنة…
+	System Compatibility Report…	تقرير توافق النظام…
+	Tan	بيج
+	Teal	تركوازي
+	Text	النص
+	Time Interpolation	استيفاء الوقت
+	Timecode	رمز الوقت
+	Timecode…	رمز الوقت…
+	Timeline	الخط الزمني
+	Timeline…	الخط الزمني…
+	Toggle Proxies	تبديل الملفات الوكيلة
+	Tools	الأدوات
+	Top	الأعلى
+	Transcribe Sequence…	تفريغ التسلسل…
+	Transcribe…	تفريغ…
+	Transcript	النص المفرّغ
+	Transparent Video…	فيديو شفاف…
+	Trim Edit	قطع التشذيب
+	Trim…	تشذيب…
+	Undo	تراجع
+	Ungroup	فك التجميع
+	Universal Counting Leader…	عدّ تنازلي عالمي…
+	Update Metadata…	تحديث البيانات الوصفية…
+	Upgrade Caption to Graphic	ترقية الترجمة إلى جرافيك
+	Upgrade to Source Graphic	ترقية إلى جرافيك مصدر
+	Vertical Text	نص عمودي
+	Video In	دخول الفيديو
+	Video Options	خيارات الفيديو
+	Video Out	خروج الفيديو
+	Video and Audio Waveform Split	تقسيم الفيديو والموجة الصوتية
+	View	عرض
+	Violet	بنفسجي فاتح
+	Window	نافذة
+	Workspaces	مساحات العمل
+	Yellow	أصفر
+	Zoom In	تكبير
+	Zoom Out	تصغير
+	Zoom to Sequence	تكبير على التسلسل
+	Home	الرئيسية
+	Import	استيراد
+	{name} - Edited	{name} - معدّل
+	Full screen	ملء الشاشة
+	Volume	الصوت
+	Master volume: use the Audio Track Mixer	الصوت الرئيسي: استخدم خلّاط مسارات الصوت
+	Search	بحث
+	Quick Export	تصدير سريع
+	The upstream community on Discord (discord.gg/artcraft)	مجتمع المشروع الأصلي على Discord (discord.gg/artcraft)
+	Cancel	إلغاء
+	OK	موافق
+	Interpret Footage	تفسير اللقطات
+	Color Management · {n} item	إدارة الألوان · {n} عنصر
+	Color Management · {n} items	إدارة الألوان · {n} عناصر
+	Media colour space (from file metadata): {detected}	فضاء ألوان الوسائط (من بيانات الملف): {detected}
+	Override media colour space:	تجاوز فضاء ألوان الوسائط:
+	Use file metadata	استخدام بيانات الملف
+	Sequence Color Management	إدارة ألوان التسلسل
+	Working Color Space	فضاء ألوان العمل
+	Wide gamut color (composite in BT.2020)	ألوان بنطاق واسع (التركيب في BT.2020)
+	Auto tone map media (HDR and log into SDR)	تحويل درجات الوسائط تلقائياً (HDR وlog إلى SDR)
+	Audio Gain	كسب الصوت
+	Set Gain to:	ضبط الكسب على:
+	Adjust Gain by:	تعديل الكسب بمقدار:
+	Normalize Max Peak to:	تسوية أقصى ذروة إلى:
+	Normalize All Peaks to:	تسوية كل الذرى إلى:
+	Peak Amplitude: {peak}	سعة الذروة: {peak}
+	Standard	قياسي
+	Adaptive	متكيف
+	Mono	أحادي
+	Stereo	ستيريو
+	Add Tracks	إضافة مسارات
+	Amount	العدد
+	Placement	الموضع
+	Track type	نوع المسار
+	Add video tracks	إضافة مسارات فيديو
+	Add audio tracks	إضافة مسارات صوت
+	Add audio submix tracks	إضافة مسارات مزج صوتي فرعي
+	After {name}	بعد {name}
+	Before First Track	قبل المسار الأول
+	Delete Tracks	حذف المسارات
+	Video Tracks	مسارات الفيديو
+	Audio Tracks	مسارات الصوت
+	Delete Video Tracks	حذف مسارات الفيديو
+	Delete Audio Tracks	حذف مسارات الصوت
+	All Empty Tracks	كل المسارات الفارغة
+	Version {version}	الإصدار {version}
+	A clean-room, pure-Rust non-linear video editor. Part of the ArtCraft family.	محرر فيديو غير خطي بلغة Rust، مكتوب من الصفر. من عائلة ArtCraft.
+	Upstream Community on Discord	مجتمع المشروع الأصلي على Discord
+	Source code on GitHub	الكود المصدري على GitHub
+	Report an issue	الإبلاغ عن مشكلة
+	MIT OR Apache-2.0. Fonts: Inter, Noto Serif and JetBrains Mono (SIL OFL 1.1).	MIT OR Apache-2.0. الخطوط: Inter وNoto Serif وJetBrains Mono (SIL OFL 1.1).
+	just now	الآن
+	{n} s ago	قبل {n} ث
+	{n} min ago	قبل {n} د
+	{n} h ago	قبل {n} س
+	All Events	كل الأحداث
+	Warnings and Errors	التحذيرات والأخطاء
+	Errors Only	الأخطاء فقط
+	Clear All	مسح الكل
+	No events.	لا أحداث.
+	Show finished jobs	إظهار المهام المنتهية
+	Cancelled	أُلغيت
+	Failed: {e}	فشلت: {e}
+	Done	تم
+	No background jobs.	لا مهام في الخلفية.
+	Recover Unsaved Changes	استعادة التغييرات غير المحفوظة
+	Untitled	بلا عنوان
+	ShibShib tsweer was closed while “{name}” had unsaved changes.	أُغلق شبشب تصوير و«{name}» فيه تغييرات غير محفوظة.
+	ShibShib tsweer quit unexpectedly while “{name}” had unsaved changes.	توقف شبشب تصوير بشكل غير متوقع و«{name}» فيه تغييرات غير محفوظة.
+	Recover unsaved changes from {when}?	استعادة التغييرات غير المحفوظة من {when}؟
+	The project had not been saved yet.	لم يكن المشروع محفوظاً بعد.
+	{n} sessions have unsaved changes:	{n} جلسات فيها تغييرات غير محفوظة:
+	Discard	تجاهل
+	Recover	استعادة
+	Not Now	ليس الآن
+	Are you sure you want to discard your changes to '{file}'?	هل أنت متأكد من تجاهل تغييراتك على '{file}'؟
+	Yes	نعم
+	No	لا
+	Add media to your project. Drop files anywhere in the window, or choose a source below.	أضف وسائط إلى مشروعك. أفلت الملفات في أي مكان من النافذة، أو اختر مصدراً أدناه.
+	Browse files…	تصفح الملفات…
+	Movies, audio and stills from disk	أفلام وصوت وصور ثابتة من القرص
+	Demo footage	لقطات تجريبية
+	Six procedural 1080p clips with sound	ستة مقاطع 1080p مولّدة مع صوت
+	Demo project	مشروع تجريبي
+	A cut sequence with transitions, effects and music	تسلسل مُقطّع مع انتقالات وتأثيرات وموسيقى
+	Bars and Tone	أشرطة ونغمة
+	SMPTE HD bars with 1 kHz reference tone	أشرطة SMPTE HD مع نغمة مرجعية 1 كيلوهرتز
+	Community	المجتمع
+	Join us on Discord	انضم إلينا على Discord
+	OMF Export Settings	إعدادات تصدير OMF
+	AAF Export Settings	إعدادات تصدير AAF
+	OMF Title:	عنوان OMF:
+	Mixdown video	دمج الفيديو
+	Audio:	الصوت:
+	Encapsulate	تغليف
+	Separate Audio	فصل الصوت
+	Embed	تضمين
+	Separate Files	ملفات منفصلة
+	Link to Media	ربط بالوسائط
+	Audio File Format:	صيغة ملف الصوت:
+	Sample Rate:	معدل العينات:
+	Bits per Sample:	البتات لكل عينة:
+	Rendering:	التصيير:
+	Trim audio files	تشذيب ملفات الصوت
+	Handle Frames:	إطارات المقابض:
+	Render audio clip effects	تصيير تأثيرات مقاطع الصوت
+	Breakout to mono	فصل إلى أحادي
+	Exported {path}	صُدّر {path}
+	Select a clip to view its metadata.	حدد مقطعاً لعرض بياناته الوصفية.
+	Clip: {name}	المقطع: {name}
+	Open	فتح
+	(no sequence)	(لا تسلسل)
+	Show or hide {color} markers	إظهار علامات {color} أو إخفاؤها
+	Marker	علامة
+	{tc}  Chapter	{tc}  فصل
+	No markers. Press M to add one.	لا علامات. اضغط M لإضافة واحدة.
+	All markers are hidden by the colour filter.	كل العلامات مخفية بفلتر اللون.
+	Type:	النوع:
+	Video:	الفيديو:
+	Codec:	الترميز:
+	Duration:	المدة:
+	Settings:	الإعدادات:
+	Playhead:	رأس التشغيل:
+	Video {n}:	الفيديو {n}:
+	Audio {n}:	الصوت {n}:
+	UI:	الواجهة:
+	{fps} fps · {n} frames queued	{fps} إطار/ث · {n} إطار بالانتظار
+	{panel} — coming in a later milestone	{panel} — يأتي في مرحلة لاحقة
+	Close Panel	إغلاق اللوحة
+	Close Other Timeline Panels	إغلاق لوحات الخط الزمني الأخرى
+	Maximize Frame	تكبير الإطار
+	Restore Workspace	استعادة مساحة العمل
+	Reveal Sequence in Project	إظهار التسلسل في المشروع
