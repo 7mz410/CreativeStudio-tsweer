@@ -2886,3 +2886,618 @@
 	Target Bitrate	معدل البت المستهدف
 	Adaptive ({bpp} bits per pixel)	متكيف ({bpp} بت لكل بكسل)
 	Maximum Bitrate	أقصى معدل بت
+	Key Frame Distance	المسافة بين الإطارات الرئيسية
+	Quality	الجودة
+	Render at Maximum Depth	التصيير بأقصى عمق
+	Use Maximum Render Quality	استخدام أقصى جودة تصيير
+	Export Audio	تصدير الصوت
+	Audio Format	صيغة الصوت
+	Uncompressed (PCM)	غير مضغوط (PCM)
+	Match Source ({seq_sr} Hz)	مطابقة المصدر ({seq_sr} هرتز)
+	Channels	القنوات
+	Audio Bitrate	معدل بت الصوت
+	Sample Size	حجم العينة
+	16 bit	16 بت
+	24 bit	24 بت
+	Size / Opacity	الحجم / العتامة
+	Image Overlay	تراكب صورة
+	PNG or JPEG file	ملف PNG أو JPEG
+	Name Overlay	تراكب الاسم
+	Timecode Overlay	تراكب رمز الوقت
+	Luma Min / Max	أدنى / أقصى سطوع
+	Loudness Normalization	تسوية الجهارة
+	True Peak Limit	حد الذروة الحقيقية
+	Audio only	الصوت فقط
+	Scaling	التحجيم
+	Scale To Fit	تحجيم للملاءمة
+	Scale To Fill	تحجيم للملء
+	Stretch To Fill	تمديد للملء
+	Summary	الملخص
+	Sequence, {w}x{h}, {fps} fps, {rate} Hz	تسلسل، {w}x{h}، {fps} إطار/ث، {rate} هرتز
+	Estimated file size: {size}	حجم الملف المقدّر: {size}
+	Send to Queue	إرسال إلى القائمة
+	Exporting {path}	جارٍ تصدير {path}
+	Added to the export queue	أُضيف إلى قائمة التصدير
+	Preset Manager	مدير الإعدادات المسبقة
+	Search presets	البحث في الإعدادات المسبقة
+	Favorites only	المفضلة فقط
+	Show in the Preset menu	الإظهار في قائمة الإعدادات المسبقة
+	User	المستخدم
+	Save current settings as:	حفظ الإعدادات الحالية باسم:
+	Export presets	إعدادات التصدير المسبقة
+	Import: no file chosen (agents: export.presets.import {path})	الاستيراد: لم يُختر ملف (للوكلاء: export.presets.import {path})
+	Export: no file chosen (agents: export.presets.export {path, names})	التصدير: لم يُختر ملف (للوكلاء: export.presets.export {path, names})
+	Quick Export: open a sequence first	تصدير سريع: افتح تسلسلاً أولاً
+	File Name & Location	اسم الملف وموقعه
+	Quick Export: {path}	تصدير سريع: {path}
+	Graphics problem: switched to software compositing	مشكلة رسومية: تم التحويل إلى التركيب البرمجي
+	Exporting	جارٍ التصدير
+	Click to select, or click in empty space and drag to marquee select. Use Shift, Opt, and Cmd for other options.	انقر للتحديد، أو انقر في مساحة فارغة واسحب للتحديد بالمستطيل. استخدم Shift وOpt وCmd لخيارات أخرى.
+	Click to select all clips to the right in all tracks. Shift-click for a single track.	انقر لتحديد كل المقاطع لليمين في كل المسارات. Shift-نقر لمسار واحد.
+	Click to select all clips to the left in all tracks. Shift-click for a single track.	انقر لتحديد كل المقاطع لليسار في كل المسارات. Shift-نقر لمسار واحد.
+	Drag an edit point to ripple trim; later clips move to keep the gap closed.	اسحب نقطة قطع للتشذيب المتتابع؛ المقاطع اللاحقة تتحرك لإبقاء الفجوة مغلقة.
+	Drag an edit point to roll it: the out of one clip and the in of the next move together.	اسحب نقطة قطع للتدحرج: خروج مقطع ودخول التالي يتحركان معاً.
+	Drag an edge to change the clip's speed so it fills the new duration.	اسحب حافة لتغيير سرعة المقطع ليملأ المدة الجديدة.
+	Drag the edge of a music clip to remix it to the new duration at musically matching beats.	اسحب حافة مقطع موسيقي لإعادة مزجه بالمدة الجديدة عند إيقاعات متطابقة موسيقياً.
+	Click to split a clip. Shift-click to split all tracks.	انقر لتقسيم مقطع. Shift-نقر لتقسيم كل المسارات.
+	Drag a clip to slip its source in/out without moving it.	اسحب مقطعاً لإزاحة دخول وخروج مصدره دون تحريكه.
+	Drag a clip to slide it between its neighbours.	اسحب مقطعاً لتمريره بين جيرانه.
+	Drag to scroll the timeline.	اسحب لتمرير الخط الزمني.
+	Click to zoom in; Opt-click to zoom out.	انقر للتكبير؛ Opt-نقر للتصغير.
+	ShibShib tsweer hit an error	واجه شبشب تصوير خطأ
+	Details: {path}	التفاصيل: {path}
+	Opened {url}	فُتح {url}
+	(empty)	(فارغ)
+	Step Back 1 Frame	إطار واحد للخلف
+	Step Forward 1 Frame	إطار واحد للأمام
+	Match Playhead	مطابقة رأس التشغيل
+	Gang to Program	الربط بالبرنامج
+	AIFF	AIFF
+	AIFF 48 kHz 16-bit	AIFF 48 كيلوهرتز 16 بت
+	AIFF, stereo 48 kHz 16-bit PCM	AIFF، ستيريو 48 كيلوهرتز PCM 16 بت
+	APV	APV
+	APV 422-10	APV 422-10
+	APV 422-12	APV 422-12
+	Anamorphic 2:1 (2.0)	أنامورفيك 2:1 (2.0)
+	Animated GIF	GIF متحرك
+	Animated GIF 640×360	GIF متحرك 640×360
+	Apple ProRes	Apple ProRes
+	Apple ProRes 422	Apple ProRes 422
+	Apple ProRes 422 HQ	Apple ProRes 422 HQ
+	Apple ProRes 422 LT	Apple ProRes 422 LT
+	Apple ProRes 422 Proxy	Apple ProRes 422 Proxy
+	Application	التطبيق
+	Apply Guide Template	تطبيق قالب الأدلة
+	Auto Save Now	الحفظ التلقائي الآن
+	Auto-Match Loudness	مطابقة الجهارة تلقائياً
+	Avid DNxHR	Avid DNxHR
+	Avid DNxHR HQ	Avid DNxHR HQ
+	Avid DNxHR LB	Avid DNxHR LB
+	Avid DNxHR SQ	Avid DNxHR SQ
+	Avid-style OP-Atom: DNxHR HQ picture file plus one 24-bit 48 kHz PCM file per channel (_A1, _A2…)	OP-Atom بأسلوب Avid: ملف صورة DNxHR HQ مع ملف PCM 24 بت 48 كيلوهرتز لكل قناة (_A1، _A2…)
+	BMP	BMP
+	BMP Sequence	تسلسل BMP
+	Baseline	Baseline
+	Begin Text Editing for a Graphic Layer	بدء تحرير النص لطبقة جرافيك
+	Begins With	يبدأ بـ
+	Blur In	دخول بالضبابية
+	Blur Out	خروج بالضبابية
+	Brightens inside a feathered circular mask	يفتّح داخل قناع دائري ناعم الحواف
+	Broadcast	البث
+	CBR	CBR
+	Cancel Dynamic Trim	إلغاء التشذيب الديناميكي
+	Cancel Queued Export	إلغاء التصدير في القائمة
+	Center Left	الوسط اليسار
+	Center Right	الوسط اليمين
+	Center align text	توسيط النص
+	Change Mask	تغيير القناع
+	Clear All Events	مسح كل الأحداث
+	Clear Edit Point Selection	مسح تحديد نقطة القطع
+	Clear Finished Exports	مسح التصديرات المنتهية
+	Clear Poster Frame	مسح إطار الغلاف
+	Close Bin	إغلاق السلة
+	Close Sequence	إغلاق التسلسل
+	Contains	يحتوي
+	Cut to Camera 1	القطع إلى الكاميرا 1
+	Cut to Camera 2	القطع إلى الكاميرا 2
+	Cut to Camera 3	القطع إلى الكاميرا 3
+	Cut to Camera 4	القطع إلى الكاميرا 4
+	Cut to Camera 5	القطع إلى الكاميرا 5
+	Cut to Camera 6	القطع إلى الكاميرا 6
+	Cut to Camera 7	القطع إلى الكاميرا 7
+	Cut to Camera 8	القطع إلى الكاميرا 8
+	Cut to Camera 9	القطع إلى الكاميرا 9
+	D1/DV NTSC (0.9091)	D1/DV NTSC (0.9091)
+	D1/DV PAL (1.0940)	D1/DV PAL (1.0940)
+	DVCPRO HD (1.5)	DVCPRO HD (1.5)
+	Darkens outside a feathered oval mask	يغمّق خارج قناع بيضاوي ناعم الحواف
+	Decrease Audio Tracks Height	تقليل ارتفاع مسارات الصوت
+	Decrease Clip Volume	خفض صوت المقطع
+	Decrease Clip Volume Many	خفض صوت المقطع كثيراً
+	Decrease Font Size by Five Units	تصغير حجم الخط خمس وحدات
+	Decrease Font Size by One Unit	تصغير حجم الخط وحدة واحدة
+	Decrease Leading by Five Units	تقليل تباعد الأسطر خمس وحدات
+	Decrease Leading by One Unit	تقليل تباعد الأسطر وحدة واحدة
+	Decrease Video Tracks Height	تقليل ارتفاع مسارات الفيديو
+	Delete Captions	حذف الترجمات
+	Delete Graphic Layer	حذف طبقة الجرافيك
+	Delete Guide Template	حذف قالب الأدلة
+	Delete Media Cache Files	حذف ملفات ذاكرة الوسائط المؤقتة
+	Discard Unsaved Changes	تجاهل التغييرات غير المحفوظة
+	Does Not Contain	لا يحتوي
+	Download Speech Model	تنزيل نموذج الكلام
+	Dynamic Trim Stop	إيقاف التشذيب الديناميكي
+	Edit Caption Text	تحرير نص الترجمة
+	Ellipse Tool	أداة القطع الناقص
+	Ends With	ينتهي بـ
+	Entire Source	المصدر كاملاً
+	EssentialSound	EssentialSound
+	Export Frame	تصدير إطار
+	Extend Next Edit To Playhead	تمديد القطع التالي إلى رأس التشغيل
+	Extend Previous Edit To Playhead	تمديد القطع السابق إلى رأس التشغيل
+	Extend Selected Edit to Playhead	تمديد القطع المحدد إلى رأس التشغيل
+	Extend Selection Down	توسيع التحديد للأسفل
+	Extend Selection Left	توسيع التحديد لليسار
+	Extend Selection Right	توسيع التحديد لليمين
+	Extend Selection Up	توسيع التحديد للأعلى
+	Fade In	تلاشٍ للداخل
+	Gaussian Blur from 0 to 60 over the last second	ضبابية غاوسية من 0 إلى 60 خلال الثانية الأخيرة
+	Gaussian Blur from 60 to 0 over the first second	ضبابية غاوسية من 60 إلى 0 خلال الثانية الأولى
+	Generate Ducking Keyframes	توليد إطارات الخفض المفتاحية
+	Go to Next Edit Point	الانتقال إلى نقطة القطع التالية
+	Go to Next Edit Point on Any Track	الانتقال إلى نقطة القطع التالية في أي مسار
+	Go to Previous Edit Point	الانتقال إلى نقطة القطع السابقة
+	Go to Previous Edit Point on Any Track	الانتقال إلى نقطة القطع السابقة في أي مسار
+	Go to Selected Clip End	الانتقال إلى نهاية المقطع المحدد
+	Go to Selected Clip Start	الانتقال إلى بداية المقطع المحدد
+	Go to Sequence End	الانتقال إلى نهاية التسلسل
+	Go to Sequence Start	الانتقال إلى بداية التسلسل
+	H.264	H.264
+	H.264 1920×1080 for video sharing sites, VBR 1 pass, 16 Mbps	H.264 1920×1080 لمواقع مشاركة الفيديو، VBR بمرور واحد، 16 Mbps
+	H.264 1920×1080, VBR 1 pass, 20 Mbps target, AAC 320 kbps	H.264 1920×1080، VBR بمرور واحد، الهدف 20 Mbps، AAC 320 kbps
+	H.264 1920×1080, VBR 2 pass, 18 Mbps	H.264 1920×1080، VBR بمرورين، 18 Mbps
+	H.264 3840×2160 for video sharing sites, VBR 1 pass, 45 Mbps	H.264 3840×2160 لمواقع مشاركة الفيديو، VBR بمرور واحد، 45 Mbps
+	H.264 3840×2160, VBR 1 pass, 60 Mbps target, AAC 320 kbps	H.264 3840×2160، VBR بمرور واحد، الهدف 60 Mbps، AAC 320 kbps
+	H.264 3840×2160, VBR 2 pass, 50 Mbps	H.264 3840×2160، VBR بمرورين، 50 Mbps
+	H.264 9:16 portrait for short-form social video, scaled to fill, 12 Mbps	H.264 9:16 عمودي لفيديوهات التواصل القصيرة، محجّم للملء، 12 Mbps
+	H.264 at the sequence's frame size and rate; 0.05 bits per pixel	H.264 بحجم إطار التسلسل ومعدله؛ 0.05 بت لكل بكسل
+	H.264 at the sequence's frame size and rate; 0.1 bits per pixel	H.264 بحجم إطار التسلسل ومعدله؛ 0.1 بت لكل بكسل
+	H.264 at the sequence's frame size and rate; bitrate adapts to the frame size (0.2 bits per pixel)	H.264 بحجم إطار التسلسل ومعدله؛ معدل البت يتكيف مع حجم الإطار (0.2 بت لكل بكسل)
+	HD Anamorphic 1080 (1.333)	HD أنامورفيك 1080 (1.333)
+	Hand Tool	أداة اليد
+	High Quality 1080p HD	جودة عالية 1080p HD
+	High Quality 2160p 4K	جودة عالية 2160p 4K
+	Image Sequence	تسلسل صور
+	Increase Audio Tracks Height	زيادة ارتفاع مسارات الصوت
+	Increase Clip Volume	رفع صوت المقطع
+	Increase Clip Volume Many	رفع صوت المقطع كثيراً
+	Increase Font Size by Five Units	تكبير حجم الخط خمس وحدات
+	Increase Font Size by One Unit	تكبير حجم الخط وحدة واحدة
+	Increase Leading by Five Units	زيادة تباعد الأسطر خمس وحدات
+	Increase Leading by One Unit	زيادة تباعد الأسطر وحدة واحدة
+	Increase Video Tracks Height	زيادة ارتفاع مسارات الفيديو
+	Large blocks resolving to the picture over the first second	كتل كبيرة تتحول إلى الصورة خلال الثانية الأولى
+	Left align text	محاذاة النص لليسار
+	Looping GIF, 640×360 at 15 fps	GIF متكرر، 640×360 بـ 15 إطار/ث
+	Lower First	السفلي أولاً
+	Lumetri	Lumetri
+	MXF OP-Atom	MXF OP-Atom
+	MXF OP-Atom DNxHR (Avid)	MXF OP-Atom DNxHR (Avid)
+	MXF OP1a	MXF OP1a
+	MXF OP1a DNxHR HQ	MXF OP1a DNxHR HQ
+	MXF OP1a H.264	MXF OP1a H.264
+	MXF OP1a ProRes 422 HQ	MXF OP1a ProRes 422 HQ
+	MXF OP1a, DNxHR HQ (8-bit 4:2:2), 24-bit 48 kHz PCM, start timecode	MXF OP1a، DNxHR HQ (8 بت 4:2:2)، PCM 24 بت 48 كيلوهرتز، رمز وقت البداية
+	MXF OP1a, H.264 High long GOP (0.3 bits per pixel), 24-bit 48 kHz PCM	MXF OP1a، H.264 High long GOP (0.3 بت لكل بكسل)، PCM 24 بت 48 كيلوهرتز
+	MXF OP1a, ProRes 422 HQ, 24-bit 48 kHz PCM, start timecode	MXF OP1a، ProRes 422 HQ، PCM 24 بت 48 كيلوهرتز، رمز وقت البداية
+	Main	الرئيسي
+	Mark In (Hover Scrub)	تعليم الدخول (التصفح بالتمرير)
+	Mark Out (Hover Scrub)	تعليم الخروج (التصفح بالتمرير)
+	Masks	الأقنعة
+	Match Source – Adaptive High Bitrate	مطابقة المصدر – معدل بت عالٍ متكيف
+	Match Source – Adaptive Low Bitrate	مطابقة المصدر – معدل بت منخفض متكيف
+	Match Source – Adaptive Medium Bitrate	مطابقة المصدر – معدل بت متوسط متكيف
+	Matches	التطابقات
+	Maximize or Restore Active Frame	تكبير الإطار النشط أو استعادته
+	Maximize or Restore Frame Under Cursor	تكبير الإطار تحت المؤشر أو استعادته
+	Media Browser Settings	إعدادات متصفح الوسائط
+	MediaBrowser	MediaBrowser
+	MediaCache	MediaCache
+	Merge Captions	دمج الترجمات
+	Mixer	الخلّاط
+	Mosaic In	دخول بالفسيفساء
+	Move All Audio Targets Down	نقل كل أهداف الصوت للأسفل
+	Move All Audio Targets Up	نقل كل أهداف الصوت للأعلى
+	Move All Video Targets Down	نقل كل أهداف الفيديو للأسفل
+	Move All Video Targets Up	نقل كل أهداف الفيديو للأعلى
+	Move Selection Down	نقل التحديد للأسفل
+	Move Selection End	نقل التحديد إلى النهاية
+	Move Selection Home	نقل التحديد إلى البداية
+	Move Selection Left	نقل التحديد لليسار
+	Move Selection Page Down	نقل التحديد صفحة للأسفل
+	Move Selection Page Up	نقل التحديد صفحة للأعلى
+	Move Selection Right	نقل التحديد لليمين
+	Move Selection Up	نقل التحديد للأعلى
+	Multi-Camera Record On/Off Toggle	تبديل تسجيل متعدد الكاميرات
+	Multicam	متعدد الكاميرات
+	Navigate to End of Segment	الانتقال إلى نهاية المقطع
+	Navigate to Next Line	الانتقال إلى السطر التالي
+	Navigate to Next Word	الانتقال إلى الكلمة التالية
+	Navigate to Previous Line	الانتقال إلى السطر السابق
+	Navigate to Previous Word	الانتقال إلى الكلمة السابقة
+	Navigate to Start of Segment	الانتقال إلى بداية المقطع
+	Navigation	التنقل
+	Next Multi-Camera Page	صفحة متعدد الكاميرات التالية
+	Nudge Clip Selection Down	دفع تحديد المقاطع للأسفل
+	Nudge Clip Selection Left Five Frames	دفع تحديد المقاطع لليسار خمسة إطارات
+	Nudge Clip Selection Left One Frame	دفع تحديد المقاطع لليسار إطاراً واحداً
+	Nudge Clip Selection Right Five Frames	دفع تحديد المقاطع لليمين خمسة إطارات
+	Nudge Clip Selection Right One Frame	دفع تحديد المقاطع لليمين إطاراً واحداً
+	Nudge Clip Selection Up	دفع تحديد المقاطع للأعلى
+	Nudge Selected Object down by five	دفع العنصر المحدد للأسفل خمسة
+	Nudge Selected Object down by one	دفع العنصر المحدد للأسفل واحداً
+	Nudge Selected Object to left by five	دفع العنصر المحدد لليسار خمسة
+	Nudge Selected Object to left by one	دفع العنصر المحدد لليسار واحداً
+	Nudge Selected Object to right by five	دفع العنصر المحدد لليمين خمسة
+	Nudge Selected Object to right by one	دفع العنصر المحدد لليمين واحداً
+	Nudge Selected Object up by five	دفع العنصر المحدد للأعلى خمسة
+	Nudge Selected Object up by one	دفع العنصر المحدد للأعلى واحداً
+	Nudge Volume +1dB	رفع الصوت +1dB
+	Nudge Volume +3dB	رفع الصوت +3dB
+	Nudge Volume -1dB	خفض الصوت -1dB
+	Nudge Volume -3dB	خفض الصوت -3dB
+	Numbered BMP stills (24-bit)	صور BMP ثابتة مرقّمة (24 بت)
+	Numbered PNG stills at the sequence's frame size	صور PNG ثابتة مرقّمة بحجم إطار التسلسل
+	Numbered TIFF stills (RGB, 8-bit)	صور TIFF ثابتة مرقّمة (RGB، 8 بت)
+	Opacity 0 → 100 % over the first second	العتامة 0 ← 100 % خلال الثانية الأولى
+	Opacity 100 → 0 % over the last second	العتامة 100 ← 0 % خلال الثانية الأخيرة
+	Open Bin	فتح السلة
+	Open Search	فتح البحث
+	PNG	PNG
+	PNG Sequence	تسلسل PNG
+	Panel	اللوحة
+	Pen Tool	أداة القلم
+	PiP 35% Upper Right	صورة داخل صورة 35% أعلى اليمين
+	Picture-in-picture: 35 % scale in the upper right	صورة داخل صورة: تحجيم 35 % في أعلى اليمين
+	Play Around	التشغيل حول
+	Play In to Out with Preroll/Postroll	التشغيل من الدخول إلى الخروج مع ما قبل/بعد التشغيل
+	Play from Playhead to Out Point	التشغيل من رأس التشغيل إلى نقطة الخروج
+	Play/Stop	تشغيل/إيقاف
+	Previous Multi-Camera Page	صفحة متعدد الكاميرات السابقة
+	Progressive	تدريجي
+	ProjectPanel	ProjectPanel
+	QuickTime (Motion JPEG)	QuickTime (Motion JPEG)
+	QuickTime, APV 422-10 (10-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime، APV 422-10 (10 بت 4:2:2)، PCM 24 بت 48 كيلوهرتز
+	QuickTime, APV 422-12 (12-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime، APV 422-12 (12 بت 4:2:2)، PCM 24 بت 48 كيلوهرتز
+	QuickTime, DNxHR HQ (8-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime، DNxHR HQ (8 بت 4:2:2)، PCM 24 بت 48 كيلوهرتز
+	QuickTime, DNxHR LB (8-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime، DNxHR LB (8 بت 4:2:2)، PCM 24 بت 48 كيلوهرتز
+	QuickTime, DNxHR SQ (8-bit 4:2:2), 24-bit 48 kHz PCM	QuickTime، DNxHR SQ (8 بت 4:2:2)، PCM 24 بت 48 كيلوهرتز
+	QuickTime, ProRes 422 HQ, 24-bit 48 kHz PCM	QuickTime، ProRes 422 HQ، PCM 24 بت 48 كيلوهرتز
+	QuickTime, ProRes 422 LT, 24-bit 48 kHz PCM	QuickTime، ProRes 422 LT، PCM 24 بت 48 كيلوهرتز
+	QuickTime, ProRes 422 Proxy, 24-bit 48 kHz PCM	QuickTime، ProRes 422 Proxy، PCM 24 بت 48 كيلوهرتز
+	QuickTime, ProRes 422, 24-bit 48 kHz PCM	QuickTime، ProRes 422، PCM 24 بت 48 كيلوهرتز
+	Quit ShibShib tsweer	إنهاء شبشب تصوير
+	Rate Stretch Tool	أداة تمديد المعدل
+	Razor Tool	أداة الشفرة
+	Rectangle Tool	أداة المستطيل
+	Remix Tool	أداة إعادة المزج
+	Right align text	محاذاة النص لليمين
+	Ripple Edit Tool	أداة القطع المتتابع
+	Ripple Trim Next Edit to Playhead	تشذيب متتابع للقطع التالي إلى رأس التشغيل
+	Ripple Trim Previous Edit to Playhead	تشذيب متتابع للقطع السابق إلى رأس التشغيل
+	Rolling Edit Tool	أداة قطع التدحرج
+	Select Camera 1	تحديد الكاميرا 1
+	Select Camera 2	تحديد الكاميرا 2
+	Select Camera 3	تحديد الكاميرا 3
+	Select Camera 4	تحديد الكاميرا 4
+	Select Camera 5	تحديد الكاميرا 5
+	Select Camera 6	تحديد الكاميرا 6
+	Select Camera 7	تحديد الكاميرا 7
+	Select Camera 8	تحديد الكاميرا 8
+	Select Camera 9	تحديد الكاميرا 9
+	Select Clip at Playhead	تحديد المقطع عند رأس التشغيل
+	Select Find Box	تحديد صندوق البحث
+	Select Next Clip	تحديد المقطع التالي
+	Select Next Panel	تحديد اللوحة التالية
+	Select Previous Clip	تحديد المقطع السابق
+	Select Previous Panel	تحديد اللوحة السابقة
+	Select to Next Line	التحديد حتى السطر التالي
+	Select to Next Word	التحديد حتى الكلمة التالية
+	Select to Previous Line	التحديد حتى السطر السابق
+	Select to Previous Word	التحديد حتى الكلمة السابقة
+	Select to Segment End	التحديد حتى نهاية المقطع
+	Select to Segment Start	التحديد حتى بداية المقطع
+	Selection Tool	أداة التحديد
+	Set Comparison Reference	تعيين مرجع المقارنة
+	Set Creative Look	تعيين المظهر الإبداعي
+	Set Input LUT	تعيين LUT الإدخال
+	Set Project Panel View	تعيين عرض لوحة المشروع
+	Show Next Screen	إظهار الشاشة التالية
+	Show Previous Screen	إظهار الشاشة السابقة
+	Show Program Transcript	إظهار النص المفرّغ للبرنامج
+	Shuttle Left	تنقل سريع لليسار
+	Shuttle Right	تنقل سريع لليمين
+	Shuttle Slow Left	تنقل بطيء لليسار
+	Shuttle Slow Right	تنقل بطيء لليمين
+	Shuttle Stop	إيقاف التنقل
+	Slide Clip Selection Left Five Frames	تمرير تحديد المقاطع لليسار خمسة إطارات
+	Slide Clip Selection Left One Frame	تمرير تحديد المقاطع لليسار إطاراً واحداً
+	Slide Clip Selection Right Five Frames	تمرير تحديد المقاطع لليمين خمسة إطارات
+	Slide Clip Selection Right One Frame	تمرير تحديد المقاطع لليمين إطاراً واحداً
+	Slide Tool	أداة التمرير
+	Slip Clip Selection Left Five Frames	إزاحة مصدر تحديد المقاطع لليسار خمسة إطارات
+	Slip Clip Selection Left One Frame	إزاحة مصدر تحديد المقاطع لليسار إطاراً واحداً
+	Slip Clip Selection Right Five Frames	إزاحة مصدر تحديد المقاطع لليمين خمسة إطارات
+	Slip Clip Selection Right One Frame	إزاحة مصدر تحديد المقاطع لليمين إطاراً واحداً
+	Slip Tool	أداة إزاحة المصدر
+	Social Vertical 1080×1920	عمودي للتواصل 1080×1920
+	Soft Vignette	تظليل حواف ناعم
+	Source In/Out	دخول/خروج المصدر
+	Split Caption	تقسيم الترجمة
+	Square Pixels (1.0)	بكسلات مربعة (1.0)
+	Stack Clips	تكديس المقاطع
+	Start Export Queue	بدء قائمة التصدير
+	Start Voice-over Recording	بدء تسجيل التعليق الصوتي
+	Step Back Five Frames	خمسة إطارات للخلف
+	Step Back One Frame	إطار واحد للخلف
+	Step Forward Five Frames	خمسة إطارات للأمام
+	Step Forward One Frame	إطار واحد للأمام
+	Stop Export Queue	إيقاف قائمة التصدير
+	Stop Multi-Camera Recording	إيقاف تسجيل متعدد الكاميرات
+	Stop Voice-over Recording	إيقاف تسجيل التعليق الصوتي
+	Sync Voice-over Capture	مزامنة التقاط التعليق الصوتي
+	TIFF	TIFF
+	TIFF Sequence	تسلسل TIFF
+	TextPanel	TextPanel
+	Thumbnail Size Next	حجم الصور المصغّرة التالي
+	Thumbnail Size Previous	حجم الصور المصغّرة السابق
+	Toggle All Audio Targets	تبديل كل أهداف الصوت
+	Toggle All Source Audio	تبديل كل صوت المصدر
+	Toggle All Source Video	تبديل كل فيديو المصدر
+	Toggle All Video Targets	تبديل كل أهداف الفيديو
+	Toggle Audio During Scrubbing	تبديل الصوت أثناء التصفح
+	Toggle Full Screen	تبديل ملء الشاشة
+	Toggle Mute for All Targeted Audio Tracks	تبديل الكتم لكل مسارات الصوت المستهدفة
+	Toggle Solo for All Targeted Audio Tracks	تبديل المنفرد لكل مسارات الصوت المستهدفة
+	Toggle Source/Program Monitor Focus	تبديل التركيز بين شاشتي المصدر والبرنامج
+	Toggle Target Audio 1	تبديل هدف الصوت 1
+	Toggle Target Audio 2	تبديل هدف الصوت 2
+	Toggle Target Audio 3	تبديل هدف الصوت 3
+	Toggle Target Audio 4	تبديل هدف الصوت 4
+	Toggle Target Audio 5	تبديل هدف الصوت 5
+	Toggle Target Audio 6	تبديل هدف الصوت 6
+	Toggle Target Audio 7	تبديل هدف الصوت 7
+	Toggle Target Audio 8	تبديل هدف الصوت 8
+	Toggle Target Video 1	تبديل هدف الفيديو 1
+	Toggle Target Video 2	تبديل هدف الفيديو 2
+	Toggle Target Video 3	تبديل هدف الفيديو 3
+	Toggle Target Video 4	تبديل هدف الفيديو 4
+	Toggle Target Video 5	تبديل هدف الفيديو 5
+	Toggle Target Video 6	تبديل هدف الفيديو 6
+	Toggle Target Video 7	تبديل هدف الفيديو 7
+	Toggle Target Video 8	تبديل هدف الفيديو 8
+	Toggle Track Output for All Targeted Video Tracks	تبديل إخراج المسار لكل مسارات الفيديو المستهدفة
+	Toggle Trim Type	تبديل نوع التشذيب
+	Toggle View	تبديل العرض
+	Track Select Backward Tool	أداة تحديد المسار للخلف
+	Track Select Forward Tool	أداة تحديد المسار للأمام
+	Track Selected Mask	تتبّع القناع المحدد
+	Trim Next Edit to Playhead	تشذيب القطع التالي إلى رأس التشغيل
+	Trim Previous Edit to Playhead	تشذيب القطع السابق إلى رأس التشغيل
+	Trimming	التشذيب
+	Type Tool	أداة النص
+	Unstack Clips	فك تكديس المقاطع
+	Upper First	العلوي أولاً
+	VBR, 1 pass	VBR، مرور واحد
+	VBR, 2 pass	VBR، مروران
+	Vimeo 1080p Full HD	Vimeo 1080p Full HD
+	Vimeo 2160p 4K Ultra HD	Vimeo 2160p 4K Ultra HD
+	Voice-over Record	تسجيل التعليق الصوتي
+	Voiceover	التعليق الصوتي
+	WAV, stereo 48 kHz 16-bit PCM	WAV، ستيريو 48 كيلوهرتز PCM 16 بت
+	WAV, stereo 48 kHz 24-bit PCM	WAV، ستيريو 48 كيلوهرتز PCM 24 بت
+	Warm Tint	صبغة دافئة
+	Warm highlights, brown shadows	إضاءات دافئة وظلال بنية
+	Waveform Audio	صوت موجي
+	Waveform Audio 48 kHz 16-bit	صوت موجي 48 كيلوهرتز 16 بت
+	Waveform Audio 48 kHz 24-bit	صوت موجي 48 كيلوهرتز 24 بت
+	Web & Social	الويب والتواصل
+	Work Area	منطقة العمل
+	Write Automation	كتابة الأتمتة
+	YouTube 1080p Full HD	YouTube 1080p Full HD
+	YouTube 2160p 4K Ultra HD	YouTube 2160p 4K Ultra HD
+	Zoom Program Monitor to 100%	تكبير شاشة البرنامج إلى 100%
+	Zoom Program Monitor to Fit	ملاءمة شاشة البرنامج
+	Zoom Source Monitor to 100%	تكبير شاشة المصدر إلى 100%
+	Zoom Source Monitor to Fit	ملاءمة شاشة المصدر
+	Zoom Tool	أداة التكبير
+	with:	مع:
+	Interface Language	لغة الواجهة
+	System Language	لغة النظام
+	Cinematic	سينمائي
+	Film Emulation	محاكاة الفيلم
+	Technical	تقني
+	Teal Shadows, Warm Skin	ظلال تركوازية وبشرة دافئة
+	Night Exterior	خارجي ليلي
+	Golden Dusk	غسق ذهبي
+	Steel Blue	أزرق فولاذي
+	Hard Sun	شمس قاسية
+	Faded Print	طباعة باهتة
+	Silver Retention	احتفاظ بالفضة
+	Cross Processed	معالجة متقاطعة
+	Warm Negative	سلبي دافئ
+	Neutral Mono	أحادي محايد
+	Hard Mono	أحادي قاسٍ
+	Sepia Tone	درجة سيبيا
+	Cold Mono	أحادي بارد
+	Lift Shadows	رفع الظلال
+	Protect Highlights	حماية الإضاءات
+	Half Saturation	نصف التشبّع
+	Boost Vibrance	تعزيز الحيوية
+	Legal Range Squeeze	ضغط إلى النطاق القانوني
+	A boxed label with a round pointer; move the label and the pointer follows.	تسمية في صندوق بمؤشر دائري؛ حرّك التسمية ويتبعها المؤشر.
+	A rounded tag that fits its text, with a status dot.	وسم مستدير يلائم نصه، مع نقطة حالة.
+	A title on a rounded card with a soft shadow.	عنوان على بطاقة مستديرة بظل ناعم.
+	Accent Color	لون التمييز
+	Bar Color	لون الشريط
+	Box Color	لون الصندوق
+	Box Opacity	عتامة الصندوق
+	Callout – Pointer	تعليق توضيحي – مؤشر
+	Callout – Tag	تعليق توضيحي – وسم
+	Callouts	التعليقات التوضيحية
+	Credits	شارة النهاية
+	Dot Color	لون النقطة
+	Heading	العنوان الرئيسي
+	Large centred title, accent rule and subtitle.	عنوان كبير في المنتصف، وخط مميّز وعنوان فرعي.
+	Lower Third – Rule	الثلث السفلي – خط
+	Lower Third – Slab	الثلث السفلي – لوح
+	Lower Thirds	الأثلاث السفلية
+	Name Color	لون الاسم
+	Name Size	حجم الاسم
+	Name and role on a coloured slab that widens with the name.	الاسم والدور على لوح ملون يتسع مع الاسم.
+	Name over a thin rule that always matches the name's width.	الاسم فوق خط رفيع يطابق عرض الاسم دائماً.
+	Pointer Color	لون المؤشر
+	Role	الدور
+	Rule Color	لون الخط
+	Show Dot	إظهار النقطة
+	Show Role	إظهار الدور
+	Slab Color	لون اللوح
+	Tag Color	لون الوسم
+	Title Color	لون العنوان
+	Title Size	حجم العنوان
+	Title – Boxed	العنوان – صندوق
+	Title – Centered	العنوان – في المنتصف
+	Titles	العناوين
+	Select an item to preview it	حدد عنصراً لمعاينته
+	End Credits	شارة النهاية
+	End Credits – Roll	شارة النهاية – تمرير
+	Ticker – Crawl	الشريط الإخباري – زحف
+	Centred credits that roll up from below the frame and leave at the top.	أسماء في المنتصف تصعد من أسفل الإطار وتخرج من أعلاه.
+	A news-style line that crawls in from the right and leaves at the left.	سطر بأسلوب الأخبار يزحف من اليمين ويخرج من اليسار.
+	out	خروج
+	in	دخول
+	The language changed but could not be saved: {e}	تغيّرت اللغة لكن تعذّر حفظها: {e}
+	no Chinese font is installed on this system; the interface stays in English	لا خط صيني مثبّت على هذا النظام؛ تبقى الواجهة بالإنجليزية
+	no Japanese font is installed on this system; the interface stays in English	لا خط ياباني مثبّت على هذا النظام؛ تبقى الواجهة بالإنجليزية
+	Show	إظهار
+	Sort	فرز
+	Reverse the order	عكس الترتيب
+	Grab bag	منوّعات
+	Table	جدول
+	No contributor data was built into this copy.	لم تُضمَّن بيانات المساهمين في هذه النسخة.
+	No model credits were built into this copy.	لم تُضمَّن بيانات النماذج في هذه النسخة.
+	Company	الشركة
+	Model	النموذج
+	Version	الإصدار
+	Commits	الـ Commits
+	% of all commits	% من كل الـ commits
+	Lines +/−	الأسطر +/−
+	Audio output failed: playing without sound (check Settings ▸ Audio Hardware)	فشل إخراج الصوت: التشغيل بدون صوت (تحقق من الإعدادات ▸ عتاد الصوت)
+	Audio output is not responding: playing without sound (check Settings ▸ Audio Hardware)	إخراج الصوت لا يستجيب: التشغيل بدون صوت (تحقق من الإعدادات ▸ عتاد الصوت)
+	Clip Speed / Duration	سرعة / مدة المقطع
+	Speed:	السرعة:
+	Reverse Speed	عكس السرعة
+	Ripple Edit, Shifting Trailing Clips	تحرير متتابع، مع إزاحة المقاطع اللاحقة
+	About	حول
+	Contributors	المساهمون
+	Models	النماذج
+	Main (8-bit)	Main (8 بت)
+	Main 10 (10-bit, HDR)	Main 10 (10 بت، HDR)
+	Main (8-bit; Main 10 for HDR sequences)	Main (8 بت؛ Main 10 لتسلسلات HDR)
+	Encoder	المُرمِّز
+	Hardware (H.265 has no software encoder)	العتاد (H.265 ليس له مُرمِّز برمجي)
+	Text Properties	خصائص النص
+	Text Box Height	ارتفاع صندوق النص
+	Paragraph Text	نص فقرة
+	Point Text	نص نقطي
+	Text Layer Type	نوع طبقة النص
+	Text Styling	تنسيق النص
+	New Color Matte	خلفية لونية جديدة
+	Color Matte Color	لون الخلفية اللونية
+	Color:	اللون:
+	 · {time} left	 · متبقٍ {time}
+	Discard take	تجاهل المحاولة
+	Voice-over take discarded	تُجوهلت محاولة التعليق الصوتي
+	Binary assets added	ملفات ثنائية أُضيفت
+	Binary assets removed	ملفات ثنائية حُذفت
+	Deselect All Project Items	إلغاء تحديد كل عناصر المشروع
+	Display name	اسم العرض
+	First commit	أول commit
+	H.265 (HEVC)	H.265 (HEVC)
+	Last commit	آخر commit
+	Line delta	فرق الأسطر
+	Lines added	الأسطر المضافة
+	Lines deleted	الأسطر المحذوفة
+	Merged PRs	الـ PRs المدموجة
+	Name (A–Z)	الاسم (أ–ي)
+	Real name	الاسم الحقيقي
+	Select All Project Items	تحديد كل عناصر المشروع
+	Username	اسم المستخدم
+	Vertical Type Tool	أداة النص العمودي
+	Go to previous keyframe	الانتقال إلى الإطار المفتاحي السابق
+	Go to next keyframe	الانتقال إلى الإطار المفتاحي التالي
+	Add keyframe	إضافة إطار مفتاحي
+	Remove keyframe	إزالة إطار مفتاحي
+	Turn on animation and add keyframe	تفعيل التحريك وإضافة إطار مفتاحي
+	Click to select, or click in empty space and drag to marquee select. Use Shift, Alt, and Ctrl for other options.	انقر للتحديد، أو انقر في مساحة فارغة واسحب للتحديد بالمستطيل. استخدم Shift وAlt وCtrl لخيارات أخرى.
+	Click to zoom in; Alt-click to zoom out.	انقر للتكبير؛ Alt-نقر للتصغير.
+	Drag: move · Alt-click: smooth/corner · Ctrl-click: delete	سحب: تحريك · Alt-نقر: ناعم/زاوية · Ctrl-نقر: حذف
+	Include Alpha Channel	تضمين قناة ألفا
+	Sequence Settings	إعدادات التسلسل
+	Color Management	إدارة الألوان
+	VR Properties	خصائص VR
+	Editing Mode:	وضع المونتاج:
+	Timebase:	قاعدة الوقت:
+	Frame Size:	حجم الإطار:
+	Pixel Aspect Ratio:	نسبة أبعاد البكسل:
+	Fields:	الحقول:
+	Channel Format:	صيغة القنوات:
+	Number of Channels:	عدد القنوات:
+	Preview File Format:	صيغة ملف المعاينة:
+	Working Color Space:	فضاء ألوان العمل:
+	Projection:	الإسقاط:
+	Layout:	التخطيط:
+	Captured View:	العرض الملتقط:
+	Video Previews	معاينات الفيديو
+	No Fields (Progressive Scan)	بلا حقول (مسح تدريجي)
+	Custom ({ratio})	مخصص ({ratio})
+	{rate} frames/second	{rate} إطار/ثانية
+	{rate} fps Drop-Frame Timecode	{rate} إطار/ث رمز وقت بإسقاط الإطارات
+	{rate} fps Non Drop-Frame Timecode	{rate} إطار/ث رمز وقت بدون إسقاط
+	{rate} fps Timecode	{rate} إطار/ث رمز وقت
+	horizontal	أفقي
+	vertical	عمودي
+	Scale motion effects proportionally when changing frame size	تحجيم تأثيرات الحركة بالتناسب عند تغيير حجم الإطار
+	Maximum Bit Depth	أقصى عمق بت
+	Maximum Render Quality	أقصى جودة تصيير
+	Composite in Linear Color	التركيب بألوان خطية
+	Auto Tone Map Media (HDR and log into SDR)	تحويل درجات الوسائط تلقائياً (HDR وlog إلى SDR)
+	Configure…	إعداد…
+	Not supported in ShibShib tsweer yet	غير مدعوم في شبشب تصوير بعد
+	ShibShib tsweer always composites in linear light	شبشب تصوير يركّب دائماً بالضوء الخطي
+	Loop marked range	تكرار النطاق المعلَّم
+	Play Source	تشغيل المصدر
+	Source Play/Stop	تشغيل/إيقاف المصدر
+	Stop Source	إيقاف المصدر
+	New Sequence	تسلسل جديد
+	Tracks	المسارات
+	tracks	مسارات
+	Clear Transition	مسح الانتقال
+	Set Transition Duration	تعيين مدة الانتقال
+	Active	نشط
+	Appearance Mode	وضع المظهر
+	Dark Theme	السمة الداكنة
+	Light Theme	السمة الفاتحة
+	Next Appearance Mode	وضع المظهر التالي
+	Sync with system	مزامنة مع النظام
+	In	الدخول
+	Out	الخروج
+	Export Markers as CSV…	تصدير العلامات كـ CSV…
+	Fill Type	نوع التعبئة
+	Gradient Angle	زاوية التدرّج
+	Linear Gradient	تدرّج خطي
+	Solid	مصمت
+	GPU Rendering	التصيير بمعالج الرسوميات
+	Composite on the GPU when available	التركيب على GPU عند توفره
+	Text to Speech	تحويل النص إلى كلام
+	Edit Narration	تحرير التعليق
