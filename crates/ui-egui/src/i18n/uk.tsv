@@ -4,7 +4,7 @@
 # using Ukrainian video-editing vocabulary. No proprietary localization resources were used.
 # Core menu coverage; other interface strings fall back to English.
 
-	About ShibShib tsweer	Про ShibShib tsweer
+	About tsweer	Про tsweer
 	Add Audio Submix Track	Додати доріжку підміксу аудіо
 	Add Caption at Playhead	Додати субтитр у позиції курсора відтворення
 	Add Chapter Marker…	Додати маркер розділу…
@@ -30,7 +30,7 @@
 	Apply Default Transitions to Selection	Застосувати типові переходи до виділення
 	Apply Video Transition	Застосувати відеоперехід
 	Arrange	Упорядкувати
-	ShibShib Website	Вебсайт ArtCraft
+	Creative Studio Website	Вебсайт ArtCraft
 	Assembly	Компонування
 	Attach Proxies…	Приєднати проксі…
 	Audio	Аудіо
@@ -126,8 +126,8 @@
 	File	Файл
 	File…	Файл…
 	Fill frame	Заповнити кадр
-	ShibShib tsweer Help…	Довідка ShibShib tsweer…
-	ShibShib tsweer on GitHub	ShibShib tsweer на GitHub
+	tsweer Help…	Довідка tsweer…
+	tsweer on GitHub	tsweer на GitHub
 	Find Next	Знайти далі
 	Find…	Знайти…
 	Fit	Умістити

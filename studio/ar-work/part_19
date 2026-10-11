@@ -1,0 +1,160 @@
+	Key Frame Distance
+	Quality
+	Render at Maximum Depth
+	Use Maximum Render Quality
+	Export Audio
+	Audio Format
+	Uncompressed (PCM)
+	Match Source ({seq_sr} Hz)
+	Channels
+	Audio Bitrate
+	Sample Size
+	16 bit
+	24 bit
+	Size / Opacity
+	Image Overlay
+	PNG or JPEG file
+	Name Overlay
+	Timecode Overlay
+	Luma Min / Max
+	Loudness Normalization
+	True Peak Limit
+	Audio only
+	Scaling
+	Scale To Fit
+	Scale To Fill
+	Stretch To Fill
+	Summary
+	Sequence, {w}x{h}, {fps} fps, {rate} Hz
+	Estimated file size: {size}
+	Send to Queue
+	Exporting {path}
+	Added to the export queue
+	Preset Manager
+	Search presets
+	Favorites only
+	Show in the Preset menu
+	User
+	Save current settings as:
+	Export presets
+	Import: no file chosen (agents: export.presets.import {path})
+	Export: no file chosen (agents: export.presets.export {path, names})
+	Quick Export: open a sequence first
+	File Name & Location
+	Quick Export: {path}
+	Graphics problem: switched to software compositing
+	Exporting
+	Click to select, or click in empty space and drag to marquee select. Use Shift, Opt, and Cmd for other options.
+	Click to select all clips to the right in all tracks. Shift-click for a single track.
+	Click to select all clips to the left in all tracks. Shift-click for a single track.
+	Drag an edit point to ripple trim; later clips move to keep the gap closed.
+	Drag an edit point to roll it: the out of one clip and the in of the next move together.
+	Drag an edge to change the clip's speed so it fills the new duration.
+	Drag the edge of a music clip to remix it to the new duration at musically matching beats.
+	Click to split a clip. Shift-click to split all tracks.
+	Drag a clip to slip its source in/out without moving it.
+	Drag a clip to slide it between its neighbours.
+	Drag to scroll the timeline.
+	Click to zoom in; Opt-click to zoom out.
+	tsweer hit an error
+	Details: {path}
+	Opened {url}
+	(empty)
+	Step Back 1 Frame
+	Step Forward 1 Frame
+	Match Playhead
+	Gang to Program
+	AIFF
+	AIFF 48 kHz 16-bit
+	AIFF, stereo 48 kHz 16-bit PCM
+	APV
+	APV 422-10
+	APV 422-12
+	Anamorphic 2:1 (2.0)
+	Animated GIF
+	Animated GIF 640×360
+	Apple ProRes
+	Apple ProRes 422
+	Apple ProRes 422 HQ
+	Apple ProRes 422 LT
+	Apple ProRes 422 Proxy
+	Application
+	Apply Guide Template
+	Auto Save Now
+	Auto-Match Loudness
+	Avid DNxHR
+	Avid DNxHR HQ
+	Avid DNxHR LB
+	Avid DNxHR SQ
+	Avid-style OP-Atom: DNxHR HQ picture file plus one 24-bit 48 kHz PCM file per channel (_A1, _A2…)
+	BMP
+	BMP Sequence
+	Baseline
+	Begin Text Editing for a Graphic Layer
+	Begins With
+	Blur In
+	Blur Out
+	Brightens inside a feathered circular mask
+	Broadcast
+	CBR
+	Cancel Dynamic Trim
+	Cancel Queued Export
+	Center Left
+	Center Right
+	Center align text
+	Change Mask
+	Clear All Events
+	Clear Edit Point Selection
+	Clear Finished Exports
+	Clear Poster Frame
+	Close Bin
+	Close Sequence
+	Contains
+	Cut to Camera 1
+	Cut to Camera 2
+	Cut to Camera 3
+	Cut to Camera 4
+	Cut to Camera 5
+	Cut to Camera 6
+	Cut to Camera 7
+	Cut to Camera 8
+	Cut to Camera 9
+	D1/DV NTSC (0.9091)
+	D1/DV PAL (1.0940)
+	DVCPRO HD (1.5)
+	Darkens outside a feathered oval mask
+	Decrease Audio Tracks Height
+	Decrease Clip Volume
+	Decrease Clip Volume Many
+	Decrease Font Size by Five Units
+	Decrease Font Size by One Unit
+	Decrease Leading by Five Units
+	Decrease Leading by One Unit
+	Decrease Video Tracks Height
+	Delete Captions
+	Delete Graphic Layer
+	Delete Guide Template
+	Delete Media Cache Files
+	Discard Unsaved Changes
+	Does Not Contain
+	Download Speech Model
+	Dynamic Trim Stop
+	Edit Caption Text
+	Ellipse Tool
+	Ends With
+	Entire Source
+	EssentialSound
+	Export Frame
+	Extend Next Edit To Playhead
+	Extend Previous Edit To Playhead
+	Extend Selected Edit to Playhead
+	Extend Selection Down
+	Extend Selection Left
+	Extend Selection Right
+	Extend Selection Up
+	Fade In
+	Gaussian Blur from 0 to 60 over the last second
+	Gaussian Blur from 60 to 0 over the first second
+	Generate Ducking Keyframes
+	Go to Next Edit Point
+	Go to Next Edit Point on Any Track

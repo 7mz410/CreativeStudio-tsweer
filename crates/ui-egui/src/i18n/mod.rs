@@ -21,7 +21,7 @@
 //! faces, otherwise one installed system face, see `cjk.rs`); without one, switching to Chinese is
 //! refused the same way ([`chinese_font_available`]).
 
-/// ShibShib: Arabic in visual order for egui.
+/// Creative Studio: Arabic in visual order for egui.
 pub(crate) mod bidi;
 mod catalog;
 
@@ -44,7 +44,7 @@ pub enum Language {
     /// Simplified Chinese, persisted as `zh-cn`.
     #[serde(rename = "zh-cn")]
     ZhCn,
-    /// ShibShib: Arabic, right to left.
+    /// Creative Studio: Arabic, right to left.
     Ar,
 }
 

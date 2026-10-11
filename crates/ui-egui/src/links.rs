@@ -9,20 +9,20 @@ pub const APP: &str = "filmcraft";
 /// The ArtCraft community Discord.
 pub const DISCORD: &str = "https://discord.gg/artcraft";
 /// The ArtCraft website.
-pub const WEBSITE: &str = "https://shibshib.art";
+pub const WEBSITE: &str = "https://studio.creative.ps";
 /// FilmCraft's page on the ArtCraft website.
-pub const APP_PAGE: &str = "https://shibshib.art";
+pub const APP_PAGE: &str = "https://studio.creative.ps";
 /// FilmCraft's source repository.
-pub const GITHUB: &str = "https://github.com/7mz410/ShibShib-tsweer";
+pub const GITHUB: &str = "https://github.com/7mz410/CreativeStudio-tsweer";
 /// New issue on FilmCraft's repository.
-pub const ISSUES: &str = "https://github.com/7mz410/ShibShib-tsweer/issues";
+pub const ISSUES: &str = "https://github.com/7mz410/CreativeStudio-tsweer/issues";
 
 /// (command id, label, url) for every link, in menu order.
 pub const ALL: [(&str, &str, &str); 5] = [
     ("help.discord", "Upstream Community on Discord…", DISCORD),
-    ("help.website", "ShibShib Website", WEBSITE),
-    ("help.appPage", "ShibShib Website", APP_PAGE),
-    ("help.github", "ShibShib tsweer on GitHub", GITHUB),
+    ("help.website", "Creative Studio Website", WEBSITE),
+    ("help.appPage", "Creative Studio Website", APP_PAGE),
+    ("help.github", "tsweer on GitHub", GITHUB),
     ("help.reportIssue", "Report an Issue…", ISSUES),
 ];
 
@@ -42,8 +42,8 @@ mod tests {
 
     #[test]
     fn urls_follow_the_artcraft_scheme() {
-        assert_eq!(APP_PAGE, "https://shibshib.art");
-        assert_eq!(GITHUB, "https://github.com/7mz410/ShibShib-tsweer");
+        assert_eq!(APP_PAGE, "https://studio.creative.ps");
+        assert_eq!(GITHUB, "https://github.com/7mz410/CreativeStudio-tsweer");
         assert!(ALL.iter().all(|(id, _, u)| id.starts_with("help.") && u.starts_with("https://")));
         assert_eq!(url_for("help.discord"), Some(DISCORD));
         assert_eq!(url_for("help.nope"), None);

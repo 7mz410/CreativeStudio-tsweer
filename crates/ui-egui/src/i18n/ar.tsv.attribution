@@ -1,8 +1,8 @@
 asset:        ar.tsv
 title:        Arabic interface translation catalog
-author:       Hamza Abu Ayyash (ShibShib)
-source:       original work (shibshib/ar-work)
+author:       Hamza Abu Ayyash (Creative Studio)
+source:       original work (studio/ar-work)
 license:      MIT OR Apache-2.0
 license-file: LICENSE-MIT and LICENSE-APACHE
-added:        2026-10-10 for the ShibShib project
+added:        2026-10-10 for the Creative Studio project
 notes:        Written from the plain meaning of the English text; no proprietary localisation was consulted.

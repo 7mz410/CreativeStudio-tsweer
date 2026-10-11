@@ -1432,7 +1432,7 @@ impl FilmcraftApp {
 
     fn frame(&mut self, ui: &mut egui::Ui) {
         i18n::set_current(self.ui.language);
-        // ShibShib: Arabic lays the interface out right to left (vendor/egui). The switch is
+        // Creative Studio: Arabic lays the interface out right to left (vendor/egui). The switch is
         // process-wide, so unit tests, which run in parallel, leave it off (tests/rtl.rs covers it).
         #[cfg(not(test))]
         egui::set_rtl(i18n::bidi::RTL_CODES.contains(&self.ui.language.code()));
@@ -1689,13 +1689,13 @@ impl FilmcraftApp {
 }
 
 impl FilmcraftApp {
-    /// The "ShibShib tsweer hit an error" window after a caught UI panic. Automation ids:
+    /// The "tsweer hit an error" window after a caught UI panic. Automation ids:
     /// `error.dismiss`, `error.save`.
     fn error_window(&mut self, ctx: &egui::Context) {
         let Some(msg) = self.ui_error.clone() else { return };
         let mut close = false;
-        egui::Window::new(tl!("ShibShib tsweer hit an error"))
-            .id(egui::Id::new("ShibShib tsweer hit an error"))
+        egui::Window::new(tl!("tsweer hit an error"))
+            .id(egui::Id::new("tsweer hit an error"))
             .collapsible(false)
             .resizable(false)
             .anchor(egui::Align2::CENTER_CENTER, [0.0, 0.0])

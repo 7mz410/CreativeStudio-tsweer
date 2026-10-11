@@ -5,8 +5,8 @@
 # Clean-room: every entry was written from the plain meaning of the English label using ordinary
 # Arabic computing and design vocabulary. No proprietary localisation resource, string table or
 # product UI was consulted or copied; in particular not any Arabic localisation of Adobe Photoshop.
-# Made by the ShibShib project (shibshib/ar-work).
-	About ShibShib tsweer	حول شبشب تصوير
+# Made by the Creative Studio project (studio/ar-work).
+	About tsweer	حول تصوير
 	Add Audio Submix Track	إضافة مسار مزج صوتي فرعي
 	Add Caption at Playhead	إضافة ترجمة عند رأس التشغيل
 	Add Chapter Marker…	إضافة علامة فصل…
@@ -32,7 +32,7 @@
 	Apply Default Transitions to Selection	تطبيق الانتقالات الافتراضية على التحديد
 	Apply Video Transition	تطبيق انتقال فيديو
 	Arrange	ترتيب
-	ShibShib Website	موقع شبشب
+	Creative Studio Website	موقع Creative Studio
 	Assembly	التجميع
 	Attach Proxies…	إرفاق ملفات وكيلة…
 	Audio Channels…	قنوات الصوت…
@@ -125,8 +125,8 @@
 	File	ملف
 	File…	ملف…
 	Fill frame	ملء الإطار
-	ShibShib tsweer Help…	مساعدة شبشب تصوير…
-	ShibShib tsweer on GitHub	شبشب تصوير على GitHub
+	tsweer Help…	مساعدة تصوير…
+	tsweer on GitHub	تصوير على GitHub
 	Find Next	البحث عن التالي
 	Find…	بحث…
 	Fit	ملاءمة
@@ -294,7 +294,7 @@
 	Select Previous Graphic	تحديد الجرافيك السابق
 	Select Previous Layer	تحديد الطبقة السابقة
 	Selection Follows Playhead	التحديد يتبع رأس التشغيل
-	Selection as FilmCraft Project…	التحديد كمشروع شبشب تصوير…
+	Selection as FilmCraft Project…	التحديد كمشروع تصوير…
 	Selection…	التحديد…
 	Send Backward	إرجاع للخلف
 	Send to Back	إرسال إلى الخلف
@@ -420,8 +420,8 @@
 	No background jobs.	لا مهام في الخلفية.
 	Recover Unsaved Changes	استعادة التغييرات غير المحفوظة
 	Untitled	بلا عنوان
-	ShibShib tsweer was closed while “{name}” had unsaved changes.	أُغلق شبشب تصوير و«{name}» فيه تغييرات غير محفوظة.
-	ShibShib tsweer quit unexpectedly while “{name}” had unsaved changes.	توقف شبشب تصوير بشكل غير متوقع و«{name}» فيه تغييرات غير محفوظة.
+	tsweer was closed while “{name}” had unsaved changes.	أُغلق تصوير و«{name}» فيه تغييرات غير محفوظة.
+	tsweer quit unexpectedly while “{name}” had unsaved changes.	توقف تصوير بشكل غير متوقع و«{name}» فيه تغييرات غير محفوظة.
 	Recover unsaved changes from {when}?	استعادة التغييرات غير المحفوظة من {when}؟
 	The project had not been saved yet.	لم يكن المشروع محفوظاً بعد.
 	{n} sessions have unsaved changes:	{n} جلسات فيها تغييرات غير محفوظة:
@@ -944,7 +944,7 @@
 	Font family	عائلة الخط
 	Label Colors	ألوان التسميات
 	Decoded frames held for the monitors and thumbnails: {used} of {budget}.	الإطارات المفكوكة المحفوظة للشاشات والصور المصغّرة: {used} من {budget}.
-	ShibShib tsweer keeps the rest of the RAM free for other applications.	يترك شبشب تصوير باقي الذاكرة متاحاً للبرامج الأخرى.
+	tsweer keeps the rest of the RAM free for other applications.	يترك تصوير باقي الذاكرة متاحاً للبرامج الأخرى.
 	not available in this session	غير متاح في هذه الجلسة
 	Currently: {loc} — {files} file(s), {size}	حالياً: {loc} — {files} ملف، {size}
 	 ({ch} output channels)	 ({ch} قناة إخراج)
@@ -1054,7 +1054,7 @@
 	Video Frame	إطار الفيديو
 	Pin To	التثبيت في
 	Pinned Edges	الحواف المثبتة
-	ShibShib tsweer Graphics Template	قالب جرافيك شبشب تصوير
+	tsweer Graphics Template	قالب جرافيك تصوير
 	{n} Font	خط {n}
 	{n} Size	حجم {n}
 	{n} Color	لون {n}
@@ -1064,7 +1064,7 @@
 	Export As Motion Graphics Template	تصدير كقالب موشن جرافيك
 	Category:	الفئة:
 	Editable properties:	الخصائص القابلة للتعديل:
-	Saved as a ShibShib tsweer graphics template (.fcgt) in your templates folder.	حُفظ كقالب جرافيك شبشب تصوير (.fcgt) في مجلد القوالب.
+	Saved as a tsweer graphics template (.fcgt) in your templates folder.	حُفظ كقالب جرافيك تصوير (.fcgt) في مجلد القوالب.
 	Exported graphics template to {path}	صُدّر قالب الجرافيك إلى {path}
 	Replace Fonts in Projects	استبدال الخطوط في المشاريع
 	Fonts used in the project:	الخطوط المستخدمة في المشروع:
@@ -1431,7 +1431,7 @@
 	Center of Sphere	مركز الكرة
 	Cents	السنت
 	Change to Color	التغيير إلى لون
-	Changes are copied in the background a moment after each edit. If FilmCraft quits unexpectedly, they are offered the next time it starts.	تُنسخ التغييرات في الخلفية بعد لحظة من كل تعديل. إذا توقف شبشب تصوير بشكل غير متوقع، تُعرض عليك في التشغيل التالي.
+	Changes are copied in the background a moment after each edit. If FilmCraft quits unexpectedly, they are offered the next time it starts.	تُنسخ التغييرات في الخلفية بعد لحظة من كل تعديل. إذا توقف تصوير بشكل غير متوقع، تُعرض عليك في التشغيل التالي.
 	Channel	القناة
 	Channel Blur	ضبابية القناة
 	Channel Mix	مزج القنوات
@@ -1804,7 +1804,7 @@
 	Hard Limiter	محدِّد قاسٍ
 	Hard Mix	مزج قاسٍ
 	Hardware decoding	فك الترميز بالعتاد
-	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API or NVDEC for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	فك الترميز بالعتاد: الوضع التلقائي يستخدم فاك ترميز الفيديو في النظام (VideoToolbox في macOS، وMedia Foundation في Windows، وVA-API أو NVDEC لـ H.264 وHEVC في Linux) للتدفقات التي يدعمها، وفاك ترميز شبشب تصوير لكل ما عدا ذلك أو عند فشل العتاد. الوسائط المفتوحة تحتفظ بفاك ترميزها حتى تُعاد فتحها.
+	Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foundation on Windows, VA-API or NVDEC for H.264 and HEVC on Linux) for the streams it supports, and FilmCraft's own decoder for everything else or if the hardware fails. Media that is already open keeps its decoder until it is reopened.	فك الترميز بالعتاد: الوضع التلقائي يستخدم فاك ترميز الفيديو في النظام (VideoToolbox في macOS، وMedia Foundation في Windows، وVA-API أو NVDEC لـ H.264 وHEVC في Linux) للتدفقات التي يدعمها، وفاك ترميز تصوير لكل ما عدا ذلك أو عند فشل العتاد. الوسائط المفتوحة تحتفظ بفاك ترميزها حتى تُعاد فتحها.
 	Head Size	حجم الرأس
 	Heart	قلب
 	Height	الارتفاع
@@ -2079,7 +2079,7 @@
 	Night	الليل
 	No Motion	بلا حركة
 	No Scroll	بلا تمرير
-	No plugins are installed. Changes will take effect the next time you start FilmCraft.	لا إضافات مثبتة. تسري التغييرات في المرة القادمة التي تشغّل فيها شبشب تصوير.
+	No plugins are installed. Changes will take effect the next time you start FilmCraft.	لا إضافات مثبتة. تسري التغييرات في المرة القادمة التي تشغّل فيها تصوير.
 	Noise	الضوضاء
 	Noise & Grain	الضوضاء والحبيبات
 	Noise (Legacy)	الضوضاء (قديم)
@@ -2510,7 +2510,7 @@
 	Template Properties	خصائص القالب
 	Text Animator	محرّك النص
 	Text Color	لون النص
-	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	تحتفظ ذاكرة الوسائط المؤقتة بمعاينات التصيير للمشاريع غير المحفوظة وملفات أخرى يستطيع شبشب تصوير إعادة إنشائها. حذفها آمن دائماً؛ ويعيد شبشب تصوير بناءها عند الحاجة.
+	The media cache holds render previews of unsaved projects and other files FilmCraft can recreate. Deleting them is always safe; FilmCraft rebuilds them as needed.	تحتفظ ذاكرة الوسائط المؤقتة بمعاينات التصيير للمشاريع غير المحفوظة وملفات أخرى يستطيع تصوير إعادة إنشائها. حذفها آمن دائماً؛ ويعيد تصوير بناءها عند الحاجة.
 	Thickness	السماكة
 	Tile Gradient	تبليط التدرّج
 	Tilt	إمالة
@@ -2720,7 +2720,7 @@
 	System Compatibility Report	تقرير توافق النظام
 	no GPU adapter: the CPU compositor is used	لا محوّل GPU: يُستخدم المُركّب بالمعالج
 	Avid Log Exchange	Avid Log Exchange
-	FilmCraft Project	مشروع شبشب تصوير
+	FilmCraft Project	مشروع تصوير
 	{name} Selection.fcproj	{name} Selection.fcproj
 	{name} (Simplified)	{name} (مبسّط)
 	Find in:	البحث في:
@@ -2860,7 +2860,7 @@
 	Start Queue	بدء القائمة
 	Stop	إيقاف
 	Clear Finished	مسح المنتهية
-	Not supported by ShibShib tsweer's encoders yet	غير مدعوم في مُرمّزات شبشب تصوير بعد
+	Not supported by tsweer's encoders yet	غير مدعوم في مُرمّزات تصوير بعد
 	Sequence name	اسم التسلسل
 	Folder	المجلد
 	Preset	الإعداد المسبق
@@ -2944,7 +2944,7 @@
 	Drag a clip to slide it between its neighbours.	اسحب مقطعاً لتمريره بين جيرانه.
 	Drag to scroll the timeline.	اسحب لتمرير الخط الزمني.
 	Click to zoom in; Opt-click to zoom out.	انقر للتكبير؛ Opt-نقر للتصغير.
-	ShibShib tsweer hit an error	واجه شبشب تصوير خطأ
+	tsweer hit an error	واجه تصوير خطأ
 	Details: {path}	التفاصيل: {path}
 	Opened {url}	فُتح {url}
 	(empty)	(فارغ)
@@ -3176,7 +3176,7 @@
 	QuickTime, ProRes 422 LT, 24-bit 48 kHz PCM	QuickTime، ProRes 422 LT، PCM 24 بت 48 كيلوهرتز
 	QuickTime, ProRes 422 Proxy, 24-bit 48 kHz PCM	QuickTime، ProRes 422 Proxy، PCM 24 بت 48 كيلوهرتز
 	QuickTime, ProRes 422, 24-bit 48 kHz PCM	QuickTime، ProRes 422، PCM 24 بت 48 كيلوهرتز
-	Quit ShibShib tsweer	إنهاء شبشب تصوير
+	Quit tsweer	إنهاء تصوير
 	Rate Stretch Tool	أداة تمديد المعدل
 	Razor Tool	أداة الشفرة
 	Rectangle Tool	أداة المستطيل
@@ -3473,8 +3473,8 @@
 	Composite in Linear Color	التركيب بألوان خطية
 	Auto Tone Map Media (HDR and log into SDR)	تحويل درجات الوسائط تلقائياً (HDR وlog إلى SDR)
 	Configure…	إعداد…
-	Not supported in ShibShib tsweer yet	غير مدعوم في شبشب تصوير بعد
-	ShibShib tsweer always composites in linear light	شبشب تصوير يركّب دائماً بالضوء الخطي
+	Not supported in tsweer yet	غير مدعوم في تصوير بعد
+	tsweer always composites in linear light	تصوير يركّب دائماً بالضوء الخطي
 	Loop marked range	تكرار النطاق المعلَّم
 	Play Source	تشغيل المصدر
 	Source Play/Stop	تشغيل/إيقاف المصدر

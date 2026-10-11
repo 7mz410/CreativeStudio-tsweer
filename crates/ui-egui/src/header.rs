@@ -122,7 +122,7 @@ pub fn show(app: &mut FilmcraftApp, ui: &mut egui::Ui, rect: Rect) {
     {
         let label = "Discord";
         let g = p.layout_no_wrap(label.to_string(), Tokens::ui(12.0), Color32::WHITE);
-        let w = 0.0; // ShibShib: no community Discord button yet
+        let w = 0.0; // Creative Studio: no community Discord button yet
         let r = Rect::from_min_size(pos2(wr.min.x - w - 14.0, rect.center().y - 12.0), vec2(w, 24.0));
         let resp = ui.interact(r, egui::Id::new("hdr-discord"), Sense::click()).on_hover_text(tl!("The upstream community on Discord (discord.gg/artcraft)"));
         app.auto.add("header.discord", r, "Upstream Community on Discord");

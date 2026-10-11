@@ -1,8 +1,8 @@
 asset:        filmcraft.ico
-title:        ShibShib tsweer app icon
-author:       Hamza Abu Ayyash (ShibShib)
-source:       original work (the tsweer tile, ~/Documents/ShibShib/file icons/tsweer.svg, clipped to the rounded app tile)
+title:        tsweer app icon
+author:       Hamza Abu Ayyash (Creative Studio)
+source:       original work (the tsweer tile, ~/Documents/CreativeStudio/file icons/tsweer.svg, clipped to the rounded app tile)
 license:      MIT OR Apache-2.0
 license-file: assets/app-icon/LICENSE.txt
-added:        2026-10-10 for the ShibShib project
+added:        2026-10-10 for the Creative Studio project
 notes:        Rendered from assets/app-icon/filmcraft.svg by packaging/icons.sh. Replaces upstream FilmCraft's icon.

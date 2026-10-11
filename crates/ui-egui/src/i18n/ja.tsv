@@ -16,7 +16,7 @@
 #     (not 効果), ぼかし, 音量, ビデオ, 再生ヘッド, イン点/アウト点.
 #   - "Horizontal"/"Vertical" are 水平/垂直 (guides, blur, axes); vertical text is "Vertical Text".
 
-	About ShibShib tsweer	ShibShib tsweer について
+	About tsweer	tsweer について
 	Add Audio Submix Track	オーディオサブミックストラックを追加
 	Add Caption at Playhead	再生ヘッドの位置にキャプションを追加
 	Add Chapter Marker…	チャプターマーカーを追加…
@@ -42,7 +42,7 @@
 	Apply Default Transitions to Selection	選択範囲に既定のトランジションを適用
 	Apply Video Transition	ビデオトランジションを適用
 	Arrange	重ね順
-	ShibShib Website	ArtCraft の Web サイト
+	Creative Studio Website	ArtCraft の Web サイト
 	Assembly	アセンブリ
 	Attach Proxies…	プロキシを関連付け…
 	Audio Channels…	オーディオチャンネル…
@@ -135,8 +135,8 @@
 	File	ファイル
 	File…	ファイル…
 	Fill frame	フレームを埋める
-	ShibShib tsweer Help…	ShibShib tsweer ヘルプ…
-	ShibShib tsweer on GitHub	GitHub の ShibShib tsweer
+	tsweer Help…	tsweer ヘルプ…
+	tsweer on GitHub	GitHub の tsweer
 	Find Next	次を検索
 	Find…	検索…
 	Fit	合わせる
@@ -430,8 +430,8 @@
 	No background jobs.	バックグラウンドジョブはありません。
 	Recover Unsaved Changes	未保存の変更を復元
 	Untitled	名称未設定
-	ShibShib tsweer was closed while “{name}” had unsaved changes.	「{name}」に未保存の変更がある状態で ShibShib tsweer が終了しました。
-	ShibShib tsweer quit unexpectedly while “{name}” had unsaved changes.	「{name}」に未保存の変更がある状態で ShibShib tsweer が予期せず終了しました。
+	tsweer was closed while “{name}” had unsaved changes.	「{name}」に未保存の変更がある状態で tsweer が終了しました。
+	tsweer quit unexpectedly while “{name}” had unsaved changes.	「{name}」に未保存の変更がある状態で tsweer が予期せず終了しました。
 	Recover unsaved changes from {when}?	{when} の未保存の変更を復元しますか？
 	The project had not been saved yet.	このプロジェクトはまだ保存されていませんでした。
 	{n} sessions have unsaved changes:	{n} 件のセッションに未保存の変更があります:
@@ -954,7 +954,7 @@
 	Font family	フォントファミリー
 	Label Colors	ラベルカラー
 	Decoded frames held for the monitors and thumbnails: {used} of {budget}.	モニターとサムネイル用に保持するデコード済みフレームに、{budget} のうち {used} を使用しています。
-	ShibShib tsweer keeps the rest of the RAM free for other applications.	ShibShib tsweer は残りの RAM をほかのアプリケーション用に空けておきます。
+	tsweer keeps the rest of the RAM free for other applications.	tsweer は残りの RAM をほかのアプリケーション用に空けておきます。
 	not available in this session	このセッションでは利用できません
 	Currently: {loc} — {files} file(s), {size}	現在: {loc} — {files} 個のファイル、{size}
 	 ({ch} output channels)	 (出力 {ch} チャンネル)
@@ -1062,7 +1062,7 @@
 	Video Frame	ビデオフレーム
 	Pin To	固定先
 	Pinned Edges	固定する辺
-	ShibShib tsweer Graphics Template	ShibShib tsweer グラフィックステンプレート
+	tsweer Graphics Template	tsweer グラフィックステンプレート
 	{n} Font	{n} のフォント
 	{n} Size	{n} のサイズ
 	{n} Color	{n} の色
@@ -1072,7 +1072,7 @@
 	Export As Motion Graphics Template	モーショングラフィックステンプレートとして書き出し
 	Category:	カテゴリ:
 	Editable properties:	編集可能なプロパティ:
-	Saved as a ShibShib tsweer graphics template (.fcgt) in your templates folder.	テンプレートフォルダーに ShibShib tsweer グラフィックステンプレート (.fcgt) として保存されます。
+	Saved as a tsweer graphics template (.fcgt) in your templates folder.	テンプレートフォルダーに tsweer グラフィックステンプレート (.fcgt) として保存されます。
 	Exported graphics template to {path}	グラフィックステンプレートを {path} に書き出しました
 	Replace Fonts in Projects	プロジェクト内のフォントを置換
 	Fonts used in the project:	プロジェクトで使用されているフォント:
@@ -2863,7 +2863,7 @@
 	Start Queue	キューを開始
 	Stop	停止
 	Clear Finished	終了した項目をクリア
-	Not supported by ShibShib tsweer's encoders yet	ShibShib tsweer のエンコーダーはまだ対応していません
+	Not supported by tsweer's encoders yet	tsweer のエンコーダーはまだ対応していません
 	Sequence name	シーケンス名
 	Folder	フォルダー
 	Preset	プリセット
@@ -2947,7 +2947,7 @@
 	Drag a clip to slide it between its neighbours.	クリップをドラッグすると、前後のクリップの間でスライドします。
 	Drag to scroll the timeline.	ドラッグしてタイムラインをスクロールします。
 	Click to zoom in; Opt-click to zoom out.	クリックでズームイン、Opt+クリックでズームアウトします。
-	ShibShib tsweer hit an error	ShibShib tsweer でエラーが発生しました
+	tsweer hit an error	tsweer でエラーが発生しました
 	Details: {path}	詳細: {path}
 	Opened {url}	{url} を開きました
 	(empty)	(空)
@@ -3179,7 +3179,7 @@
 	QuickTime, ProRes 422 LT, 24-bit 48 kHz PCM	QuickTime、ProRes 422 LT、24-bit 48 kHz PCM
 	QuickTime, ProRes 422 Proxy, 24-bit 48 kHz PCM	QuickTime、ProRes 422 Proxy、24-bit 48 kHz PCM
 	QuickTime, ProRes 422, 24-bit 48 kHz PCM	QuickTime、ProRes 422、24-bit 48 kHz PCM
-	Quit ShibShib tsweer	ShibShib tsweer を終了
+	Quit tsweer	tsweer を終了
 	Rate Stretch Tool	レートストレッチツール
 	Razor Tool	カミソリツール
 	Rectangle Tool	長方形ツール
@@ -3484,8 +3484,8 @@
 	Composite in Linear Color	リニアカラーで合成
 	Auto Tone Map Media (HDR and log into SDR)	メディアの自動トーンマッピング (HDR と log を SDR に変換)
 	Configure…	設定…
-	Not supported in ShibShib tsweer yet	ShibShib tsweer ではまだサポートされていません
-	ShibShib tsweer always composites in linear light	ShibShib tsweer は常にリニアライトで合成します
+	Not supported in tsweer yet	tsweer ではまだサポートされていません
+	tsweer always composites in linear light	tsweer は常にリニアライトで合成します
 	Loop marked range	マークした範囲をループ
 	Play Source	ソースを再生
 	Source Play/Stop	ソースの再生/停止

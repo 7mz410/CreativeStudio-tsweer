@@ -128,8 +128,8 @@ pub const COMMANDS: &[UiCommand] = &[
     uic!("textPanel.rippleDelete", "Ripple Delete", [], None),
     uic!("textPanel.showProgramTranscript", "Show Program Transcript", [], None),
     uic!("graphics.beginTextEditing", "Begin Text Editing for a Graphic Layer", [], Some("Cmd+Alt+'")),
-    uic!("help.filmcraftHelp", "ShibShib tsweer Help…", ["Help"], Some("F1")),
-    uic!("app.quit", "Quit ShibShib tsweer", [], Some("Cmd+Q")),
+    uic!("help.filmcraftHelp", "tsweer Help…", ["Help"], Some("F1")),
+    uic!("app.quit", "Quit tsweer", [], Some("Cmd+Q")),
 ];
 
 /// FilmCraft's documentation (Help ▸ FilmCraft Help…, F1).

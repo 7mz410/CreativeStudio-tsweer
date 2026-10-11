@@ -7,13 +7,13 @@
   <key>CFBundleDevelopmentRegion</key>
   <string>en</string>
   <key>CFBundleDisplayName</key>
-  <string>ShibShib tsweer</string>
+  <string>tsweer</string>
   <key>CFBundleName</key>
-  <string>ShibShib tsweer</string>
+  <string>tsweer</string>
   <key>CFBundleExecutable</key>
   <string>FilmCraft</string>
   <key>CFBundleIdentifier</key>
-  <string>com.shibshib.tsweer</string>
+  <string>ps.creative.studio.tsweer</string>
   <key>CFBundleInfoDictionaryVersion</key>
   <string>6.0</string>
   <key>CFBundlePackageType</key>
