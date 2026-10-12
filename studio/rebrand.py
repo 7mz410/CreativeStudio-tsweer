@@ -20,6 +20,8 @@ KEEP = ('the FilmCraft authors', 'FilmCraft Project')
 
 # Exact replacements, applied before the general rename (and kept idempotent: skipped once done).
 RTL_RULES = [
+    # About shows our links only (no Discord, no ArtCraft website).
+    ('crates/ui-egui/tests/links_ui.rs', 'for id in ["about.discord", "about.website", "about.appPage", "about.github", "about.reportIssue"] {', 'for id in ["about.appPage", "about.github", "about.reportIssue"] {'),
     ('Cargo.toml', '[workspace.dependencies]', '[patch.crates-io]\n# Creative Studio: egui with a right-to-left switch for the Arabic interface (studio/RTL.md).\negui = { path = "vendor/egui" }\n\n[workspace.dependencies]'),
     ('crates/ui-egui/src/i18n/mod.rs', 'mod catalog;\n', '/// Creative Studio: Arabic in visual order for egui.\npub(crate) mod bidi;\nmod catalog;\n'),
     ('crates/ui-egui/src/i18n/mod.rs', 'static UKRAINIAN: OnceLock<Catalog> = OnceLock::new();\n', 'static UKRAINIAN: OnceLock<Catalog> = OnceLock::new();\nstatic ARABIC: OnceLock<Catalog> = OnceLock::new();\n'),
