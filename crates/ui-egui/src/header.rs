@@ -107,7 +107,9 @@ pub fn show(app: &mut FilmcraftApp, ui: &mut egui::Ui, rect: Rect) {
         _ => (Icon::Moon, tl!("Dark")),
     };
     let tip = format!("{}: {mode}", tl!("Appearance Mode"));
-    if btn(ui, icon, "appearance", &tip, app).clicked() {
+    let appearance = btn(ui, icon, "appearance", &tip, app);
+    appearance.context_menu(|ui| crate::panels::settings::appearance_context_menu(app, ui));
+    if appearance.clicked() {
         crate::panels::settings::cycle_appearance(app, ui.ctx());
     }
     let ws_resp = btn(ui, Icon::Workspaces, "workspaces", tl!("Workspaces"), app);
@@ -126,7 +128,7 @@ pub fn show(app: &mut FilmcraftApp, ui: &mut egui::Ui, rect: Rect) {
         let r = Rect::from_min_size(pos2(wr.min.x - w - 14.0, rect.center().y - 12.0), vec2(w, 24.0));
         let resp = ui.interact(r, egui::Id::new("hdr-discord"), Sense::click()).on_hover_text(tl!("The upstream community on Discord (discord.gg/artcraft)"));
         app.auto.add("header.discord", r, "Upstream Community on Discord");
-        let _ = (g, resp);
+        let _ = &g;
         // Localized menus and user titles can be wider than English. Use the actual gap.
         let left = left_end + 12.0;
         let right = r.min.x - 12.0;
@@ -144,6 +146,9 @@ pub fn show(app: &mut FilmcraftApp, ui: &mut egui::Ui, rect: Rect) {
             );
         }
 
+        if resp.clicked() {
+            crate::links::open(app, ui.ctx(), crate::links::DISCORD);
+        }
     }
     let popup_id = egui::Id::new("workspaces-popup");
     if ws_resp.clicked() || wresp.clicked() {
