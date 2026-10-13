@@ -20,5 +20,5 @@ jobs:
       app: tsweer
       package: filmcraft
       version_var: FILMCRAFT_VERSION
-      bundle: FilmCraft.app
+      bundle: tsweer.app
       tag: ${{ github.ref_name }}
