@@ -72,6 +72,8 @@
       <string>Editor</string>
       <key>LSHandlerRank</key>
       <string>Owner</string>
+      <key>CFBundleTypeIconFile</key>
+      <string>tsweer-document</string>
       <key>LSItemContentTypes</key>
       <array>
         <string>ps.creative.studio.tsweer.project</string>
@@ -93,7 +95,7 @@
         <string>public.json</string>
       </array>
       <key>UTTypeIconFile</key>
-      <string>FilmCraft</string>
+      <string>tsweer-document</string>
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.filename-extension</key>

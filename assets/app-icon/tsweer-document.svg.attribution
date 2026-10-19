@@ -1,0 +1,8 @@
+asset:        tsweer-document.svg
+title:        tsweer document icon
+author:       Hamza Abu Ayyash (Creative Studio)
+source:       original work (the tsweer document icon, ~/Documents/CreativeStudio/file icons/tsweer.svg)
+license:      MIT OR Apache-2.0
+license-file: assets/app-icon/LICENSE.txt
+added:        2026-10-19 for the Creative Studio project
+notes:        Document icon of .tsweer files (CFBundleTypeIconFile and UTTypeIconFile in packaging/macos/Info.plist.in).

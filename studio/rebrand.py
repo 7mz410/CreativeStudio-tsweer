@@ -314,6 +314,24 @@ EXT_FILES = {
         ('Crate names\n  and file formats keep their upstream names.',
          'Crate names\n  keep their upstream names. Projects save as `.tsweer`; upstream\'s `.fcproj` still opens.'),
     ],
+    # Creative Studio: the .tsweer document icon (assets/app-icon/tsweer-document.*, from file icons/tsweer.svg).
+    'packaging/macos/Info.plist.in': [
+        ('<key>UTTypeIconFile</key>\n      <string>FilmCraft</string>\n      <key>UTTypeTagSpecification</key>\n      <dict>\n        <key>public.filename-extension</key>\n        <array><string>tsweer</string></array>',
+         '<key>UTTypeIconFile</key>\n      <string>tsweer-document</string>\n      <key>UTTypeTagSpecification</key>\n      <dict>\n        <key>public.filename-extension</key>\n        <array><string>tsweer</string></array>'),
+        ('<key>CFBundleTypeName</key>\n      <string>tsweer Project</string>\n      <key>CFBundleTypeRole</key>\n      <string>Editor</string>\n      <key>LSHandlerRank</key>\n      <string>Owner</string>',
+         '<key>CFBundleTypeName</key>\n      <string>tsweer Project</string>\n      <key>CFBundleTypeRole</key>\n      <string>Editor</string>\n      <key>LSHandlerRank</key>\n      <string>Owner</string>\n      <key>CFBundleTypeIconFile</key>\n      <string>tsweer-document</string>'),
+    ],
+    'packaging/macos/package.sh': [
+        ('cp "$ROOT/assets/app-icon/filmcraft.icns" "$APP/Contents/Resources/FilmCraft.icns"\n',
+         'cp "$ROOT/assets/app-icon/filmcraft.icns" "$APP/Contents/Resources/FilmCraft.icns"\n'
+         'cp "$ROOT/assets/app-icon/tsweer-document.icns" "$APP/Contents/Resources/tsweer-document.icns"\n'),
+    ],
+    'ATTRIBUTION.md': [
+        ('| `assets/app-icon/filmcraft.svg` |',
+         '| `assets/app-icon/tsweer-document.svg` | Hamza Abu Ayyash (Creative Studio) | Original work: the tsweer document icon (`file icons/tsweer.svg`) | MIT OR Apache-2.0 |\n'
+         '| `assets/app-icon/tsweer-document.icns` | Hamza Abu Ayyash (Creative Studio) | The tsweer document icon (`assets/app-icon/tsweer-document.svg`) rendered with rsvg-convert, packed with iconutil | MIT OR Apache-2.0 |\n'
+         '| `assets/app-icon/filmcraft.svg` |'),
+    ],
 }
 # A test for the extension rules, appended to the engine's file tests (once).
 EXT_APPEND = {
