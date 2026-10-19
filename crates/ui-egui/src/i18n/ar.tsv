@@ -3501,3 +3501,67 @@
 	Composite on the GPU when available	التركيب على GPU عند توفره
 	Text to Speech	تحويل النص إلى كلام
 	Edit Narration	تحرير التعليق
+	Refresh Changed Media	تحديث الوسائط التي تم تغييرها
+	Open Recent	فتح الملفات الأخيرة
+	Clear Recent Files	مسح الملفات الأخيرة
+	Recent	الأخيرة
+	Ripple Delete Head Frame	تموج Delete إطار الرأس
+	Caption Tracks	مسارات التسمية التوضيحية
+	Delete Caption Tracks	مسارات التسمية التوضيحية Delete
+	Delete Caption Track	مسار التسمية التوضيحية Delete
+	Delete Empty Caption Tracks	Delete مسارات التسميات التوضيحية الفارغة
+	Close All	إغلاق الكل
+	Restore Frame	استعادة الإطار
+	Reset Parameter	إعادة تعيين المعلمة
+	Head	رئيس
+	Head and Tail	الرأس والذيل
+	Continuous	مستمر
+	Create a bin of subclips from each detected cut point	قم بإنشاء سلة من المقاطع الفرعية من كل نقطة قطع تم اكتشافها
+	Create a clip marker at each detected cut point	قم بإنشاء علامة مقطع عند كل نقطة قطع تم اكتشافها
+	Quality (CRF)	الجودة (CRF)
+	32 bit	32 بت
+	32 bit float	تعويم 32 بت
+	FLAC stores whole-number samples only	يقوم FLAC بتخزين عينات ذات أرقام صحيحة فقط
+	MXF export writes integer PCM only	تصدير MXF يكتب عددًا صحيحًا PCM فقط
+	GPU acceleration is unavailable; preview renders on the CPU	تسريع GPU غير متوفر؛ يتم عرض المعاينة على CPU
+	AAC Audio	الصوت AAC
+	AAC Audio 48 kHz 320 kbps	AAC الصوت 48 كيلو هرتز 320 كيلو بايت في الثانية
+	MPEG-4 audio (.m4a), stereo 48 kHz AAC-LC at 320 kbps	صوت MPEG-4 (.m4a)، ستيريو 48 كيلو هرتز AAC-LC بسرعة 320 كيلوبت في الثانية
+	Apple ProRes 4444	أبل ProRes 4444
+	Apple ProRes 4444 with Alpha	أبل ProRes 4444 مع ألفا
+	Apple ProRes 4444 XQ	أبل ProRes 4444 XQ
+	AV1	AV1
+	QuickTime, ProRes 4444 (4:4:4), 24-bit 48 kHz PCM	QuickTime، ProRes 4444 (4:4:4)، 24 بت 48 كيلو هرتز PCM
+	QuickTime, ProRes 4444 (4:4:4) with alpha channel, 24-bit 48 kHz PCM	QuickTime، ProRes 4444 (4:4:4) مع قناة ألفا، 24 بت 48 كيلو هرتز PCM
+	QuickTime, ProRes 4444 XQ (4:4:4), 24-bit 48 kHz PCM	QuickTime، ProRes 4444 XQ (4:4:4)، 24 بت 48 كيلو هرتز PCM
+	CRF (constant quality)	CRF (جودة ثابتة)
+	no Korean font is installed on this system; the interface stays in English	لم يتم تثبيت أي خط كوري على هذا النظام؛ تبقى الواجهة باللغة الإنجليزية
+	Hardware (AV1 has no software encoder)	الأجهزة (لا يحتوي AV1 على برنامج تشفير)
+	Drag inward to round the corners	اسحب إلى الداخل لتقريب الزوايا
+	UI Scale	مقياس واجهة المستخدم
+	Auto (system)	تلقائي (نظام)
+	Project Notes	ملاحظات المشروع
+	Get Project Notes	احصل على ملاحظات المشروع
+	Edit Project Notes	تحرير ملاحظات المشروع
+	Notes for this project: to-dos, instructions, frame numbers… Saved with the project.	ملاحظات لهذا المشروع: المهام والتعليمات وأرقام الإطارات... تم الحفظ مع المشروع.
+	Use Effect Shutter Angle	استخدم زاوية مصراع التأثير
+	Settings	الإعدادات
+	Appearance Settings…	إعدادات المظهر…
+	Add to favorites	إضافة إلى المفضلة
+	Remove from favorites	إزالة من المفضلة
+	Compression	الضغط
+	ZIP (1 scan line)	ZIP (خط مسح واحد)
+	ZIP (16 scan lines)	ZIP (16 خط مسح)
+	Safe graphics mode: {mode}	وضع الرسومات الآمن: {mode}
+	An earlier start failed with the default graphics. Updating the graphics driver usually fixes this.	فشلت البداية السابقة مع الرسومات الافتراضية. عادةً ما يؤدي تحديث برنامج تشغيل الرسومات إلى إصلاح هذه المشكلة.
+	Use Default Graphics	استخدم الرسومات الافتراضية
+	The default graphics are used from the next start.	يتم استخدام الرسومات الافتراضية من البداية التالية.
+	DirectX 12 only	DirectX 12 فقط
+	software rendering	تقديم البرمجيات
+	Label Color Presets	الإعدادات المسبقة للون التسمية
+	{name} (Modified)	{name} (معدل)
+	Revert to the preset's colors and names	العودة إلى الألوان والأسماء المحددة مسبقا
+	Import a preset file…	استيراد ملف محدد مسبقًا…
+	Export the labels to a preset file…	تصدير التسميات إلى ملف محدد مسبقًا…
+	Show the presets folder	إظهار مجلد الإعدادات المسبقة
+	Delete this preset	Delete هذا الإعداد المسبق
