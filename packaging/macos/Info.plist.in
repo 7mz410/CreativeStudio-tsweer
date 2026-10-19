@@ -65,11 +65,43 @@
         <string>ai.storyteller.filmcraft.project</string>
       </array>
     </dict>
+    <dict>
+      <key>CFBundleTypeName</key>
+      <string>tsweer Project</string>
+      <key>CFBundleTypeRole</key>
+      <string>Editor</string>
+      <key>LSHandlerRank</key>
+      <string>Owner</string>
+      <key>LSItemContentTypes</key>
+      <array>
+        <string>ps.creative.studio.tsweer.project</string>
+      </array>
+    </dict>
   </array>
 
   <!-- Filmcraft's own format. -->
   <key>UTExportedTypeDeclarations</key>
   <array>
+    <dict>
+      <key>UTTypeIdentifier</key>
+      <string>ps.creative.studio.tsweer.project</string>
+      <key>UTTypeDescription</key>
+      <string>tsweer Project</string>
+      <key>UTTypeConformsTo</key>
+      <array>
+        <string>public.data</string>
+        <string>public.json</string>
+      </array>
+      <key>UTTypeIconFile</key>
+      <string>FilmCraft</string>
+      <key>UTTypeTagSpecification</key>
+      <dict>
+        <key>public.filename-extension</key>
+        <array><string>tsweer</string></array>
+        <key>public.mime-type</key>
+        <array><string>application/x-tsweer</string></array>
+      </dict>
+    </dict>
     <dict>
       <key>UTTypeIdentifier</key>
       <string>ai.storyteller.filmcraft.project</string>

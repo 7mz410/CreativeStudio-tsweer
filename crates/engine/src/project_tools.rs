@@ -634,7 +634,7 @@ fn save_as_template(s: &mut Session, p: &Value) -> Result<Value> {
         None => {
             let dir = templates_dir(s).ok_or_else(|| bad("file.saveAsTemplate", "need `path` (no data directory for templates)"))?;
             let _ = std::fs::create_dir_all(&dir);
-            dir.join(format!("{}.fcproj", sanitize(&name))).to_string_lossy().to_string()
+            dir.join(format!("{}.{}", sanitize(&name), filmcraft_format::STUDIO_EXTENSION)).to_string_lossy().to_string()
         }
     };
     let mut proj = (*s.project).clone();
@@ -653,7 +653,7 @@ fn list_templates(s: &mut Session, _: &Value) -> Result<Value> {
     let mut v: Vec<Value> = std::fs::read_dir(&dir)
         .map(|rd| {
             rd.flatten()
-                .filter(|e| e.path().extension().is_some_and(|x| x == "fcproj"))
+                .filter(|e| e.path().extension().is_some_and(|x| x == filmcraft_format::STUDIO_EXTENSION || x == filmcraft_format::EXTENSION))
                 .map(|e| json!({"name": e.path().file_stem().map(|x| x.to_string_lossy().to_string()), "path": e.path().to_string_lossy()}))
                 .collect()
         })
@@ -664,7 +664,7 @@ fn list_templates(s: &mut Session, _: &Value) -> Result<Value> {
 
 fn new_from_template(s: &mut Session, p: &Value) -> Result<Value> {
     let t = str_p(p, "template").ok_or_else(|| bad("file.newProjectFromTemplate", "need `template`"))?;
-    let path = if t.ends_with(".fcproj") || t.contains('/') || t.contains('\\') {
+    let path = if t.ends_with(".fcproj") || t.ends_with(".tsweer") || t.contains('/') || t.contains('\\') {
         t.to_string()
     } else {
         templates_dir(s).map(|d| d.join(format!("{}.fcproj", sanitize(t))).to_string_lossy().to_string()).unwrap_or_else(|| t.to_string())

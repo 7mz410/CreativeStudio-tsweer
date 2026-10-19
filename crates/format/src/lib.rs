@@ -53,6 +53,10 @@ pub use atomic::atomic_write;
 
 /// The `format` tag written in every envelope.
 pub const FORMAT_ID: &str = "filmcraft.project";
+/// Upstream's project extension: still opened.
+pub const EXTENSION: &str = "fcproj";
+/// Creative Studio saves projects as `.tsweer` (the same contents as `.fcproj`).
+pub const STUDIO_EXTENSION: &str = "tsweer";
 
 /// A migration upgrades a whole document from schema `n` to `n + 1`.
 pub type Migration = fn(Value) -> Result<Value, String>;

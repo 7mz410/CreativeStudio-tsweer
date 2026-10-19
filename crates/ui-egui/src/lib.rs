@@ -268,7 +268,7 @@ pub(crate) const EXPORT_SAVE_DIALOGS: [(&str, &str, &str); 7] = [
     ("file.exportFcpxml", "FCPXML", "fcpxml"),
     ("file.exportOtio", "OpenTimelineIO", "otio"),
     ("file.exportAle", "Avid Log Exchange", "ale"),
-    ("file.exportSelectionProject", "FilmCraft Project", "fcproj"),
+    ("file.exportSelectionProject", "tsweer Project", "tsweer"),
 ];
 
 pub struct FilmcraftApp {
@@ -1303,7 +1303,7 @@ impl FilmcraftApp {
             }),
             "file.saveAs" | "file.save" | "file.saveCopy" => {
                 let suggested =
-                    if id == "file.saveCopy" { format!("{} copy.fcproj", self.session.project.name) } else { format!("{}.fcproj", self.session.project.name) };
+                    if id == "file.saveCopy" { format!("{} copy.tsweer", self.session.project.name) } else { format!("{}.tsweer", self.session.project.name) };
                 let cmd = if id == "file.saveCopy" { "file.saveCopy" } else { "file.saveAs" };
                 self.pick(FileDialog::SaveProject { name: suggested }, move |app, paths| {
                     let Some(path) = paths.into_iter().next() else { return Ok(Value::Null) };

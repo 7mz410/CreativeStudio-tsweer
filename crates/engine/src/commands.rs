@@ -4346,8 +4346,12 @@ fn write_project(s: &mut Session, path: &str, adopt: bool) -> Result<Value> {
 }
 
 fn schema_backup_path(path: &str, schema: u32) -> String {
-    let stem = path.strip_suffix(".fcproj").unwrap_or(path);
-    format!("{stem} (schema v{schema} backup).fcproj")
+    // The backup keeps the file's own extension (`.tsweer`, or upstream's `.fcproj`).
+    let (stem, ext) = match path.rsplit_once('.') {
+        Some((stem, ext)) if ext == filmcraft_format::STUDIO_EXTENSION || ext == filmcraft_format::EXTENSION => (stem, ext),
+        _ => (path, filmcraft_format::STUDIO_EXTENSION),
+    };
+    format!("{stem} (schema v{schema} backup).{ext}")
 }
 
 /// Make `proj` the session's project (fresh history, media pool and editor state).

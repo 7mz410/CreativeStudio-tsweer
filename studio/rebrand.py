@@ -175,6 +175,205 @@ def add_arabic_language() -> list:
     return []
 
 
+# Creative Studio saves projects as `.tsweer` (the same contents as upstream's `.fcproj`, which still
+# opens). Save dialogs and default names use the new extension first; the open filters keep both. Autosave
+# and recovery file names stay `.fcproj` (renaming them would orphan users' recovery files). Applied as
+# exact replacements; each one is skipped once its new text is in the file.
+EXT_FILES = {
+    'crates/format/src/lib.rs': [
+        ('pub const FORMAT_ID: &str = "filmcraft.project";\n',
+         'pub const FORMAT_ID: &str = "filmcraft.project";\n'
+         '/// Upstream\'s project extension: still opened.\n'
+         'pub const EXTENSION: &str = "fcproj";\n'
+         '/// Creative Studio saves projects as `.tsweer` (the same contents as `.fcproj`).\n'
+         'pub const STUDIO_EXTENSION: &str = "tsweer";\n'),
+    ],
+    'crates/engine/src/project_manager.rs': [
+        ('dest_dir.join(format!("{name}.fcproj"))', 'dest_dir.join(format!("{name}.{}", filmcraft_format::STUDIO_EXTENSION))'),
+    ],
+    'crates/engine/src/project_tools.rs': [
+        ('dir.join(format!("{}.fcproj", sanitize(&name)))', 'dir.join(format!("{}.{}", sanitize(&name), filmcraft_format::STUDIO_EXTENSION))'),
+        ('.filter(|e| e.path().extension().is_some_and(|x| x == "fcproj"))',
+         '.filter(|e| e.path().extension().is_some_and(|x| x == filmcraft_format::STUDIO_EXTENSION || x == filmcraft_format::EXTENSION))'),
+        ('let path = if t.ends_with(".fcproj") || t.contains',
+         'let path = if t.ends_with(".fcproj") || t.ends_with(".tsweer") || t.contains'),
+        ('templates_dir(s).map(|d| d.join(format!("{}.fcproj", sanitize(t))))',
+         'templates_dir(s).map(|d| d.join(format!("{}.{}", sanitize(t), filmcraft_format::STUDIO_EXTENSION)))'),
+    ],
+    'crates/engine/src/commands.rs': [
+        ('    let stem = path.strip_suffix(".fcproj").unwrap_or(path);\n    format!("{stem} (schema v{schema} backup).fcproj")',
+         '    // The backup keeps the file\'s own extension (`.tsweer`, or upstream\'s `.fcproj`).\n'
+         '    let (stem, ext) = match path.rsplit_once(\'.\') {\n'
+         '        Some((stem, ext)) if ext == filmcraft_format::STUDIO_EXTENSION || ext == filmcraft_format::EXTENSION => (stem, ext),\n'
+         '        _ => (path, filmcraft_format::STUDIO_EXTENSION),\n'
+         '    };\n'
+         '    format!("{stem} (schema v{schema} backup).{ext}")'),
+    ],
+    'crates/engine/src/media_browser.rs': [
+        ('const PROJECT_EXTENSIONS: [&str; 5] = ["fcproj", ',
+         'const PROJECT_EXTENSIONS: [&str; 6] = [filmcraft_format::STUDIO_EXTENSION, filmcraft_format::EXTENSION, '),
+    ],
+    'crates/ui-egui/src/lib.rs': [
+        ('    ("file.exportSelectionProject", "FilmCraft Project", "fcproj"),',
+         '    ("file.exportSelectionProject", "tsweer Project", "tsweer"),'),
+        ('format!("{} copy.fcproj", self.session.project.name) } else { format!("{}.fcproj", self.session.project.name) }',
+         'format!("{} copy.tsweer", self.session.project.name) } else { format!("{}.tsweer", self.session.project.name) }'),
+    ],
+    'crates/ui-egui/src/panels/menu_dialogs.rs': [
+        ('(tl!("FilmCraft Project"), "fcproj", tlf!("{name} Selection.fcproj", name = app.session.project.name))',
+         '(tl!("tsweer Project"), "tsweer", tlf!("{name} Selection.tsweer", name = app.session.project.name))'),
+    ],
+    'crates/ui-egui/tests/export_menu_ui.rs': [
+        ('    ("file.exportSelectionProject", "fcproj"),', '    ("file.exportSelectionProject", "tsweer"),'),
+    ],
+    'crates/ui-egui/src/panels/project.rs': [
+        ('let mut crumb = format!("{}.fcproj", app.session.project.name);',
+         'let mut crumb = format!("{}.tsweer", app.session.project.name);'),
+    ],
+    'apps/filmcraft/src/main.rs': [
+        ('.add_filter(filmcraft_ui_egui::i18n::t("FilmCraft Project"), &file_filters::extensions(&["fcproj"]))',
+         '.add_filter(filmcraft_ui_egui::i18n::t("tsweer Project"), &file_filters::extensions(&["tsweer", "fcproj"]))'),
+        ('    let project = t("FilmCraft Project");', '    let project = t("tsweer Project");'),
+        ('    file_filters::extensions(&["fcproj"])\n', '    file_filters::extensions(&["tsweer", "fcproj"])\n'),
+        ('assert_eq!(project.first().map(String::as_str), Some("fcproj"));',
+         'assert_eq!(project.first().map(String::as_str), Some("tsweer"));'),
+    ],
+    'apps/filmcraft/src/args.rs': [
+        ('Path::new(path).extension().is_some_and(|e| e.eq_ignore_ascii_case("fcproj"))',
+         'Path::new(path).extension().is_some_and(|e| e.eq_ignore_ascii_case("tsweer") || e.eq_ignore_ascii_case("fcproj"))'),
+        ('for p in ["cut.fcproj", "CUT.FCPROJ",', 'for p in ["cut.tsweer", "cut.fcproj", "CUT.FCPROJ",'),
+    ],
+    'apps/filmcraft-web/src/import.rs': [
+        ('.partition(|f| f.name().to_ascii_lowercase().ends_with(".fcproj"));',
+         '.partition(|f| {\n            let n = f.name().to_ascii_lowercase();\n            n.ends_with(".tsweer") || n.ends_with(".fcproj")\n        });'),
+        ('pick(&["fcproj"], false);', 'pick(&["tsweer", "fcproj"], false);'),
+        ('/// Open a `.fcproj` file picked or dropped by the user.', '/// Open a `.tsweer` (or `.fcproj`) file picked or dropped by the user.'),
+    ],
+    # Finder: the owned document type and its exported type. The `.fcproj` type stays as it is.
+    'packaging/macos/Info.plist.in': [
+        ('    </dict>\n  </array>\n\n  <!-- Filmcraft\'s own format. -->',
+         '    </dict>\n'
+         '    <dict>\n'
+         '      <key>CFBundleTypeName</key>\n'
+         '      <string>tsweer Project</string>\n'
+         '      <key>CFBundleTypeRole</key>\n'
+         '      <string>Editor</string>\n'
+         '      <key>LSHandlerRank</key>\n'
+         '      <string>Owner</string>\n'
+         '      <key>LSItemContentTypes</key>\n'
+         '      <array>\n'
+         '        <string>ps.creative.studio.tsweer.project</string>\n'
+         '      </array>\n'
+         '    </dict>\n'
+         '  </array>\n\n  <!-- Filmcraft\'s own format. -->'),
+        ('  <key>UTExportedTypeDeclarations</key>\n  <array>\n',
+         '  <key>UTExportedTypeDeclarations</key>\n  <array>\n'
+         '    <dict>\n'
+         '      <key>UTTypeIdentifier</key>\n'
+         '      <string>ps.creative.studio.tsweer.project</string>\n'
+         '      <key>UTTypeDescription</key>\n'
+         '      <string>tsweer Project</string>\n'
+         '      <key>UTTypeConformsTo</key>\n'
+         '      <array>\n'
+         '        <string>public.data</string>\n'
+         '        <string>public.json</string>\n'
+         '      </array>\n'
+         '      <key>UTTypeIconFile</key>\n'
+         '      <string>FilmCraft</string>\n'
+         '      <key>UTTypeTagSpecification</key>\n'
+         '      <dict>\n'
+         '        <key>public.filename-extension</key>\n'
+         '        <array><string>tsweer</string></array>\n'
+         '        <key>public.mime-type</key>\n'
+         '        <array><string>application/x-tsweer</string></array>\n'
+         '      </dict>\n'
+         '    </dict>\n'),
+    ],
+    # Linux: the MIME type for `.tsweer`, and the desktop entry opens it.
+    'packaging/linux/ai.storyteller.filmcraft.mime.xml': [
+        ('  </mime-type>\n</mime-info>',
+         '  </mime-type>\n'
+         '  <mime-type type="application/x-tsweer">\n'
+         '    <comment>tsweer project</comment>\n'
+         '    <sub-class-of type="application/json"/>\n'
+         '    <icon name="ai.storyteller.filmcraft"/>\n'
+         '    <glob pattern="*.tsweer"/>\n'
+         '  </mime-type>\n'
+         '</mime-info>'),
+    ],
+    'packaging/linux/ai.storyteller.filmcraft.desktop': [
+        ('MimeType=application/x-filmcraft;', 'MimeType=application/x-tsweer;application/x-filmcraft;'),
+    ],
+    'packaging/linux/ai.storyteller.filmcraft.metainfo.xml.in': [
+        ('<mediatype>application/x-filmcraft</mediatype>',
+         '<mediatype>application/x-tsweer</mediatype>\n    <mediatype>application/x-filmcraft</mediatype>'),
+    ],
+    # Build notes: the extension change is recorded with the other changes from upstream.
+    'studio/CHANGES.md': [
+        ('this list.\n\n- Branding', 'this list.\n\n- Branding'),
+        ('Crate names\n  and file formats keep their upstream names.',
+         'Crate names\n  keep their upstream names. Projects save as `.tsweer`; upstream\'s `.fcproj` still opens.'),
+    ],
+}
+# A test for the extension rules, appended to the engine's file tests (once).
+EXT_APPEND = {
+    'crates/engine/src/file_tests.rs': (
+        'fn tsweer_save_and_fcproj_open',
+        '\n/// Creative Studio: a project saves as `.tsweer`, and upstream\'s `.fcproj` still opens.\n'
+        '#[test]\n'
+        'fn tsweer_save_and_fcproj_open() {\n'
+        '    let d = temp_dir("tsweer-ext");\n'
+        '    let saved = d.join("cut.tsweer").to_string_lossy().to_string();\n'
+        '    demo().execute("file.saveAs", json!({"path": saved})).unwrap();\n'
+        '    assert!(std::path::Path::new(&saved).is_file());\n'
+        '    let old = d.join("old.fcproj").to_string_lossy().to_string();\n'
+        '    demo().execute("file.saveAs", json!({"path": old})).unwrap();\n'
+        '    let mut s = Session::default();\n'
+        '    s.execute("file.open", json!({"path": old})).unwrap();\n'
+        '    assert_eq!(s.path.as_deref(), Some(old.as_str()));\n'
+        '}\n'
+    ),
+}
+
+
+def rename_project_rows() -> list:
+    # The project label's catalog rows follow the new label (`tsweer Project`); the translation keeps
+    # its words and only the product name changes. Menu labels that contain "Selection as" stay as they are.
+    changed = []
+    for path in sorted((ROOT / 'crates/ui-egui/src/i18n').glob('*.tsv')):
+        src = path.read_text(encoding='utf-8')
+        rows = [line.replace('FilmCraft', NAME) if line.startswith('\tFilmCraft Project\t')
+                else line.replace('.fcproj', '.tsweer') if line.startswith('\t{name} Selection.fcproj\t')
+                else line
+                for line in src.split('\n')]
+        out = '\n'.join(rows)
+        if out != src:
+            path.write_text(out, encoding='utf-8')
+            changed.append(path)
+    return changed
+
+
+def apply_extension_rules() -> list:
+    changed = rename_project_rows()
+    for rel, pairs in EXT_FILES.items():
+        path = ROOT / rel
+        src = path.read_text(encoding='utf-8')
+        out = src
+        for a, b in pairs:
+            if b not in out:
+                out = out.replace(a, b)
+        if out != src:
+            path.write_text(out, encoding='utf-8')
+            changed.append(path)
+    for rel, (marker, text) in EXT_APPEND.items():
+        path = ROOT / rel
+        src = path.read_text(encoding='utf-8')
+        if marker not in src:
+            path.write_text(src.rstrip('\n') + '\n' + text, encoding='utf-8')
+            changed.append(path)
+    return changed
+
+
 def main():
     changed = apply_rtl_rules()
     changed += add_arabic_language()
@@ -189,6 +388,7 @@ def main():
     plist = ROOT / 'packaging/macos/Info.plist.in'
     if plist.exists() and rebrand_plist(plist):
         changed.append(plist)
+    changed += apply_extension_rules()
     for p in changed:
         print('rebranded', p.relative_to(ROOT))
 

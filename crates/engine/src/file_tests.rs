@@ -115,3 +115,17 @@ fn open_demo_project_clears_saved_path_so_save_does_not_overwrite() {
     );
     let _ = std::fs::remove_dir_all(&d);
 }
+
+/// Creative Studio: a project saves as `.tsweer`, and upstream's `.fcproj` still opens.
+#[test]
+fn tsweer_save_and_fcproj_open() {
+    let d = temp_dir("tsweer-ext");
+    let saved = d.join("cut.tsweer").to_string_lossy().to_string();
+    demo().execute("file.saveAs", json!({"path": saved})).unwrap();
+    assert!(std::path::Path::new(&saved).is_file());
+    let old = d.join("old.fcproj").to_string_lossy().to_string();
+    demo().execute("file.saveAs", json!({"path": old})).unwrap();
+    let mut s = Session::default();
+    s.execute("file.open", json!({"path": old})).unwrap();
+    assert_eq!(s.path.as_deref(), Some(old.as_str()));
+}

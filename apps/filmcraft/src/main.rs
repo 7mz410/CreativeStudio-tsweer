@@ -278,7 +278,7 @@ fn app_creator(launch: Launch, graphics: graphics::GraphicsStart, created: Arc<A
         }));
         app.hooks.pick_save = Some(Box::new(|name: &str| {
             rfd::FileDialog::new()
-                .add_filter(filmcraft_ui_egui::i18n::t("FilmCraft Project"), &file_filters::extensions(&["fcproj"]))
+                .add_filter(filmcraft_ui_egui::i18n::t("tsweer Project"), &file_filters::extensions(&["tsweer", "fcproj"]))
                 .set_file_name(name)
                 .save_file()
                 .map(|p| p.to_string_lossy().to_string())
@@ -327,7 +327,7 @@ fn app_creator(launch: Launch, graphics: graphics::GraphicsStart, created: Arc<A
         }));
         app.hooks.pick_open_project = Some(Box::new(|| {
             rfd::FileDialog::new()
-                .add_filter(filmcraft_ui_egui::i18n::t("FilmCraft Project"), &file_filters::extensions(&["fcproj"]))
+                .add_filter(filmcraft_ui_egui::i18n::t("tsweer Project"), &file_filters::extensions(&["tsweer", "fcproj"]))
                 .pick_file()
                 .map(|p| p.to_string_lossy().to_string())
         }));
@@ -446,7 +446,7 @@ fn run_dialog_off_thread(dialog: filmcraft_ui_egui::native_dialogs::FileDialog) 
     use filmcraft_ui_egui::native_dialogs::FileDialog;
     let t = |s: &str| filmcraft_ui_egui::i18n::t(s).to_string();
     let media = t("Media");
-    let project = t("FilmCraft Project");
+    let project = t("tsweer Project");
     let project_exts = project_patterns();
     let dialog = prepare_dialog(dialog);
     let (tx, rx) = std::sync::mpsc::channel();
@@ -509,7 +509,7 @@ fn prepare_dialog(dialog: filmcraft_ui_egui::native_dialogs::FileDialog) -> film
 /// The project dialogs' filter patterns (`EDIT.FCPROJ` included).
 #[cfg(target_os = "linux")]
 fn project_patterns() -> Vec<String> {
-    file_filters::extensions(&["fcproj"])
+    file_filters::extensions(&["tsweer", "fcproj"])
 }
 
 #[cfg(test)]
@@ -549,7 +549,7 @@ mod tests {
             assert!(exts.iter().any(|e| e == "[mM][pP]4"), "{exts:?}");
         }
         let project = super::project_patterns();
-        assert_eq!(project.first().map(String::as_str), Some("fcproj"));
+        assert_eq!(project.first().map(String::as_str), Some("tsweer"));
         assert!(project.iter().any(|e| e == "[fF][cC][pP][rR][oO][jJ]"), "{project:?}");
     }
 }

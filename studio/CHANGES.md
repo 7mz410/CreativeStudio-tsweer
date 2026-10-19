@@ -5,7 +5,7 @@ this list.
 
 - Branding (user-visible only, applied by `studio/rebrand.py`): the app name tsweer,
   the bundle id `ps.creative.studio.tsweer`, Help links to studio.creative.ps and this repository. Crate names
-  and file formats keep their upstream names.
+  keep their upstream names. Projects save as `.tsweer`; upstream's `.fcproj` still opens.
 - App icon: the tsweer tile (`assets/app-icon/`).
 - Removed upstream's ArtCraft brand assets (`docs/brand/`), as their brand terms require of forks.
 - README and NOTICE: the fork, its credits and the Creative Studio suite.
