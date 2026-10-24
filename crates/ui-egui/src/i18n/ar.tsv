@@ -3565,3 +3565,39 @@
 	Export the labels to a preset file…	تصدير التسميات إلى ملف محدد مسبقًا…
 	Show the presets folder	إظهار مجلد الإعدادات المسبقة
 	Delete this preset	Delete هذا الإعداد المسبق
+	0 fastest, 8 smallest	0 الأسرع، 8 الأصغر
+	A file dialog is already open	مربع حوار الملف مفتوح بالفعل
+	Animate zoom, scrolling and menus	تحريك التكبير والتمرير والقوائم
+	Compression Level	مستوى الضغط
+	Couldn't open your web browser	تعذر فتح متصفح الويب الخاص بك
+	DPX	DPX
+	DPX Sequence	تسلسل DPX
+	Dock Panel	إرساء اللوحة
+	Docking Action	إجراء الإرساء
+	FLAC	FLAC
+	FLAC (lossless)	FLAC (بدون فقدان)
+	FLAC 48 kHz 24-bit	FLAC 48 كيلوهرتز 24 بت
+	FLAC, stereo 48 kHz 24-bit, lossless	FLAC، ستيريو 48 كيلوهرتز 24 بت، بدون فقدان
+	JPEG	JPEG
+	JPEG Sequence	تسلسل JPEG
+	More transport controls	المزيد من عناصر التحكم في التشغيل
+	No matching text.	لا يوجد نص مطابق.
+	No text graphics in this sequence. Add text with the Type tool.	لا توجد رسومات نصية في هذا التسلسل. أضف نصاً باستخدام أداة الكتابة.
+	Numbered DPX stills (10-bit RGB)	لقطات DPX ثابتة مرقمة (10 بت RGB)
+	Numbered JPEG stills (quality 90)	لقطات JPEG ثابتة مرقمة (الجودة 90)
+	Numbered OpenEXR stills (half float, linear, uncompressed)	لقطات OpenEXR ثابتة مرقمة (نصف عائم، خطي، غير مضغوط)
+	Numbered Targa stills (24-bit, uncompressed)	لقطات Targa ثابتة مرقمة (24 بت، غير مضغوط)
+	Open a sequence to search its graphics	فتح تسلسل للبحث في رسوماته
+	Open this address in your browser yourself:	فتح هذا العنوان في متصفحك بنفسك:
+	OpenEXR	OpenEXR
+	OpenEXR Sequence	تسلسل OpenEXR
+	Opens in your web browser: {url}	يفتح في متصفح الويب الخاص بك: {url}
+	Reset Interface Zoom	إعادة تعيين تكبير الواجهة
+	Resize floating panel	تغيير حجم اللوحة العائمة
+	Saves this session's log and shows it in your file manager.	يحفظ سجل هذه الجلسة ويعرضه في مدير الملفات الخاص بك.
+	Shows a report on this computer.	يعرض تقريراً عن هذا الكمبيوتر.
+	Shows the version, community links and credits in a tsweer window.	يعرض الإصدار وروابط المجتمع والاعتمادات في نافذة تصوير.
+	Targa	Targa
+	Targa Sequence	تسلسل Targa
+	Track Color	لون المسار
+	Undock Panel	إلغاء إرساء اللوحة
